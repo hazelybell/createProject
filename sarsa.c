@@ -264,13 +264,14 @@ int action = 0;           // current action selected by agent (initially forward
 struct timeval lastPktTime;   // time of last packet
 int rewardMusic = 0;
 int fd = 0;                   // file descriptor for serial port
-#define B 20                  // number of bytes in a packet
+#define B 22                  // number of bytes in a packet
 ubyte packet[B];              // packet is constructed here
 
 //sensory arrays:
 #define M 1000
 unsigned short  sCliffL[M], sCliffR[M], sCliffFL[M], sCliffFR[M]; // small pos integers
 ubyte  sCliffLB[M], sCliffRB[M], sCliffFLB[M], sCliffFRB[M];      // binary 1/0
+ubyte  sBumperR[M], sBumperL[M], sWheelDrop[M];
 short  sDistance[M];          // wheel rotation counts (small integers, pos/neg)
 double sDeltaT[M];            // in milliseconds
 ubyte sIRbyte[M];             // Infrared byte e.g. remote
@@ -342,7 +343,7 @@ int main(int argc, char *argv[]) {
   gettimeofday(&timeStart, NULL);
   myPktNum = getPktNum();
   p = (myPktNum + M - 1) % M;
-  s = (sCliffLB[p]<<3) | (sCliffFLB[p]<<2) | (sCliffFRB[p]<<1) | sCliffRB[p];
+  s = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
   a = epsilonGreedy(Q, s, epsilon);
   pthread_mutex_lock( &actionMutex );
   action = a; // sets up action to be taken by csp thread
@@ -370,8 +371,8 @@ int main(int argc, char *argv[]) {
       reward += sDistance[p];
       printf("deltaT: %f cliff sensors: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd\n",
 	     sDeltaT[p],
-	     sCliffL[p],sCliffLB[p],sCliffFL[p],sCliffFLB[p],
-	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sCliffRB[p],
+	     sCliffL[p],sCliffLB[p],sCliffFL[p],sBumperL[p],
+	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sBumperR[p],
 	     (short) sDistance[p]);
       if (sIRbyte[p]==137) endProgram(); // quit on remote pause
     }
@@ -383,7 +384,7 @@ int main(int argc, char *argv[]) {
       rewardReport -= 50;
     }
     p = (myPktNum - 1) % M;
-    sprime = (sCliffLB[p]<<3) | (sCliffFLB[p]<<2) | (sCliffFRB[p]<<1) | sCliffRB[p];
+    sprime = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
     aprime = epsilonGreedy(Q, sprime, epsilon);
     pthread_mutex_lock( &actionMutex );
     action = aprime; // sets up action to be taken by csp thread
@@ -434,7 +435,7 @@ int epsilonGreedy(double Q[16][4], int s, double epsilon)
   int firstAction, lastAction;
 
   p = (getPktNum() + M - 1) % M;
-  firstAction = sCliffFLB[p] || sCliffFRB[p];
+  firstAction = sBumperL[p] || sBumperR[p];
   if (sCliffLB[p] || sCliffRB[p]) lastAction = 2;
   else lastAction = 3;
   if (rand()/((double)RAND_MAX+1) < epsilon) {
@@ -508,7 +509,7 @@ void driveWheels(int left, int right) {
 void setupSerialPort(char serialPortName[]) {
   struct termios options;
   ubyte byte;
-  ubyte bytes[8];
+  ubyte bytes[9];
 
   // open connection
   if((fd = open(serialPortName, O_RDWR | O_NOCTTY | O_NONBLOCK))==-1) {
@@ -533,14 +534,15 @@ void setupSerialPort(char serialPortName[]) {
   sendBytesToRobot(&byte, 1);
   // Request stream mode:
   bytes[0] = CREATE_STREAM;
-  bytes[1] = 6;
+  bytes[1] = 7;
   bytes[2] = SENSOR_CLIFF_LEFT;
   bytes[3] = SENSOR_CLIFF_FRONT_LEFT;
   bytes[4] = SENSOR_CLIFF_FRONT_RIGHT;
   bytes[5] = SENSOR_CLIFF_RIGHT;
   bytes[6] = SENSOR_DISTANCE;
   bytes[7] = SENSOR_IRBYTE;
-  sendBytesToRobot(bytes, 8);
+  bytes[8] = SENSOR_WHEEL_DROP;
+  sendBytesToRobot(bytes, 9);
   // Setup songs
   bytes[0] = CREATE_SONG;
   bytes[1] = 0;
@@ -566,6 +568,8 @@ int checkPacket() {
     for (i = 0; i < B; i++) sum += packet[i];
     if ((sum & 0xFF) == 0) return 1;
   }
+//   for (i = 0; i < B; i++) printf("%i ", packet[i]);
+//   printf("\n");
   return 0;
 }
 
@@ -573,14 +577,17 @@ void extractPacket() {
   struct timeval currentTime;
   int p = pktNum%M;
   sCliffL[p]   = packet[3]<<8 | packet[4];
-  sCliffLB[p]  = sCliffL[p]>cliffThresholds[0] ? cliffHighValue : 1-cliffHighValue;
+  sCliffLB[p]  = sCliffL[p]<cliffThresholds[0] ? cliffHighValue : 1-cliffHighValue;
   sCliffFL[p]  = packet[6]<<8 | packet[7];
-  sCliffFLB[p] = sCliffFL[p]>cliffThresholds[1] ? cliffHighValue : 1-cliffHighValue;
+  sCliffFLB[p] = sCliffFL[p]<cliffThresholds[1] ? cliffHighValue : 1-cliffHighValue;
   sCliffFR[p]  = packet[9]<<8 | packet[10];
-  sCliffFRB[p] = sCliffFR[p]>cliffThresholds[2] ? cliffHighValue : 1-cliffHighValue;
+  sCliffFRB[p] = sCliffFR[p]<cliffThresholds[2] ? cliffHighValue : 1-cliffHighValue;
   sCliffR[p]   = packet[12]<<8 | packet[13];
-  sCliffRB[p]  = sCliffR[p]>cliffThresholds[3] ? cliffHighValue : 1-cliffHighValue;
+  sCliffRB[p]  = sCliffR[p]<cliffThresholds[3] ? cliffHighValue : 1-cliffHighValue;
   sDistance[p] = packet[15]<<8 | packet[16];
+  sBumperL[p] = (packet[20] & 0x02) ? cliffHighValue : 1-cliffHighValue;
+  sBumperR[p] = (packet[20] & 0x01) ? cliffHighValue : 1-cliffHighValue;
+  sWheelDrop[p] = (packet[20] & 0x1C) ? cliffHighValue : 1-cliffHighValue;
   sIRbyte[p] = packet[18];
 
   gettimeofday(&currentTime, NULL);
@@ -616,7 +623,10 @@ void* csp3(void *arg) {
       fprintf(stderr, "Problem with read(): %s\n", strerror(errno));
       exit(EXIT_FAILURE);
     } else {
-      for (i = 0; i < numBytesRead; i++) packet[numBytesPreviouslyRead+i] = bytes[i];
+      for (i = 0; i < numBytesRead; i++) {
+//         printf("%i\n", bytes[i]);
+        packet[numBytesPreviouslyRead+i] = bytes[i];
+      }
       numBytesPreviouslyRead += numBytesRead;
       if (numBytesPreviouslyRead==B) {  //packet complete!
 	if (checkPacket()) {
@@ -647,10 +657,12 @@ void reflexes() {
 //   if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p])) || // if forward over cliff
 //       (sDrive[p]==3 && (sCliffLB[p] || sCliffRB[p])))    // or backward over cliff
 //     sDrive[p] = 4;                            // then stop instead
+  if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p]))) // if forward into wall
+    sDrive[p] = 4;
   takeAction(sDrive[p]);
 
   ubyte bytes[2];
-  ubyte frontbit = sCliffFLB[p] || sCliffFRB[p];
+  ubyte frontbit = sBumperL[p] || sBumperR[p];
   ubyte ledbits = (sCliffLB[p] << 2) | (frontbit << 1) | sCliffRB[p];
   bytes[0] = CREATE_DIGITAL_OUTS;
   bytes[1] = ledbits;
