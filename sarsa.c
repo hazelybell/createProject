@@ -657,7 +657,7 @@ void reflexes() {
 //   if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p])) || // if forward over cliff
 //       (sDrive[p]==3 && (sCliffLB[p] || sCliffRB[p])))    // or backward over cliff
 //     sDrive[p] = 4;                            // then stop instead
-  if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p]))) // if forward into wall
+  if ((sDrive[p]==0 && (sBumperL[p] || sBumperR[p]))) // if forward into wall
     sDrive[p] = 4;
   takeAction(sDrive[p]);
 
