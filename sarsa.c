@@ -369,11 +369,12 @@ int main(int argc, char *argv[]) {
     for (pn = prevPktNum; pn < myPktNum; pn++) {
       p = pn % M;
       reward += sDistance[p];
-      printf("deltaT: %f cliff sensors: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd\n",
+      if (sBumperL[p] || sBumperR[p]) reward -= 3;
+      printf("deltaT: %f cliff sensors: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd reward: %i\n",
 	     sDeltaT[p],
 	     sCliffL[p],sCliffLB[p],sCliffFL[p],sBumperL[p],
 	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sBumperR[p],
-	     (short) sDistance[p]);
+	     (short) sDistance[p], reward);
       if (sIRbyte[p]==137) endProgram(); // quit on remote pause
     }
     rewardReport += reward;
