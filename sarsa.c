@@ -261,13 +261,13 @@ typedef unsigned char ubyte;
 #define REQUESTED_LEFT            42
 
 #define N_ACTIONS                 9
-#define N_STATES                  (16*N_ACTIONS)
+#define N_STATES                  (16)
 
 
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 450
+#define SPEED 200
 volatile unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
 // pthread_mutex_t pktNumMutex, actionMutex; // locks
 volatile int action = 0;           // current action selected by agent (initially forward)
@@ -311,7 +311,7 @@ int main(int argc, char *argv[]) {
   unsigned int myPktNum;
   int p, pn;
   double Q[N_STATES][N_ACTIONS], e[N_STATES][N_ACTIONS];
-  double alpha = 0.1, lambda = 0.99, gamma = 0.98, epsilon = 0.01;
+  double alpha = 0.1, lambda = 0.9, gamma = 0.98, epsilon = 0.01;
   int a, aprime;
   int s, sprime;
   double reward = 0.0;
@@ -356,7 +356,7 @@ int main(int argc, char *argv[]) {
   gettimeofday(&timeStart, NULL);
   myPktNum = getPktNum();
   p = (myPktNum + M - 1) % M;
-#define CURRENT_STATE ((sCurrentAction[p]<<4) | (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p])
+#define CURRENT_STATE ((sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p])
   s = CURRENT_STATE;
   a = epsilonGreedy(Q, s, epsilon);
 //   pthread_mutex_lock( &actionMutex );
@@ -364,7 +364,7 @@ int main(int argc, char *argv[]) {
 //   pthread_mutex_unlock( &actionMutex );  
   prevPktNum = myPktNum;
   rewardReport = 0.0;
-#define MIN_WAIT 30000
+#define MIN_WAIT 60000
   while (TRUE) { // main agent loop
     gettimeofday(&timeEnd, NULL);
     computationTime = (timeEnd.tv_sec-timeStart.tv_sec)*1000000
