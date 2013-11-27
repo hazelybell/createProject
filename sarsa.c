@@ -261,12 +261,13 @@ typedef unsigned char ubyte;
 #define REQUESTED_LEFT            42
 
 #define N_ACTIONS                 9
-#define N_STATES                  16
+#define N_STATES                  (16*N_ACTIONS)
+
 
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 200
+#define SPEED 450
 volatile unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
 // pthread_mutex_t pktNumMutex, actionMutex; // locks
 volatile int action = 0;           // current action selected by agent (initially forward)
@@ -286,6 +287,7 @@ short  sDistance[M];          // wheel rotation counts (small integers, pos/neg)
 double sDeltaT[M];            // in milliseconds
 ubyte sIRbyte[M];             // Infrared byte e.g. remote
 ubyte sDrive[M];              // Drive command in {0, 1, 2, 3, 4}
+ubyte sCurrentAction[M];      // Drive command as reported by the robot
 short sWall[M], sRotation[M], sReqVelocity[M], sReqRadius[M], sReqRight[M], sReqLeft[M];
 
 int cliffThresholds[4];       // left, front left, front right, right
@@ -354,7 +356,8 @@ int main(int argc, char *argv[]) {
   gettimeofday(&timeStart, NULL);
   myPktNum = getPktNum();
   p = (myPktNum + M - 1) % M;
-  s = (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
+#define CURRENT_STATE ((sCurrentAction[p]<<4) | (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p])
+  s = CURRENT_STATE;
   a = epsilonGreedy(Q, s, epsilon);
 //   pthread_mutex_lock( &actionMutex );
   action = a; // sets up action to be taken by csp thread
@@ -382,7 +385,7 @@ int main(int argc, char *argv[]) {
     for (pn = prevPktNum; pn < myPktNum; pn++) {
       p = pn % M;
       reward += (double)sDistance[p];
-      if (sBumperL[p] || sBumperR[p]) reward -= 3.0;
+      if (sBumperL[p] || sBumperR[p]) reward -= 4.0;
       printf("deltaT: %f /*cliff sensors*/: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd rotation: %i reward: %f wall: %u requests: %i %i %i %i\n",
 	     sDeltaT[p],
 	     sCliffL[p],sWallB[p],sCliffFL[p],sBumperL[p],
@@ -406,7 +409,7 @@ int main(int argc, char *argv[]) {
       rewardReport += 50.0;
     }
     p = (myPktNum - 1) % M;
-    sprime = (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
+    sprime = CURRENT_STATE;
     aprime = epsilonGreedy(Q, sprime, epsilon);
 //     pthread_mutex_lock( &actionMutex );
     action = aprime; // sets up action to be taken by csp thread
@@ -484,6 +487,34 @@ void takeAction(int action) {
     case 8  : driveWheels(-SPEED, 0); break;  // r backward
     default : printf("Bad action\n");
     }
+}
+
+int unTakeAction(short a, short b) {
+    switch(a) {
+      case SPEED:
+        switch (b) {
+          case SPEED:   return 0;
+          case 0:       return 5;
+          case -SPEED:  return 2;
+        }
+        break;
+      case -SPEED:
+        switch (b) {
+          case SPEED:   return 1;
+          case 0:       return 8;
+          case -SPEED:  return 3;
+        }
+        break;
+      case 0:
+        switch (b) {
+          case SPEED:   return 6;
+          case 0:       return 4;
+          case -SPEED:  return 7;
+        }
+        break;
+    }
+    printf("Bad wheel state!");
+    return 4;
 }
 
 void endProgram() {
@@ -644,7 +675,7 @@ void extractPacket() {
   sReqRight[p] = (((short)packet[34]) << 8) + ((short)packet[35]);
   sReqLeft[p] = (((short)packet[37]) << 8) + ((short)packet[38]);
   sOverCurrent[p] = packet[40];
-  
+  sCurrentAction[p] = unTakeAction(sReqRight[p], sReqLeft[p]);
   gettimeofday(&currentTime, NULL);
   sDeltaT[p] = (currentTime.tv_sec - lastPktTime.tv_sec)*1000
     + ((double) currentTime.tv_usec - lastPktTime.tv_usec)/1000;
