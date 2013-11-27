@@ -266,10 +266,10 @@ typedef unsigned char ubyte;
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 200
-unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
-pthread_mutex_t pktNumMutex, actionMutex; // locks
-int action = 0;           // current action selected by agent (initially forward)
+#define SPEED 300
+volatile unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
+// pthread_mutex_t pktNumMutex, actionMutex; // locks
+volatile int action = 0;           // current action selected by agent (initially forward)
 struct timeval lastPktTime;   // time of last packet
 volatile int rewardMusic = 0;
 int fd = 0;                   // file descriptor for serial port
@@ -333,8 +333,8 @@ int main(int argc, char *argv[]) {
   }
   loadCliffThresholds();
   srand(0);
-  pthread_mutex_init(&pktNumMutex, NULL);
-  pthread_mutex_init(&actionMutex, NULL);
+//   pthread_mutex_init(&pktNumMutex, NULL);
+//   pthread_mutex_init(&actionMutex, NULL);
 
   setupSerialPort(argv[1]);
   usleep(20000); // wait for at least one packet to have arrived
@@ -356,20 +356,22 @@ int main(int argc, char *argv[]) {
   p = (myPktNum + M - 1) % M;
   s = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
   a = epsilonGreedy(Q, s, epsilon);
-  pthread_mutex_lock( &actionMutex );
+//   pthread_mutex_lock( &actionMutex );
   action = a; // sets up action to be taken by csp thread
-  pthread_mutex_unlock( &actionMutex );  
+//   pthread_mutex_unlock( &actionMutex );  
   prevPktNum = myPktNum;
   rewardReport = 0.0;
+#define MIN_WAIT 100000
   while (TRUE) { // main agent loop
     gettimeofday(&timeEnd, NULL);
     computationTime = (timeEnd.tv_sec-timeStart.tv_sec)*1000000
       + (timeEnd.tv_usec-timeStart.tv_usec);
     printf("Time for iteration (in microseconds): %ld\n", computationTime);
-    if (100000 - computationTime > 0) usleep(100000 - computationTime);
-    else printf("This iteration took too long!\n\n");
+    if (MIN_WAIT - computationTime > 0) {
+      usleep(MIN_WAIT - computationTime);
+    } else printf("This iteration took too long!\n\n");
     incrementBy.tv_sec = 0;
-    incrementBy.tv_usec = 100000;
+    incrementBy.tv_usec = MIN_WAIT;
     timeradd(&timeStart, &incrementBy, &timeStart);
     myPktNum = getPktNum();
     if (myPktNum - prevPktNum > M) {
@@ -406,9 +408,9 @@ int main(int argc, char *argv[]) {
     p = (myPktNum - 1) % M;
     sprime = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
     aprime = epsilonGreedy(Q, sprime, epsilon);
-    pthread_mutex_lock( &actionMutex );
+//     pthread_mutex_lock( &actionMutex );
     action = aprime; // sets up action to be taken by csp thread
-    pthread_mutex_unlock( &actionMutex );    
+//     pthread_mutex_unlock( &actionMutex );    
     delta = reward + gamma*Q[sprime][aprime] - Q[s][a];
     for (j = 0; j < N_ACTIONS; j++)
       e[s][j] = 0;
@@ -431,9 +433,9 @@ int main(int argc, char *argv[]) {
 
 int getPktNum() {
   int myPktNum;
-  pthread_mutex_lock( &pktNumMutex );
+//   pthread_mutex_lock( &pktNumMutex );
   myPktNum = pktNum;
-  pthread_mutex_unlock( &pktNumMutex );
+//   pthread_mutex_unlock( &pktNumMutex );
   return myPktNum;  
 }
 
@@ -686,9 +688,9 @@ void* csp3(void *arg) {
 	  extractPacket();
 	  reflexes();
 	  ensureTransmitted();
-	  pthread_mutex_lock( &pktNumMutex );
+// 	  pthread_mutex_lock( &pktNumMutex );
 	  pktNum++;
-	  pthread_mutex_unlock( &pktNumMutex );
+// 	  pthread_mutex_unlock( &pktNumMutex );
 	  numBytesPreviouslyRead = 0;
 	} else {
 	  printf("misaligned packet.\n");
@@ -704,9 +706,9 @@ void* csp3(void *arg) {
 void reflexes() {
   int p = pktNum%M;
   int myRewardMusic;
-  pthread_mutex_lock( &actionMutex );
+//   pthread_mutex_lock( &actionMutex );
   sDrive[p] = action;
-  pthread_mutex_unlock( &actionMutex );
+//   pthread_mutex_unlock( &actionMutex );
 //   if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p])) || // if forward over cliff
 //       (sDrive[p]==3 && (sCliffLB[p] || sCliffRB[p])))    // or backward over cliff
 //     sDrive[p] = 4;                            // then stop instead
