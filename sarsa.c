@@ -242,6 +242,7 @@ typedef unsigned char ubyte;
 
 #define SENSOR_ALL_SENSORS        6
 #define SENSOR_WHEEL_DROP         7
+#define SENSOR_OVERCURRENT        14
 #define SENSOR_IRBYTE             17
 #define SENSOR_DISTANCE           19
 #define SENSOR_ROTATION           20
@@ -249,33 +250,43 @@ typedef unsigned char ubyte;
 #define SENSOR_BAT_CURRENT        23
 #define SENSOR_BAT_TEMP           24
 #define SENSOR_BAT_CHARGE         25
+#define SENSOR_WALL               27
 #define SENSOR_CLIFF_LEFT         28
 #define SENSOR_CLIFF_FRONT_LEFT   29
 #define SENSOR_CLIFF_FRONT_RIGHT  30
 #define SENSOR_CLIFF_RIGHT        31
+#define REQUESTED_VELOCITY        39
+#define REQUESTED_RADIUS          40
+#define REQUESTED_RIGHT           41
+#define REQUESTED_LEFT            42
+
+#define N_ACTIONS                 9
+#define N_STATES                  16
 
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 300
+#define SPEED 200
 unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
-pthread_mutex_t pktNumMutex, actionMutex, rewardMusicMutex; // locks
+pthread_mutex_t pktNumMutex, actionMutex; // locks
 int action = 0;           // current action selected by agent (initially forward)
 struct timeval lastPktTime;   // time of last packet
-int rewardMusic = 0;
+volatile int rewardMusic = 0;
 int fd = 0;                   // file descriptor for serial port
-#define B 22                  // number of bytes in a packet
+#define CHECKSUM_LENGTH 1
+#define B (41+CHECKSUM_LENGTH)  // number of bytes in a packet
 ubyte packet[B];              // packet is constructed here
 
 //sensory arrays:
 #define M 1000
 unsigned short  sCliffL[M], sCliffR[M], sCliffFL[M], sCliffFR[M]; // small pos integers
 ubyte  sCliffLB[M], sCliffRB[M], sCliffFLB[M], sCliffFRB[M];      // binary 1/0
-ubyte  sBumperR[M], sBumperL[M], sWheelDrop[M];
+ubyte  sBumperR[M], sBumperL[M], sWheelDrop[M], sOverCurrent[M];
 short  sDistance[M];          // wheel rotation counts (small integers, pos/neg)
 double sDeltaT[M];            // in milliseconds
 ubyte sIRbyte[M];             // Infrared byte e.g. remote
 ubyte sDrive[M];              // Drive command in {0, 1, 2, 3, 4}
+short sWall[M], sRotation[M], sReqVelocity[M], sReqRadius[M], sReqRight[M], sReqLeft[M];
 
 int cliffThresholds[4];       // left, front left, front right, right
 int cliffHighValue;           // binary value taken if threshold exceeded
@@ -284,7 +295,7 @@ int cliffHighValue;           // binary value taken if threshold exceeded
 void setupSerialPort(char serialPortName[]);
 void* csp3(void *arg);void loadCliffThresholds();
 void takeAction(int action);
-int epsilonGreedy(double Q[16][4], int s, double epsilon);
+int epsilonGreedy(double Q[N_STATES][N_ACTIONS], int s, double epsilon);
 void endProgram();
 void driveWheels(int left, int right);
 void sendBytesToRobot(ubyte* bytes, int numBytes);
@@ -297,19 +308,20 @@ int main(int argc, char *argv[]) {
   unsigned int prevPktNum;
   unsigned int myPktNum;
   int p, pn;
-  double Q[16][4], e[16][4];
+  double Q[N_STATES][N_ACTIONS], e[N_STATES][N_ACTIONS];
   double stepsize = 0.1, lambda = 0.9, gamma = 0.98, epsilon = 0.01;
   int a, aprime;
   int s, sprime;
-  int reward;
+  double reward = 0.0;
   int i, j;
   double delta;
   ubyte bytes[2];
-  int rewardReport;
+  double rewardReport = 0.0;
   struct timeval timeStart, timeEnd, incrementBy;
   long computationTime;
   struct sigaction act;
   struct sigaction oldact;
+  double avgReward = 0.0;
 
   act.sa_handler = endProgram;
   sigemptyset(&act.sa_mask);
@@ -323,7 +335,6 @@ int main(int argc, char *argv[]) {
   srand(0);
   pthread_mutex_init(&pktNumMutex, NULL);
   pthread_mutex_init(&actionMutex, NULL);
-  pthread_mutex_init(&rewardMusicMutex, NULL);
 
   setupSerialPort(argv[1]);
   usleep(20000); // wait for at least one packet to have arrived
@@ -335,8 +346,8 @@ int main(int argc, char *argv[]) {
   prevPktNum = 0;
 
   // initialize Q
-  for (i = 0; i < 16; i++)
-    for (j = 0; j < 4; j++) {
+  for (i = 0; i < N_STATES; i++)
+    for (j = 0; j < N_ACTIONS; j++) {
       Q[i][j] = 5 + 0.001*( rand()/((double) RAND_MAX) - 0.5);
       e[i][j] = 0;
     }
@@ -349,7 +360,7 @@ int main(int argc, char *argv[]) {
   action = a; // sets up action to be taken by csp thread
   pthread_mutex_unlock( &actionMutex );  
   prevPktNum = myPktNum;
-  rewardReport = 0;
+  rewardReport = 0.0;
   while (TRUE) { // main agent loop
     gettimeofday(&timeEnd, NULL);
     computationTime = (timeEnd.tv_sec-timeStart.tv_sec)*1000000
@@ -365,24 +376,32 @@ int main(int argc, char *argv[]) {
       fprintf(stderr, "Buffer overflow!\n");
       exit(EXIT_FAILURE);
     }
-    reward = 0;
+    reward = 0.0;
     for (pn = prevPktNum; pn < myPktNum; pn++) {
       p = pn % M;
-      reward += sDistance[p];
-      if (sBumperL[p] || sBumperR[p]) reward -= 3;
-      printf("deltaT: %f cliff sensors: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd reward: %i\n",
+      reward += (double)sDistance[p];
+      if (sBumperL[p] || sBumperR[p]) reward -= 3.0;
+      printf("deltaT: %f /*cliff sensors*/: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd rotation: %i reward: %f wall: %u requests: %i %i %i %i\n",
 	     sDeltaT[p],
 	     sCliffL[p],sCliffLB[p],sCliffFL[p],sBumperL[p],
 	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sBumperR[p],
-	     (short) sDistance[p], reward);
+	     (short) sDistance[p], sRotation[p], reward, sWall[p],
+             sReqVelocity[p], sReqRadius[p], sReqRight[p], sReqLeft[p]
+            );
       if (sIRbyte[p]==137) endProgram(); // quit on remote pause
     }
     rewardReport += reward;
-    if (rewardReport > 50) {
-      pthread_mutex_lock( &rewardMusicMutex );
+    if (rewardReport > 50.0) {
+//       pthread_mutex_lock( &rewardMusicMutex );
       rewardMusic = 1;
-      pthread_mutex_unlock( &rewardMusicMutex );    
-      rewardReport -= 50;
+//       pthread_mutex_unlock( &rewardMusicMutex );    
+      rewardReport -= 50.0;
+    }
+    if (rewardReport < -50.0) {
+//       pthread_mutex_lock( &rewardMusicMutex );
+      rewardMusic = 2;
+//       pthread_mutex_unlock( &rewardMusicMutex );    
+      rewardReport += 50.0;
     }
     p = (myPktNum - 1) % M;
     sprime = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
@@ -391,14 +410,14 @@ int main(int argc, char *argv[]) {
     action = aprime; // sets up action to be taken by csp thread
     pthread_mutex_unlock( &actionMutex );    
     delta = reward + gamma*Q[sprime][aprime] - Q[s][a];
-    for (j = 0; j < 4; j++)
+    for (j = 0; j < N_ACTIONS; j++)
       e[s][j] = 0;
     e[s][a] = 1;
-    printf("s a r s' a':%d %d %d %d %d\n", s, a, reward, sprime, aprime);
-    for (i = 0; i < 16; i++) {
-      printf("Action values for state %d: %f %f %f %f\n",i, Q[i][0], Q[i][1], Q[i][2], Q[i][3]);
-      printf("Eligibility traces for state %d: %f %f %f %f\n", i, e[i][0], e[i][1], e[i][2], e[i][3]);
-      for (j = 0; j < 4; j++) {
+    printf("s a r s' a':%d %d %f %d %d\n", s, a, reward, sprime, aprime);
+    for (i = 0; i < N_STATES; i++) {
+//       printf("Action values for state %d: %f %f %f %f\n",i, Q[i][0], Q[i][1], Q[i][2], Q[i][3]);
+//       printf("Eligibility traces for state %d: %f %f %f %f\n", i, e[i][0], e[i][1], e[i][2], e[i][3]);
+      for (j = 0; j < N_ACTIONS; j++) {
         Q[i][j] = Q[i][j] + stepsize*delta*e[i][j];
         e[i][j] = gamma*lambda*e[i][j];
       }
@@ -430,15 +449,14 @@ void loadCliffThresholds() {
   fclose(fd);
 }
 
-int epsilonGreedy(double Q[16][4], int s, double epsilon)
+int epsilonGreedy(double Q[N_STATES][N_ACTIONS], int s, double epsilon)
 {
-  int max, i, p;
+  int max, i;
   int firstAction, lastAction;
 
-  p = (getPktNum() + M - 1) % M;
-  firstAction = sBumperL[p] || sBumperR[p];
-  if (sCliffLB[p] || sCliffRB[p]) lastAction = 2;
-  else lastAction = 3;
+//   p = (getPktNum() + M - 1) % M;
+  firstAction = 0;
+  lastAction = N_ACTIONS-1;
   if (rand()/((double)RAND_MAX+1) < epsilon) {
     printf("random action\n\n");
     return firstAction + rand()%(lastAction + 1 - firstAction);
@@ -458,6 +476,10 @@ void takeAction(int action) {
     case 2  : driveWheels(SPEED, -SPEED); break;   // right
     case 3  : driveWheels(-SPEED, -SPEED); break;  // backward
     case 4  : driveWheels(0, 0); break;            // stop
+    case 5  : driveWheels(SPEED, 0); break;    // r forward
+    case 6  : driveWheels(0, SPEED); break;   // l forward
+    case 7  : driveWheels(0, -SPEED); break;   // l backward
+    case 8  : driveWheels(-SPEED, 0); break;  // r backward
     default : printf("Bad action\n");
     }
 }
@@ -510,7 +532,7 @@ void driveWheels(int left, int right) {
 void setupSerialPort(char serialPortName[]) {
   struct termios options;
   ubyte byte;
-  ubyte bytes[9];
+  ubyte bytes[100];
 
   // open connection
   if((fd = open(serialPortName, O_RDWR | O_NOCTTY | O_NONBLOCK))==-1) {
@@ -534,8 +556,9 @@ void setupSerialPort(char serialPortName[]) {
   byte = CREATE_FULL;
   sendBytesToRobot(&byte, 1);
   // Request stream mode:
+  size_t length = 0;
   bytes[0] = CREATE_STREAM;
-  bytes[1] = 7;
+  bytes[1] = 14;
   bytes[2] = SENSOR_CLIFF_LEFT;
   bytes[3] = SENSOR_CLIFF_FRONT_LEFT;
   bytes[4] = SENSOR_CLIFF_FRONT_RIGHT;
@@ -543,14 +566,27 @@ void setupSerialPort(char serialPortName[]) {
   bytes[6] = SENSOR_DISTANCE;
   bytes[7] = SENSOR_IRBYTE;
   bytes[8] = SENSOR_WHEEL_DROP;
-  sendBytesToRobot(bytes, 9);
+  bytes[9] = SENSOR_WALL;
+  bytes[10] = SENSOR_ROTATION;
+  bytes[11] = REQUESTED_VELOCITY;
+  bytes[12] = REQUESTED_RADIUS;
+  bytes[13] = REQUESTED_RIGHT;
+  bytes[14] = REQUESTED_LEFT;
+  bytes[15] = SENSOR_OVERCURRENT;
+  sendBytesToRobot(bytes, bytes[1]+2);
   // Setup songs
-  bytes[0] = CREATE_SONG;
-  bytes[1] = 0;
-  bytes[2] = 1;
-  bytes[3] = 100;
-  bytes[4] = 6;
-  sendBytesToRobot(bytes, 5);
+  length = 0;
+  bytes[length++] = CREATE_SONG;
+  bytes[length++] = 0;
+  bytes[length++] = 1;
+  bytes[length++] = 93;
+  bytes[length++] = 6;
+  bytes[length++] = CREATE_SONG;
+  bytes[length++] = 1;
+  bytes[length++] = 1;
+  bytes[length++] = 33;
+  bytes[length++] = 6;
+  sendBytesToRobot(bytes, length);
   ensureTransmitted();
 }
 
@@ -564,7 +600,16 @@ int checkPacket() {
       packet[8]==SENSOR_CLIFF_FRONT_RIGHT &&
       packet[11]==SENSOR_CLIFF_RIGHT &&
       packet[14]==SENSOR_DISTANCE &&
-      packet[17]==SENSOR_IRBYTE) {
+      packet[17]==SENSOR_IRBYTE &&
+      packet[19]==SENSOR_WHEEL_DROP &&
+      packet[21]==SENSOR_WALL &&
+      packet[24]==SENSOR_ROTATION &&
+      packet[27]==REQUESTED_VELOCITY &&
+      packet[30]==REQUESTED_RADIUS &&
+      packet[33]==REQUESTED_RIGHT &&
+      packet[36]==REQUESTED_LEFT &&
+      packet[39]==SENSOR_OVERCURRENT
+     ) {
     sum = 0;
     for (i = 0; i < B; i++) sum += packet[i];
     if ((sum & 0xFF) == 0) return 1;
@@ -586,11 +631,18 @@ void extractPacket() {
   sCliffR[p]   = packet[12]<<8 | packet[13];
   sCliffRB[p]  = sCliffR[p]<cliffThresholds[3] ? cliffHighValue : 1-cliffHighValue;
   sDistance[p] = packet[15]<<8 | packet[16];
+  sIRbyte[p] = packet[18];
   sBumperL[p] = (packet[20] & 0x02) ? cliffHighValue : 1-cliffHighValue;
   sBumperR[p] = (packet[20] & 0x01) ? cliffHighValue : 1-cliffHighValue;
-  sWheelDrop[p] = (packet[20] & 0x1C) ? cliffHighValue : 1-cliffHighValue;
-  sIRbyte[p] = packet[18];
-
+  sWheelDrop[p] = (packet[20] & 0x1C);
+  sWall[p] = (((short)packet[22]) << 8) + ((short)packet[23]);
+  sRotation[p] = packet[25]<<8 | packet[26];
+  sReqVelocity[p] = (((short)packet[28]) << 8) + ((short)packet[29]);
+  sReqRadius[p] = (((short)packet[31]) << 8) + ((short)packet[32]);
+  sReqRight[p] = (((short)packet[34]) << 8) + ((short)packet[35]);
+  sReqLeft[p] = (((short)packet[37]) << 8) + ((short)packet[38]);
+  sOverCurrent[p] = packet[40];
+  
   gettimeofday(&currentTime, NULL);
   sDeltaT[p] = (currentTime.tv_sec - lastPktTime.tv_sec)*1000
     + ((double) currentTime.tv_usec - lastPktTime.tv_usec)/1000;
@@ -658,8 +710,18 @@ void reflexes() {
 //   if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p])) || // if forward over cliff
 //       (sDrive[p]==3 && (sCliffLB[p] || sCliffRB[p])))    // or backward over cliff
 //     sDrive[p] = 4;                            // then stop instead
-  if ((sDrive[p]==0 && (sBumperL[p] || sBumperR[p]))) // if forward into wall
+  if ((sDrive[p]==0 || sDrive[p]==5 || sDrive[p]==6) && (sBumperL[p] || sBumperR[p])) { // if forward into wall
     sDrive[p] = 4;
+    printf("Reflex override: Won't go forward into wall!\n");
+  }
+  if (sWheelDrop[p]==0x1C) { // Picked up: dont do anything!
+    sDrive[p] = 4;
+    printf("Reflex override: Picked up: dont do anything!\n");
+  }
+//   if (sOverCurrent[p]) {
+//     sDrive[p] = 4;
+//     printf("Reflex override: Over current: dont do anything!\n");
+//   }
   takeAction(sDrive[p]);
 
   ubyte bytes[2];
@@ -669,17 +731,19 @@ void reflexes() {
   bytes[1] = ledbits;
   sendBytesToRobot(bytes, 2);
 
-  pthread_mutex_lock( &rewardMusicMutex );
   myRewardMusic = rewardMusic;
-  pthread_mutex_unlock( &rewardMusicMutex );
 
   if (myRewardMusic == 1) {
-    bytes[0] = 141;
+    bytes[0] = CREATE_PLAY;
     bytes[1] = 0;
     sendBytesToRobot(bytes, 2);
-    pthread_mutex_lock( &rewardMusicMutex );
     rewardMusic = 0;
-    pthread_mutex_unlock( &rewardMusicMutex );    
+  }
+  if (myRewardMusic == 2) {
+    bytes[0] = CREATE_PLAY;
+    bytes[1] = 1;
+    sendBytesToRobot(bytes, 2);
+    rewardMusic = 0;
   }
 }
 
