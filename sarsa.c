@@ -266,7 +266,7 @@ typedef unsigned char ubyte;
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 300
+#define SPEED 200
 volatile unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
 // pthread_mutex_t pktNumMutex, actionMutex; // locks
 volatile int action = 0;           // current action selected by agent (initially forward)
@@ -280,7 +280,7 @@ ubyte packet[B];              // packet is constructed here
 //sensory arrays:
 #define M 1000
 unsigned short  sCliffL[M], sCliffR[M], sCliffFL[M], sCliffFR[M]; // small pos integers
-ubyte  sCliffLB[M], sCliffRB[M], sCliffFLB[M], sCliffFRB[M];      // binary 1/0
+ubyte  sWallB[M], sCliffRB[M], sCliffFLB[M], sCliffFRB[M];      // binary 1/0
 ubyte  sBumperR[M], sBumperL[M], sWheelDrop[M], sOverCurrent[M];
 short  sDistance[M];          // wheel rotation counts (small integers, pos/neg)
 double sDeltaT[M];            // in milliseconds
@@ -309,7 +309,7 @@ int main(int argc, char *argv[]) {
   unsigned int myPktNum;
   int p, pn;
   double Q[N_STATES][N_ACTIONS], e[N_STATES][N_ACTIONS];
-  double stepsize = 0.1, lambda = 0.9, gamma = 0.98, epsilon = 0.01;
+  double alpha = 0.1, lambda = 0.99, gamma = 0.98, epsilon = 0.01;
   int a, aprime;
   int s, sprime;
   double reward = 0.0;
@@ -348,20 +348,20 @@ int main(int argc, char *argv[]) {
   // initialize Q
   for (i = 0; i < N_STATES; i++)
     for (j = 0; j < N_ACTIONS; j++) {
-      Q[i][j] = 5 + 0.001*( rand()/((double) RAND_MAX) - 0.5);
+      Q[i][j] = 50.0 + 0.001*( rand()/((double) RAND_MAX) - 0.5);
       e[i][j] = 0;
     }
   gettimeofday(&timeStart, NULL);
   myPktNum = getPktNum();
   p = (myPktNum + M - 1) % M;
-  s = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
+  s = (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
   a = epsilonGreedy(Q, s, epsilon);
 //   pthread_mutex_lock( &actionMutex );
   action = a; // sets up action to be taken by csp thread
 //   pthread_mutex_unlock( &actionMutex );  
   prevPktNum = myPktNum;
   rewardReport = 0.0;
-#define MIN_WAIT 100000
+#define MIN_WAIT 30000
   while (TRUE) { // main agent loop
     gettimeofday(&timeEnd, NULL);
     computationTime = (timeEnd.tv_sec-timeStart.tv_sec)*1000000
@@ -385,7 +385,7 @@ int main(int argc, char *argv[]) {
       if (sBumperL[p] || sBumperR[p]) reward -= 3.0;
       printf("deltaT: %f /*cliff sensors*/: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd rotation: %i reward: %f wall: %u requests: %i %i %i %i\n",
 	     sDeltaT[p],
-	     sCliffL[p],sCliffLB[p],sCliffFL[p],sBumperL[p],
+	     sCliffL[p],sWallB[p],sCliffFL[p],sBumperL[p],
 	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sBumperR[p],
 	     (short) sDistance[p], sRotation[p], reward, sWall[p],
              sReqVelocity[p], sReqRadius[p], sReqRight[p], sReqLeft[p]
@@ -406,7 +406,7 @@ int main(int argc, char *argv[]) {
       rewardReport += 50.0;
     }
     p = (myPktNum - 1) % M;
-    sprime = (sCliffLB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
+    sprime = (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p];
     aprime = epsilonGreedy(Q, sprime, epsilon);
 //     pthread_mutex_lock( &actionMutex );
     action = aprime; // sets up action to be taken by csp thread
@@ -420,7 +420,7 @@ int main(int argc, char *argv[]) {
 //       printf("Action values for state %d: %f %f %f %f\n",i, Q[i][0], Q[i][1], Q[i][2], Q[i][3]);
 //       printf("Eligibility traces for state %d: %f %f %f %f\n", i, e[i][0], e[i][1], e[i][2], e[i][3]);
       for (j = 0; j < N_ACTIONS; j++) {
-        Q[i][j] = Q[i][j] + stepsize*delta*e[i][j];
+        Q[i][j] = Q[i][j] + alpha*delta*e[i][j];
         e[i][j] = gamma*lambda*e[i][j];
       }
     }
@@ -625,19 +625,19 @@ void extractPacket() {
   struct timeval currentTime;
   int p = pktNum%M;
   sCliffL[p]   = packet[3]<<8 | packet[4];
-  sCliffLB[p]  = sCliffL[p]<cliffThresholds[0] ? cliffHighValue : 1-cliffHighValue;
   sCliffFL[p]  = packet[6]<<8 | packet[7];
   sCliffFLB[p] = sCliffFL[p]<cliffThresholds[1] ? cliffHighValue : 1-cliffHighValue;
   sCliffFR[p]  = packet[9]<<8 | packet[10];
   sCliffFRB[p] = sCliffFR[p]<cliffThresholds[2] ? cliffHighValue : 1-cliffHighValue;
   sCliffR[p]   = packet[12]<<8 | packet[13];
-  sCliffRB[p]  = sCliffR[p]<cliffThresholds[3] ? cliffHighValue : 1-cliffHighValue;
+  sCliffRB[p]  = sCliffR[p]<420 ? cliffHighValue : 1-cliffHighValue;
   sDistance[p] = packet[15]<<8 | packet[16];
   sIRbyte[p] = packet[18];
   sBumperL[p] = (packet[20] & 0x02) ? cliffHighValue : 1-cliffHighValue;
   sBumperR[p] = (packet[20] & 0x01) ? cliffHighValue : 1-cliffHighValue;
   sWheelDrop[p] = (packet[20] & 0x1C);
   sWall[p] = (((short)packet[22]) << 8) + ((short)packet[23]);
+  sWallB[p]  = sWall[p]>2 ? cliffHighValue : 1-cliffHighValue;
   sRotation[p] = packet[25]<<8 | packet[26];
   sReqVelocity[p] = (((short)packet[28]) << 8) + ((short)packet[29]);
   sReqRadius[p] = (((short)packet[31]) << 8) + ((short)packet[32]);
@@ -710,7 +710,7 @@ void reflexes() {
   sDrive[p] = action;
 //   pthread_mutex_unlock( &actionMutex );
 //   if ((sDrive[p]==0 && (sCliffFLB[p] || sCliffFRB[p])) || // if forward over cliff
-//       (sDrive[p]==3 && (sCliffLB[p] || sCliffRB[p])))    // or backward over cliff
+//       (sDrive[p]==3 && (sWallB[p] || sCliffRB[p])))    // or backward over cliff
 //     sDrive[p] = 4;                            // then stop instead
   if ((sDrive[p]==0 || sDrive[p]==5 || sDrive[p]==6) && (sBumperL[p] || sBumperR[p])) { // if forward into wall
     sDrive[p] = 4;
@@ -728,7 +728,7 @@ void reflexes() {
 
   ubyte bytes[2];
   ubyte frontbit = sBumperL[p] || sBumperR[p];
-  ubyte ledbits = (sCliffLB[p] << 2) | (frontbit << 1) | sCliffRB[p];
+  ubyte ledbits = (sWallB[p] << 2) | (frontbit << 1) | sCliffRB[p];
   bytes[0] = CREATE_DIGITAL_OUTS;
   bytes[1] = ledbits;
   sendBytesToRobot(bytes, 2);
