@@ -260,14 +260,14 @@ typedef unsigned char ubyte;
 #define REQUESTED_RIGHT           41
 #define REQUESTED_LEFT            42
 
-#define N_ACTIONS                 9
-#define N_STATES                  (16)
+#define N_ACTIONS                 10
+#define N_STATES                  (16*N_ACTIONS)
 
 
 //------------------------------------------------------------------
 // ---------          Global Names and Variables           ---------
 //------------------------------------------------------------------
-#define SPEED 200
+#define SPEED 450
 volatile unsigned int pktNum = 0;      // Number of the packet currently being constructed by csp3
 // pthread_mutex_t pktNumMutex, actionMutex; // locks
 volatile int action = 0;           // current action selected by agent (initially forward)
@@ -289,6 +289,7 @@ ubyte sIRbyte[M];             // Infrared byte e.g. remote
 ubyte sDrive[M];              // Drive command in {0, 1, 2, 3, 4}
 ubyte sCurrentAction[M];      // Drive command as reported by the robot
 short sWall[M], sRotation[M], sReqVelocity[M], sReqRadius[M], sReqRight[M], sReqLeft[M];
+volatile ubyte sMem;
 
 int cliffThresholds[4];       // left, front left, front right, right
 int cliffHighValue;           // binary value taken if threshold exceeded
@@ -303,6 +304,7 @@ void driveWheels(int left, int right);
 void sendBytesToRobot(ubyte* bytes, int numBytes);
 void ensureTransmitted();
 int getPktNum();
+int unTakeAction(short a, short b);
 
 int main(int argc, char *argv[]) {
   pthread_t tid;
@@ -356,7 +358,7 @@ int main(int argc, char *argv[]) {
   gettimeofday(&timeStart, NULL);
   myPktNum = getPktNum();
   p = (myPktNum + M - 1) % M;
-#define CURRENT_STATE ((sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sCliffRB[p])
+#define CURRENT_STATE ((unTakeAction(sReqRight[p], sReqLeft[p])<<4) | (sWallB[p]<<3) | (sBumperL[p]<<2) | (sBumperR[p]<<1) | sMem)
   s = CURRENT_STATE;
   a = epsilonGreedy(Q, s, epsilon);
 //   pthread_mutex_lock( &actionMutex );
@@ -364,7 +366,7 @@ int main(int argc, char *argv[]) {
 //   pthread_mutex_unlock( &actionMutex );  
   prevPktNum = myPktNum;
   rewardReport = 0.0;
-#define MIN_WAIT 60000
+#define MIN_WAIT 15000
   while (TRUE) { // main agent loop
     gettimeofday(&timeEnd, NULL);
     computationTime = (timeEnd.tv_sec-timeStart.tv_sec)*1000000
@@ -385,11 +387,11 @@ int main(int argc, char *argv[]) {
     for (pn = prevPktNum; pn < myPktNum; pn++) {
       p = pn % M;
       reward += (double)sDistance[p];
-      if (sBumperL[p] || sBumperR[p]) reward -= 4.0;
+      if (sBumperL[p] || sBumperR[p]) reward -= 8.0;
       printf("deltaT: %f /*cliff sensors*/: %u(%u) %u(%u) %u(%u) %u(%u) distance: %hd rotation: %i reward: %f wall: %u requests: %i %i %i %i\n",
 	     sDeltaT[p],
-	     sCliffL[p],sWallB[p],sCliffFL[p],sBumperL[p],
-	     sCliffFR[p],sCliffFRB[p],sCliffR[p],sBumperR[p],
+	     sWall[p],sWallB[p],sCliffFL[p],sBumperL[p],
+	     0,sMem,sCliffR[p],sBumperR[p],
 	     (short) sDistance[p], sRotation[p], reward, sWall[p],
              sReqVelocity[p], sReqRadius[p], sReqRight[p], sReqLeft[p]
             );
@@ -485,6 +487,7 @@ void takeAction(int action) {
     case 6  : driveWheels(0, SPEED); break;   // l forward
     case 7  : driveWheels(0, -SPEED); break;   // l backward
     case 8  : driveWheels(-SPEED, 0); break;  // r backward
+    case 9  : sMem = ! sMem;
     default : printf("Bad action\n");
     }
 }
