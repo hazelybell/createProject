@@ -1,0 +1,4508 @@
+prevPktNum 0, myPktNum 7
+state: 0 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 7, myPktNum 13
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 13, myPktNum 20
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 20, myPktNum 27
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 27, myPktNum 33
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 33, myPktNum 40
+state: 15 action 0 sprime 31 aprime 1 reward -8
+prevPktNum 40, myPktNum 47
+state: 31 action 1 sprime 63 aprime 1 reward -56
+prevPktNum 47, myPktNum 53
+state: 63 action 1 sprime 31 aprime 0 reward -48
+prevPktNum 53, myPktNum 60
+state: 31 action 0 sprime 31 aprime 0 reward -56
+prevPktNum 60, myPktNum 67
+state: 31 action 0 sprime 31 aprime 2 reward -56
+prevPktNum 67, myPktNum 73
+state: 31 action 2 sprime 31 aprime 2 reward -48
+prevPktNum 73, myPktNum 80
+state: 31 action 2 sprime 31 aprime 2 reward -56
+prevPktNum 80, myPktNum 86
+state: 31 action 2 sprime 31 aprime 0 reward -48
+prevPktNum 86, myPktNum 93
+state: 31 action 0 sprime 63 aprime 2 reward -56
+prevPktNum 93, myPktNum 100
+state: 63 action 2 sprime 63 aprime 2 reward -56
+prevPktNum 100, myPktNum 106
+state: 63 action 2 sprime 63 aprime 3 reward -48
+prevPktNum 106, myPktNum 113
+state: 63 action 3 sprime 47 aprime 1 reward -56
+prevPktNum 113, myPktNum 120
+state: 47 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 120, myPktNum 126
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 126, myPktNum 133
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 133, myPktNum 140
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 140, myPktNum 146
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 146, myPktNum 153
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 153, myPktNum 160
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 160, myPktNum 166
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 166, myPktNum 173
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 173, myPktNum 180
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 180, myPktNum 186
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 186, myPktNum 193
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 193, myPktNum 200
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 200, myPktNum 206
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 206, myPktNum 213
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 213, myPktNum 220
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 220, myPktNum 226
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 226, myPktNum 233
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 233, myPktNum 240
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 240, myPktNum 246
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 246, myPktNum 253
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 253, myPktNum 260
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 260, myPktNum 266
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 266, myPktNum 273
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 273, myPktNum 280
+state: 15 action 0 sprime 15 aprime 3 reward 0
+prevPktNum 280, myPktNum 286
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 286, myPktNum 293
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 293, myPktNum 300
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 300, myPktNum 306
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 306, myPktNum 313
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 313, myPktNum 320
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 320, myPktNum 326
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 326, myPktNum 333
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 333, myPktNum 340
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 340, myPktNum 346
+state: 15 action 2 sprime 15 aprime 2 reward 2
+prevPktNum 346, myPktNum 353
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 353, myPktNum 359
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 359, myPktNum 366
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 366, myPktNum 373
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 373, myPktNum 379
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 379, myPktNum 386
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 386, myPktNum 393
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 393, myPktNum 399
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 399, myPktNum 406
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 406, myPktNum 413
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 413, myPktNum 419
+state: 15 action 2 sprime 14 aprime 1 reward 0
+prevPktNum 419, myPktNum 426
+state: 14 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 426, myPktNum 433
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 433, myPktNum 439
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 439, myPktNum 446
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 446, myPktNum 453
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 453, myPktNum 459
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 459, myPktNum 466
+state: 15 action 2 sprime 14 aprime 0 reward -1
+prevPktNum 466, myPktNum 473
+state: 14 action 0 sprime 14 aprime 0 reward 6
+prevPktNum 473, myPktNum 479
+state: 14 action 0 sprime 62 aprime 3 reward -3
+prevPktNum 479, myPktNum 486
+state: 62 action 3 sprime 62 aprime 2 reward -36
+prevPktNum 486, myPktNum 493
+state: 62 action 2 sprime 14 aprime 2 reward -30
+prevPktNum 493, myPktNum 499
+state: 14 action 2 sprime 14 aprime 2 reward -4
+prevPktNum 499, myPktNum 506
+state: 14 action 2 sprime 14 aprime 3 reward 2
+prevPktNum 506, myPktNum 513
+state: 14 action 3 sprime 12 aprime 0 reward -12
+prevPktNum 513, myPktNum 519
+state: 12 action 0 sprime 12 aprime 0 reward -34
+prevPktNum 519, myPktNum 526
+state: 12 action 0 sprime 12 aprime 3 reward 34
+prevPktNum 526, myPktNum 532
+state: 12 action 3 sprime 12 aprime 0 reward 40
+prevPktNum 532, myPktNum 539
+state: 12 action 0 sprime 12 aprime 2 reward 0
+prevPktNum 539, myPktNum 546
+state: 12 action 2 sprime 12 aprime 3 reward 38
+prevPktNum 546, myPktNum 552
+state: 12 action 3 sprime 12 aprime 3 reward -6
+prevPktNum 552, myPktNum 559
+state: 12 action 3 sprime 8 aprime 1 reward -72
+prevPktNum 559, myPktNum 566
+state: 8 action 1 sprime 8 aprime 1 reward -78
+prevPktNum 566, myPktNum 572
+state: 8 action 1 sprime 8 aprime 3 reward -21
+prevPktNum 572, myPktNum 579
+state: 8 action 3 sprime 12 aprime 1 reward -16
+prevPktNum 579, myPktNum 586
+state: 12 action 1 sprime 12 aprime 1 reward -44
+prevPktNum 586, myPktNum 592
+state: 12 action 1 sprime 12 aprime 0 reward -10
+prevPktNum 592, myPktNum 599
+state: 12 action 0 sprime 12 aprime 2 reward 12
+prevPktNum 599, myPktNum 606
+state: 12 action 2 sprime 14 aprime 2 reward 26
+prevPktNum 606, myPktNum 612
+state: 14 action 2 sprime 12 aprime 2 reward 5
+prevPktNum 612, myPktNum 619
+state: 12 action 2 sprime 12 aprime 0 reward 0
+prevPktNum 619, myPktNum 626
+state: 12 action 0 sprime 8 aprime 2 reward 16
+prevPktNum 626, myPktNum 632
+state: 8 action 2 sprime 12 aprime 2 reward 42
+prevPktNum 632, myPktNum 639
+state: 12 action 2 sprime 8 aprime 3 reward 9
+prevPktNum 639, myPktNum 646
+state: 8 action 3 sprime 8 aprime 2 reward -21
+prevPktNum 646, myPktNum 652
+state: 8 action 2 sprime 8 aprime 2 reward -57
+prevPktNum 652, myPktNum 659
+state: 8 action 2 sprime 8 aprime 0 reward -12
+prevPktNum 659, myPktNum 666
+state: 8 action 0 sprime 9 aprime 3 reward 12
+prevPktNum 666, myPktNum 672
+state: 9 action 3 sprime 9 aprime 3 reward 34
+prevPktNum 672, myPktNum 679
+state: 9 action 3 sprime 9 aprime 3 reward -52
+prevPktNum 679, myPktNum 686
+state: 9 action 3 sprime 9 aprime 2 reward -77
+prevPktNum 686, myPktNum 692
+state: 9 action 2 sprime 9 aprime 3 reward -44
+prevPktNum 692, myPktNum 699
+state: 9 action 3 sprime 9 aprime 1 reward -22
+prevPktNum 699, myPktNum 706
+state: 9 action 1 sprime 11 aprime 3 reward -32
+prevPktNum 706, myPktNum 712
+state: 11 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 712, myPktNum 719
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 719, myPktNum 726
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 726, myPktNum 732
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 732, myPktNum 739
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 739, myPktNum 746
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 746, myPktNum 752
+state: 15 action 0 sprime 7 aprime 2 reward -4
+prevPktNum 752, myPktNum 759
+state: 7 action 2 sprime 15 aprime 1 reward -4
+prevPktNum 759, myPktNum 766
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 766, myPktNum 772
+state: 15 action 0 sprime 15 aprime 3 reward 0
+prevPktNum 772, myPktNum 779
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 779, myPktNum 785
+state: 15 action 1 sprime 7 aprime 2 reward -3
+prevPktNum 785, myPktNum 792
+state: 7 action 2 sprime 15 aprime 1 reward -2
+prevPktNum 792, myPktNum 799
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 799, myPktNum 805
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 805, myPktNum 812
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 812, myPktNum 819
+state: 15 action 0 sprime 14 aprime 1 reward -18
+prevPktNum 819, myPktNum 825
+state: 14 action 1 sprime 15 aprime 1 reward 9
+prevPktNum 825, myPktNum 832
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 832, myPktNum 839
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 839, myPktNum 845
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 845, myPktNum 852
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 852, myPktNum 859
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 859, myPktNum 865
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 865, myPktNum 872
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 872, myPktNum 879
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 879, myPktNum 885
+state: 15 action 1 sprime 47 aprime 0 reward -48
+prevPktNum 885, myPktNum 892
+state: 47 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 892, myPktNum 899
+state: 15 action 0 sprime 47 aprime 1 reward -48
+prevPktNum 899, myPktNum 905
+state: 47 action 1 sprime 63 aprime 0 reward -48
+prevPktNum 905, myPktNum 912
+state: 63 action 0 sprime 63 aprime 0 reward -56
+prevPktNum 912, myPktNum 919
+state: 63 action 0 sprime 63 aprime 0 reward -56
+prevPktNum 919, myPktNum 925
+state: 63 action 0 sprime 63 aprime 3 reward -48
+prevPktNum 925, myPktNum 932
+state: 63 action 3 sprime 63 aprime 3 reward -56
+prevPktNum 932, myPktNum 939
+state: 63 action 3 sprime 15 aprime 3 reward -16
+prevPktNum 939, myPktNum 945
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 945, myPktNum 952
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 952, myPktNum 959
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 959, myPktNum 965
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 965, myPktNum 972
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 972, myPktNum 979
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 979, myPktNum 985
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 985, myPktNum 992
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 992, myPktNum 998
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 998, myPktNum 1005
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 1005, myPktNum 1012
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 1012, myPktNum 1019
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 1019, myPktNum 1025
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 1025, myPktNum 1032
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 1032, myPktNum 1039
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 1039, myPktNum 1045
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 1045, myPktNum 1052
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 1052, myPktNum 1058
+state: 15 action 0 sprime 15 aprime 3 reward 0
+prevPktNum 1058, myPktNum 1065
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 1065, myPktNum 1072
+state: 15 action 3 sprime 15 aprime 3 reward -10
+prevPktNum 1072, myPktNum 1078
+state: 15 action 3 sprime 7 aprime 1 reward -6
+prevPktNum 1078, myPktNum 1085
+state: 7 action 1 sprime 7 aprime 2 reward -11
+prevPktNum 1085, myPktNum 1092
+state: 7 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1092, myPktNum 1098
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1098, myPktNum 1105
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1105, myPktNum 1112
+state: 15 action 2 sprime 14 aprime 2 reward -2
+prevPktNum 1112, myPktNum 1118
+state: 14 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1118, myPktNum 1125
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1125, myPktNum 1132
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1132, myPktNum 1138
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1138, myPktNum 1145
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 1145, myPktNum 1152
+state: 15 action 3 sprime 31 aprime 3 reward -48
+prevPktNum 1152, myPktNum 1158
+state: 31 action 3 sprime 15 aprime 2 reward -16
+prevPktNum 1158, myPktNum 1165
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1165, myPktNum 1172
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1172, myPktNum 1178
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1178, myPktNum 1185
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1185, myPktNum 1192
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1192, myPktNum 1198
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1198, myPktNum 1205
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1205, myPktNum 1212
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1212, myPktNum 1218
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1218, myPktNum 1225
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1225, myPktNum 1232
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 1232, myPktNum 1238
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 1238, myPktNum 1245
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1245, myPktNum 1252
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1252, myPktNum 1258
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1258, myPktNum 1265
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1265, myPktNum 1272
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1272, myPktNum 1278
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1278, myPktNum 1285
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1285, myPktNum 1292
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1292, myPktNum 1298
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1298, myPktNum 1305
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1305, myPktNum 1311
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1311, myPktNum 1318
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1318, myPktNum 1325
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1325, myPktNum 1331
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 1331, myPktNum 1338
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 1338, myPktNum 1345
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1345, myPktNum 1351
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1351, myPktNum 1358
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1358, myPktNum 1365
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1365, myPktNum 1371
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1371, myPktNum 1378
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1378, myPktNum 1385
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1385, myPktNum 1391
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1391, myPktNum 1398
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1398, myPktNum 1405
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1405, myPktNum 1411
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1411, myPktNum 1418
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1418, myPktNum 1425
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1425, myPktNum 1431
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1431, myPktNum 1438
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1438, myPktNum 1445
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1445, myPktNum 1451
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1451, myPktNum 1458
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1458, myPktNum 1465
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1465, myPktNum 1471
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1471, myPktNum 1478
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1478, myPktNum 1484
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 1484, myPktNum 1491
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 1491, myPktNum 1498
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1498, myPktNum 1504
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1504, myPktNum 1511
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1511, myPktNum 1518
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1518, myPktNum 1524
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1524, myPktNum 1531
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1531, myPktNum 1538
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1538, myPktNum 1544
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1544, myPktNum 1551
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1551, myPktNum 1558
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1558, myPktNum 1564
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 1564, myPktNum 1571
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 1571, myPktNum 1578
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 1578, myPktNum 1584
+state: 15 action 2 sprime 14 aprime 3 reward -6
+prevPktNum 1584, myPktNum 1591
+state: 14 action 3 sprime 15 aprime 2 reward -3
+prevPktNum 1591, myPktNum 1598
+state: 15 action 2 sprime 15 aprime 1 reward -3
+prevPktNum 1598, myPktNum 1604
+state: 15 action 1 sprime 15 aprime 1 reward -1
+prevPktNum 1604, myPktNum 1611
+state: 15 action 1 sprime 7 aprime 3 reward -1
+prevPktNum 1611, myPktNum 1618
+state: 7 action 3 sprime 7 aprime 3 reward -8
+prevPktNum 1618, myPktNum 1624
+state: 7 action 3 sprime 7 aprime 0 reward -15
+prevPktNum 1624, myPktNum 1631
+state: 7 action 0 sprime 6 aprime 3 reward -27
+prevPktNum 1631, myPktNum 1638
+state: 6 action 3 sprime 14 aprime 0 reward 13
+prevPktNum 1638, myPktNum 1644
+state: 14 action 0 sprime 14 aprime 0 reward -13
+prevPktNum 1644, myPktNum 1651
+state: 14 action 0 sprime 15 aprime 2 reward 18
+prevPktNum 1651, myPktNum 1658
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1658, myPktNum 1664
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1664, myPktNum 1671
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1671, myPktNum 1678
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1678, myPktNum 1684
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1684, myPktNum 1691
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1691, myPktNum 1698
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 1698, myPktNum 1704
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 1704, myPktNum 1711
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1711, myPktNum 1717
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1717, myPktNum 1724
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1724, myPktNum 1731
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1731, myPktNum 1737
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1737, myPktNum 1744
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1744, myPktNum 1751
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 1751, myPktNum 1757
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 1757, myPktNum 1764
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1764, myPktNum 1771
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1771, myPktNum 1777
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1777, myPktNum 1784
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1784, myPktNum 1791
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1791, myPktNum 1797
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1797, myPktNum 1804
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1804, myPktNum 1811
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1811, myPktNum 1817
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1817, myPktNum 1824
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1824, myPktNum 1831
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1831, myPktNum 1837
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1837, myPktNum 1844
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1844, myPktNum 1851
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1851, myPktNum 1857
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1857, myPktNum 1864
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1864, myPktNum 1871
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1871, myPktNum 1877
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1877, myPktNum 1884
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1884, myPktNum 1890
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1890, myPktNum 1897
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1897, myPktNum 1904
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1904, myPktNum 1910
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1910, myPktNum 1917
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1917, myPktNum 1924
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1924, myPktNum 1930
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1930, myPktNum 1937
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1937, myPktNum 1944
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1944, myPktNum 1950
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1950, myPktNum 1957
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1957, myPktNum 1964
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 1964, myPktNum 1970
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 1970, myPktNum 1977
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1977, myPktNum 1984
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1984, myPktNum 1990
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1990, myPktNum 1997
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 1997, myPktNum 2004
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 2004, myPktNum 2010
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 2010, myPktNum 2017
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2017, myPktNum 2024
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2024, myPktNum 2030
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2030, myPktNum 2037
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2037, myPktNum 2044
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2044, myPktNum 2050
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2050, myPktNum 2057
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2057, myPktNum 2064
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2064, myPktNum 2070
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 2070, myPktNum 2077
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 2077, myPktNum 2084
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2084, myPktNum 2090
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2090, myPktNum 2097
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2097, myPktNum 2104
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2104, myPktNum 2110
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2110, myPktNum 2117
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2117, myPktNum 2124
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2124, myPktNum 2130
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2130, myPktNum 2137
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2137, myPktNum 2144
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2144, myPktNum 2150
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2150, myPktNum 2157
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 2157, myPktNum 2163
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 2163, myPktNum 2170
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 2170, myPktNum 2177
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2177, myPktNum 2183
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2183, myPktNum 2190
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2190, myPktNum 2197
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2197, myPktNum 2203
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2203, myPktNum 2210
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2210, myPktNum 2217
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2217, myPktNum 2223
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2223, myPktNum 2230
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2230, myPktNum 2237
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2237, myPktNum 2243
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2243, myPktNum 2250
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2250, myPktNum 2257
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2257, myPktNum 2263
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2263, myPktNum 2270
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2270, myPktNum 2277
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 2277, myPktNum 2283
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 2283, myPktNum 2290
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 2290, myPktNum 2297
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 2297, myPktNum 2303
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2303, myPktNum 2310
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2310, myPktNum 2317
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2317, myPktNum 2323
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2323, myPktNum 2330
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2330, myPktNum 2337
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2337, myPktNum 2343
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2343, myPktNum 2350
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2350, myPktNum 2356
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2356, myPktNum 2363
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2363, myPktNum 2370
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2370, myPktNum 2376
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2376, myPktNum 2383
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2383, myPktNum 2390
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2390, myPktNum 2396
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2396, myPktNum 2403
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2403, myPktNum 2410
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2410, myPktNum 2416
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2416, myPktNum 2423
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2423, myPktNum 2430
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2430, myPktNum 2436
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2436, myPktNum 2443
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2443, myPktNum 2450
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2450, myPktNum 2456
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2456, myPktNum 2463
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2463, myPktNum 2470
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2470, myPktNum 2476
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2476, myPktNum 2483
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2483, myPktNum 2490
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2490, myPktNum 2496
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2496, myPktNum 2503
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2503, myPktNum 2510
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2510, myPktNum 2516
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 2516, myPktNum 2523
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 2523, myPktNum 2530
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2530, myPktNum 2536
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2536, myPktNum 2543
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2543, myPktNum 2550
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2550, myPktNum 2556
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2556, myPktNum 2563
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2563, myPktNum 2570
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2570, myPktNum 2576
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2576, myPktNum 2583
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2583, myPktNum 2589
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2589, myPktNum 2596
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2596, myPktNum 2603
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2603, myPktNum 2609
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2609, myPktNum 2616
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2616, myPktNum 2623
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2623, myPktNum 2629
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2629, myPktNum 2636
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2636, myPktNum 2643
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2643, myPktNum 2649
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2649, myPktNum 2656
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 2656, myPktNum 2663
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 2663, myPktNum 2669
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2669, myPktNum 2676
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2676, myPktNum 2683
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2683, myPktNum 2689
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2689, myPktNum 2696
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2696, myPktNum 2703
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2703, myPktNum 2709
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 2709, myPktNum 2716
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 2716, myPktNum 2723
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 2723, myPktNum 2729
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2729, myPktNum 2736
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2736, myPktNum 2743
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2743, myPktNum 2749
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2749, myPktNum 2756
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2756, myPktNum 2763
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2763, myPktNum 2769
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2769, myPktNum 2776
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2776, myPktNum 2783
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2783, myPktNum 2789
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2789, myPktNum 2796
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 2796, myPktNum 2803
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 2803, myPktNum 2809
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2809, myPktNum 2816
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2816, myPktNum 2823
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2823, myPktNum 2829
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2829, myPktNum 2836
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2836, myPktNum 2843
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2843, myPktNum 2849
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2849, myPktNum 2856
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 2856, myPktNum 2862
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 2862, myPktNum 2869
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 2869, myPktNum 2876
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2876, myPktNum 2882
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2882, myPktNum 2889
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2889, myPktNum 2896
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2896, myPktNum 2902
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2902, myPktNum 2909
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2909, myPktNum 2916
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2916, myPktNum 2922
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2922, myPktNum 2929
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2929, myPktNum 2936
+state: 15 action 2 sprime 15 aprime 3 reward 0
+prevPktNum 2936, myPktNum 2942
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 2942, myPktNum 2949
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2949, myPktNum 2956
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2956, myPktNum 2962
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2962, myPktNum 2969
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2969, myPktNum 2976
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 2976, myPktNum 2982
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 2982, myPktNum 2989
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2989, myPktNum 2996
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 2996, myPktNum 3002
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3002, myPktNum 3009
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3009, myPktNum 3016
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3016, myPktNum 3022
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3022, myPktNum 3029
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3029, myPktNum 3036
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3036, myPktNum 3042
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3042, myPktNum 3049
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3049, myPktNum 3056
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3056, myPktNum 3062
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3062, myPktNum 3069
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3069, myPktNum 3076
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3076, myPktNum 3082
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3082, myPktNum 3089
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3089, myPktNum 3095
+state: 15 action 2 sprime 15 aprime 0 reward 0
+prevPktNum 3095, myPktNum 3102
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 3102, myPktNum 3109
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3109, myPktNum 3115
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 3115, myPktNum 3122
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 3122, myPktNum 3129
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3129, myPktNum 3135
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3135, myPktNum 3142
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3142, myPktNum 3149
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3149, myPktNum 3155
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3155, myPktNum 3162
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3162, myPktNum 3169
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3169, myPktNum 3175
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3175, myPktNum 3182
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3182, myPktNum 3189
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 3189, myPktNum 3195
+state: 15 action 0 sprime 15 aprime 2 reward 0
+prevPktNum 3195, myPktNum 3202
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3202, myPktNum 3209
+state: 15 action 2 sprime 15 aprime 2 reward -24
+prevPktNum 3209, myPktNum 3215
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 3215, myPktNum 3222
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3222, myPktNum 3229
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3229, myPktNum 3235
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3235, myPktNum 3242
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 3242, myPktNum 3249
+state: 15 action 3 sprime 15 aprime 1 reward 0
+prevPktNum 3249, myPktNum 3255
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3255, myPktNum 3262
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3262, myPktNum 3269
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3269, myPktNum 3275
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3275, myPktNum 3282
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3282, myPktNum 3289
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3289, myPktNum 3295
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3295, myPktNum 3302
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3302, myPktNum 3309
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3309, myPktNum 3315
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3315, myPktNum 3322
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3322, myPktNum 3329
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3329, myPktNum 3335
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3335, myPktNum 3342
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3342, myPktNum 3348
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3348, myPktNum 3355
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3355, myPktNum 3362
+state: 15 action 1 sprime 15 aprime 2 reward 0
+prevPktNum 3362, myPktNum 3368
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 3368, myPktNum 3375
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3375, myPktNum 3382
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3382, myPktNum 3388
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3388, myPktNum 3395
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3395, myPktNum 3402
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3402, myPktNum 3408
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3408, myPktNum 3415
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3415, myPktNum 3422
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3422, myPktNum 3428
+state: 15 action 1 sprime 15 aprime 0 reward 0
+prevPktNum 3428, myPktNum 3435
+state: 15 action 0 sprime 15 aprime 1 reward 0
+prevPktNum 3435, myPktNum 3442
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3442, myPktNum 3448
+state: 15 action 1 sprime 31 aprime 3 reward -48
+prevPktNum 3448, myPktNum 3455
+state: 31 action 3 sprime 15 aprime 3 reward -8
+prevPktNum 3455, myPktNum 3462
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3462, myPktNum 3468
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3468, myPktNum 3475
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3475, myPktNum 3482
+state: 15 action 3 sprime 15 aprime 2 reward 0
+prevPktNum 3482, myPktNum 3488
+state: 15 action 2 sprime 15 aprime 1 reward 0
+prevPktNum 3488, myPktNum 3495
+state: 15 action 1 sprime 15 aprime 3 reward 0
+prevPktNum 3495, myPktNum 3502
+state: 15 action 3 sprime 15 aprime 0 reward 0
+prevPktNum 3502, myPktNum 3508
+state: 15 action 0 sprime 15 aprime 3 reward 0
+prevPktNum 3508, myPktNum 3515
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3515, myPktNum 3522
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3522, myPktNum 3528
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3528, myPktNum 3535
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3535, myPktNum 3541
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3541, myPktNum 3548
+state: 15 action 3 sprime 15 aprime 3 reward 0
+prevPktNum 3548, myPktNum 3555
+state: 15 action 3 sprime 7 aprime 1 reward -22
+prevPktNum 3555, myPktNum 3561
+state: 7 action 1 sprime 7 aprime 1 reward -17
+prevPktNum 3561, myPktNum 3568
+state: 7 action 1 sprime 7 aprime 0 reward -10
+prevPktNum 3568, myPktNum 3575
+state: 7 action 0 sprime 7 aprime 0 reward 2
+prevPktNum 3575, myPktNum 3581
+state: 7 action 0 sprime 7 aprime 0 reward 25
+prevPktNum 3581, myPktNum 3588
+state: 7 action 0 sprime 7 aprime 0 reward 29
+prevPktNum 3588, myPktNum 3595
+state: 7 action 0 sprime 7 aprime 0 reward 30
+prevPktNum 3595, myPktNum 3601
+state: 7 action 0 sprime 7 aprime 0 reward 26
+prevPktNum 3601, myPktNum 3608
+state: 7 action 0 sprime 7 aprime 0 reward 30
+prevPktNum 3608, myPktNum 3615
+state: 7 action 0 sprime 7 aprime 0 reward 31
+prevPktNum 3615, myPktNum 3621
+state: 7 action 0 sprime 7 aprime 0 reward 26
+prevPktNum 3621, myPktNum 3628
+state: 7 action 0 sprime 7 aprime 0 reward 31
+prevPktNum 3628, myPktNum 3635
+state: 7 action 0 sprime 7 aprime 3 reward 30
+prevPktNum 3635, myPktNum 3641
+state: 7 action 3 sprime 55 aprime 1 reward -6
+prevPktNum 3641, myPktNum 3648
+state: 55 action 1 sprime 7 aprime 0 reward -45
+prevPktNum 3648, myPktNum 3655
+state: 7 action 0 sprime 7 aprime 0 reward 3
+prevPktNum 3655, myPktNum 3661
+state: 7 action 0 sprime 55 aprime 0 reward 16
+prevPktNum 3661, myPktNum 3668
+state: 55 action 0 sprime 55 aprime 0 reward -33
+prevPktNum 3668, myPktNum 3675
+state: 55 action 0 sprime 55 aprime 3 reward -46
+prevPktNum 3675, myPktNum 3681
+state: 55 action 3 sprime 55 aprime 3 reward -38
+prevPktNum 3681, myPktNum 3688
+state: 55 action 3 sprime 7 aprime 0 reward -35
+prevPktNum 3688, myPktNum 3695
+state: 7 action 0 sprime 7 aprime 0 reward -15
+prevPktNum 3695, myPktNum 3701
+state: 7 action 0 sprime 7 aprime 0 reward 19
+prevPktNum 3701, myPktNum 3708
+state: 7 action 0 sprime 55 aprime 0 reward 20
+prevPktNum 3708, myPktNum 3715
+state: 55 action 0 sprime 55 aprime 2 reward -33
+prevPktNum 3715, myPktNum 3721
+state: 55 action 2 sprime 55 aprime 2 reward -31
+prevPktNum 3721, myPktNum 3728
+state: 55 action 2 sprime 55 aprime 1 reward -50
+prevPktNum 3728, myPktNum 3735
+state: 55 action 1 sprime 63 aprime 2 reward -55
+prevPktNum 3735, myPktNum 3741
+state: 63 action 2 sprime 39 aprime 3 reward -48
+prevPktNum 3741, myPktNum 3748
+state: 39 action 3 sprime 47 aprime 2 reward -56
+prevPktNum 3748, myPktNum 3755
+state: 47 action 2 sprime 7 aprime 1 reward -9
+prevPktNum 3755, myPktNum 3761
+state: 7 action 1 sprime 15 aprime 3 reward -3
+prevPktNum 3761, myPktNum 3768
+state: 15 action 3 sprime 7 aprime 3 reward -6
+prevPktNum 3768, myPktNum 3775
+state: 7 action 3 sprime 7 aprime 3 reward -27
+prevPktNum 3775, myPktNum 3781
+state: 7 action 3 sprime 7 aprime 1 reward -26
+prevPktNum 3781, myPktNum 3788
+state: 7 action 1 sprime 7 aprime 1 reward -23
+prevPktNum 3788, myPktNum 3794
+state: 7 action 1 sprime 7 aprime 0 reward -4
+prevPktNum 3794, myPktNum 3801
+state: 7 action 0 sprime 7 aprime 0 reward 6
+prevPktNum 3801, myPktNum 3808
+state: 7 action 0 sprime 3 aprime 2 reward 51
+prevPktNum 3808, myPktNum 3815
+state: 3 action 2 sprime 7 aprime 0 reward 34
+prevPktNum 3815, myPktNum 3821
+state: 7 action 0 sprime 7 aprime 0 reward 7
+prevPktNum 3821, myPktNum 3828
+state: 7 action 0 sprime 7 aprime 2 reward 25
+prevPktNum 3828, myPktNum 3834
+state: 7 action 2 sprime 15 aprime 3 reward 18
+prevPktNum 3834, myPktNum 3841
+state: 15 action 3 sprime 47 aprime 3 reward -56
+prevPktNum 3841, myPktNum 3848
+state: 47 action 3 sprime 7 aprime 0 reward -5
+prevPktNum 3848, myPktNum 3854
+state: 7 action 0 sprime 7 aprime 0 reward -18
+prevPktNum 3854, myPktNum 3861
+state: 7 action 0 sprime 7 aprime 0 reward 20
+prevPktNum 3861, myPktNum 3868
+state: 7 action 0 sprime 15 aprime 3 reward 9
+prevPktNum 3868, myPktNum 3874
+state: 15 action 3 sprime 63 aprime 0 reward -32
+prevPktNum 3874, myPktNum 3881
+state: 63 action 0 sprime 15 aprime 2 reward -32
+prevPktNum 3881, myPktNum 3888
+state: 15 action 2 sprime 15 aprime 2 reward 0
+prevPktNum 3888, myPktNum 3894
+state: 15 action 2 sprime 47 aprime 2 reward -48
+prevPktNum 3894, myPktNum 3901
+state: 47 action 2 sprime 15 aprime 0 reward -32
+prevPktNum 3901, myPktNum 3908
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 3908, myPktNum 3914
+state: 15 action 0 sprime 15 aprime 0 reward 0
+prevPktNum 3914, myPktNum 3921
+state: 15 action 0 sprime 47 aprime 1 reward -56
+prevPktNum 3921, myPktNum 3928
+state: 47 action 1 sprime 47 aprime 0 reward -56
+prevPktNum 3928, myPktNum 3934
+state: 47 action 0 sprime 47 aprime 1 reward -48
+prevPktNum 3934, myPktNum 3941
+state: 47 action 1 sprime 47 aprime 2 reward -56
+prevPktNum 3941, myPktNum 3948
+state: 47 action 2 sprime 47 aprime 3 reward -56
+prevPktNum 3948, myPktNum 3954
+state: 47 action 3 sprime 47 aprime 3 reward -48
+prevPktNum 3954, myPktNum 3961
+state: 47 action 3 sprime 15 aprime 1 reward -16
+prevPktNum 3961, myPktNum 3968
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3968, myPktNum 3974
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 3974, myPktNum 3981
+state: 15 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 3981, myPktNum 3988
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 3988, myPktNum 3994
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 3994, myPktNum 4001
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 4001, myPktNum 4008
+state: 7 action 1 sprime 3 aprime 3 reward -2
+prevPktNum 4008, myPktNum 4014
+state: 3 action 3 sprime 3 aprime 0 reward -8
+prevPktNum 4014, myPktNum 4021
+state: 3 action 0 sprime 3 aprime 0 reward -24
+prevPktNum 4021, myPktNum 4027
+state: 3 action 0 sprime 3 aprime 1 reward 42
+prevPktNum 4027, myPktNum 4034
+state: 3 action 1 sprime 3 aprime 0 reward 48
+prevPktNum 4034, myPktNum 4041
+state: 3 action 0 sprime 3 aprime 1 reward 22
+prevPktNum 4041, myPktNum 4047
+state: 3 action 1 sprime 3 aprime 1 reward 40
+prevPktNum 4047, myPktNum 4054
+state: 3 action 1 sprime 19 aprime 3 reward -42
+prevPktNum 4054, myPktNum 4061
+state: 19 action 3 sprime 1 aprime 1 reward -53
+prevPktNum 4061, myPktNum 4067
+state: 1 action 1 sprime 1 aprime 1 reward -60
+prevPktNum 4067, myPktNum 4074
+state: 1 action 1 sprime 1 aprime 3 reward -12
+prevPktNum 4074, myPktNum 4081
+state: 1 action 3 sprime 9 aprime 0 reward -18
+prevPktNum 4081, myPktNum 4087
+state: 9 action 0 sprime 9 aprime 0 reward -34
+prevPktNum 4087, myPktNum 4094
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4094, myPktNum 4101
+state: 9 action 0 sprime 9 aprime 0 reward 60
+prevPktNum 4101, myPktNum 4107
+state: 9 action 0 sprime 1 aprime 0 reward 73
+prevPktNum 4107, myPktNum 4114
+state: 1 action 0 sprime 1 aprime 3 reward 90
+prevPktNum 4114, myPktNum 4121
+state: 1 action 3 sprime 1 aprime 0 reward 51
+prevPktNum 4121, myPktNum 4127
+state: 1 action 0 sprime 1 aprime 1 reward -30
+prevPktNum 4127, myPktNum 4134
+state: 1 action 1 sprime 1 aprime 3 reward 51
+prevPktNum 4134, myPktNum 4141
+state: 1 action 3 sprime 0 aprime 3 reward -21
+prevPktNum 4141, myPktNum 4147
+state: 0 action 3 sprime 8 aprime 2 reward -69
+prevPktNum 4147, myPktNum 4154
+state: 8 action 2 sprime 9 aprime 0 reward -57
+prevPktNum 4154, myPktNum 4161
+state: 9 action 0 sprime 9 aprime 0 reward 4
+prevPktNum 4161, myPktNum 4167
+state: 9 action 0 sprime 9 aprime 0 reward 48
+prevPktNum 4167, myPktNum 4174
+state: 9 action 0 sprime 9 aprime 0 reward 60
+prevPktNum 4174, myPktNum 4181
+state: 9 action 0 sprime 0 aprime 0 reward 99
+prevPktNum 4181, myPktNum 4187
+state: 0 action 0 sprime 0 aprime 3 reward 104
+prevPktNum 4187, myPktNum 4194
+state: 0 action 3 sprime 0 aprime 0 reward 68
+prevPktNum 4194, myPktNum 4201
+state: 0 action 0 sprime 0 aprime 0 reward -48
+prevPktNum 4201, myPktNum 4207
+state: 0 action 0 sprime 0 aprime 3 reward 76
+prevPktNum 4207, myPktNum 4214
+state: 0 action 3 sprime 0 aprime 0 reward 64
+prevPktNum 4214, myPktNum 4220
+state: 0 action 0 sprime 0 aprime 3 reward -48
+prevPktNum 4220, myPktNum 4227
+state: 0 action 3 sprime 0 aprime 3 reward 32
+prevPktNum 4227, myPktNum 4234
+state: 0 action 3 sprime 0 aprime 3 reward -120
+prevPktNum 4234, myPktNum 4240
+state: 0 action 3 sprime 8 aprime 2 reward -94
+prevPktNum 4240, myPktNum 4247
+state: 8 action 2 sprime 9 aprime 0 reward -67
+prevPktNum 4247, myPktNum 4254
+state: 9 action 0 sprime 9 aprime 0 reward 10
+prevPktNum 4254, myPktNum 4260
+state: 9 action 0 sprime 9 aprime 0 reward 48
+prevPktNum 4260, myPktNum 4267
+state: 9 action 0 sprime 1 aprime 3 reward 80
+prevPktNum 4267, myPktNum 4274
+state: 1 action 3 sprime 0 aprime 0 reward 76
+prevPktNum 4274, myPktNum 4280
+state: 0 action 0 sprime 1 aprime 3 reward -22
+prevPktNum 4280, myPktNum 4287
+state: 1 action 3 sprime 0 aprime 0 reward 35
+prevPktNum 4287, myPktNum 4294
+state: 0 action 0 sprime 1 aprime 3 reward -41
+prevPktNum 4294, myPktNum 4300
+state: 1 action 3 sprime 1 aprime 3 reward 39
+prevPktNum 4300, myPktNum 4307
+state: 1 action 3 sprime 9 aprime 0 reward -76
+prevPktNum 4307, myPktNum 4314
+state: 9 action 0 sprime 9 aprime 0 reward -38
+prevPktNum 4314, myPktNum 4320
+state: 9 action 0 sprime 9 aprime 2 reward 44
+prevPktNum 4320, myPktNum 4327
+state: 9 action 2 sprime 1 aprime 3 reward 48
+prevPktNum 4327, myPktNum 4334
+state: 1 action 3 sprime 1 aprime 3 reward -12
+prevPktNum 4334, myPktNum 4340
+state: 1 action 3 sprime 1 aprime 3 reward -78
+prevPktNum 4340, myPktNum 4347
+state: 1 action 3 sprime 9 aprime 0 reward -75
+prevPktNum 4347, myPktNum 4354
+state: 9 action 0 sprime 9 aprime 0 reward -36
+prevPktNum 4354, myPktNum 4360
+state: 9 action 0 sprime 9 aprime 0 reward 46
+prevPktNum 4360, myPktNum 4367
+state: 9 action 0 sprime 9 aprime 0 reward 60
+prevPktNum 4367, myPktNum 4374
+state: 9 action 0 sprime 1 aprime 3 reward 80
+prevPktNum 4374, myPktNum 4380
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4380, myPktNum 4387
+state: 1 action 3 sprime 1 aprime 3 reward -60
+prevPktNum 4387, myPktNum 4394
+state: 1 action 3 sprime 9 aprime 0 reward -80
+prevPktNum 4394, myPktNum 4400
+state: 9 action 0 sprime 9 aprime 0 reward -42
+prevPktNum 4400, myPktNum 4407
+state: 9 action 0 sprime 9 aprime 0 reward 46
+prevPktNum 4407, myPktNum 4414
+state: 9 action 0 sprime 9 aprime 0 reward 62
+prevPktNum 4414, myPktNum 4420
+state: 9 action 0 sprime 1 aprime 3 reward 69
+prevPktNum 4420, myPktNum 4427
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4427, myPktNum 4434
+state: 1 action 3 sprime 1 aprime 3 reward -66
+prevPktNum 4434, myPktNum 4440
+state: 1 action 3 sprime 9 aprime 0 reward -67
+prevPktNum 4440, myPktNum 4447
+state: 9 action 0 sprime 9 aprime 0 reward -40
+prevPktNum 4447, myPktNum 4454
+state: 9 action 0 sprime 9 aprime 0 reward 52
+prevPktNum 4454, myPktNum 4460
+state: 9 action 0 sprime 9 aprime 0 reward 52
+prevPktNum 4460, myPktNum 4467
+state: 9 action 0 sprime 1 aprime 3 reward 84
+prevPktNum 4467, myPktNum 4474
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4474, myPktNum 4480
+state: 1 action 3 sprime 1 aprime 3 reward -54
+prevPktNum 4480, myPktNum 4487
+state: 1 action 3 sprime 9 aprime 0 reward -89
+prevPktNum 4487, myPktNum 4493
+state: 9 action 0 sprime 9 aprime 0 reward -40
+prevPktNum 4493, myPktNum 4500
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4500, myPktNum 4507
+state: 9 action 0 sprime 9 aprime 0 reward 62
+prevPktNum 4507, myPktNum 4513
+state: 9 action 0 sprime 1 aprime 3 reward 78
+prevPktNum 4513, myPktNum 4520
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4520, myPktNum 4527
+state: 1 action 3 sprime 1 aprime 3 reward -66
+prevPktNum 4527, myPktNum 4533
+state: 1 action 3 sprime 9 aprime 0 reward -80
+prevPktNum 4533, myPktNum 4540
+state: 9 action 0 sprime 9 aprime 0 reward -38
+prevPktNum 4540, myPktNum 4547
+state: 9 action 0 sprime 9 aprime 0 reward 50
+prevPktNum 4547, myPktNum 4553
+state: 9 action 0 sprime 1 aprime 3 reward 58
+prevPktNum 4553, myPktNum 4560
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4560, myPktNum 4567
+state: 1 action 3 sprime 1 aprime 1 reward -72
+prevPktNum 4567, myPktNum 4573
+state: 1 action 1 sprime 9 aprime 0 reward -48
+prevPktNum 4573, myPktNum 4580
+state: 9 action 0 sprime 9 aprime 0 reward 2
+prevPktNum 4580, myPktNum 4587
+state: 9 action 0 sprime 9 aprime 0 reward 56
+prevPktNum 4587, myPktNum 4593
+state: 9 action 0 sprime 9 aprime 0 reward 52
+prevPktNum 4593, myPktNum 4600
+state: 9 action 0 sprime 1 aprime 3 reward 88
+prevPktNum 4600, myPktNum 4607
+state: 1 action 3 sprime 1 aprime 3 reward 51
+prevPktNum 4607, myPktNum 4613
+state: 1 action 3 sprime 1 aprime 3 reward -60
+prevPktNum 4613, myPktNum 4620
+state: 1 action 3 sprime 9 aprime 0 reward -87
+prevPktNum 4620, myPktNum 4627
+state: 9 action 0 sprime 9 aprime 0 reward -38
+prevPktNum 4627, myPktNum 4633
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4633, myPktNum 4640
+state: 9 action 0 sprime 9 aprime 0 reward 60
+prevPktNum 4640, myPktNum 4647
+state: 9 action 0 sprime 1 aprime 3 reward 93
+prevPktNum 4647, myPktNum 4653
+state: 1 action 3 sprime 1 aprime 3 reward 54
+prevPktNum 4653, myPktNum 4660
+state: 1 action 3 sprime 1 aprime 3 reward -63
+prevPktNum 4660, myPktNum 4667
+state: 1 action 3 sprime 9 aprime 0 reward -89
+prevPktNum 4667, myPktNum 4673
+state: 9 action 0 sprime 9 aprime 0 reward -40
+prevPktNum 4673, myPktNum 4680
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4680, myPktNum 4687
+state: 9 action 0 sprime 1 aprime 3 reward 71
+prevPktNum 4687, myPktNum 4693
+state: 1 action 3 sprime 1 aprime 1 reward 54
+prevPktNum 4693, myPktNum 4700
+state: 1 action 1 sprime 1 aprime 2 reward -45
+prevPktNum 4700, myPktNum 4707
+state: 1 action 2 sprime 9 aprime 0 reward -8
+prevPktNum 4707, myPktNum 4713
+state: 9 action 0 sprime 9 aprime 0 reward 2
+prevPktNum 4713, myPktNum 4720
+state: 9 action 0 sprime 1 aprime 3 reward 67
+prevPktNum 4720, myPktNum 4727
+state: 1 action 3 sprime 1 aprime 3 reward 57
+prevPktNum 4727, myPktNum 4733
+state: 1 action 3 sprime 1 aprime 3 reward -54
+prevPktNum 4733, myPktNum 4740
+state: 1 action 3 sprime 9 aprime 0 reward -84
+prevPktNum 4740, myPktNum 4746
+state: 9 action 0 sprime 9 aprime 0 reward -42
+prevPktNum 4746, myPktNum 4753
+state: 9 action 0 sprime 9 aprime 0 reward 48
+prevPktNum 4753, myPktNum 4760
+state: 9 action 0 sprime 9 aprime 0 reward 60
+prevPktNum 4760, myPktNum 4766
+state: 9 action 0 sprime 1 aprime 3 reward 65
+prevPktNum 4766, myPktNum 4773
+state: 1 action 3 sprime 1 aprime 3 reward 66
+prevPktNum 4773, myPktNum 4780
+state: 1 action 3 sprime 1 aprime 3 reward -57
+prevPktNum 4780, myPktNum 4786
+state: 1 action 3 sprime 9 aprime 0 reward -72
+prevPktNum 4786, myPktNum 4793
+state: 9 action 0 sprime 9 aprime 0 reward -40
+prevPktNum 4793, myPktNum 4800
+state: 9 action 0 sprime 9 aprime 0 reward 52
+prevPktNum 4800, myPktNum 4806
+state: 9 action 0 sprime 9 aprime 2 reward 52
+prevPktNum 4806, myPktNum 4813
+state: 9 action 2 sprime 1 aprime 3 reward 63
+prevPktNum 4813, myPktNum 4820
+state: 1 action 3 sprime 1 aprime 3 reward -12
+prevPktNum 4820, myPktNum 4826
+state: 1 action 3 sprime 1 aprime 3 reward -78
+prevPktNum 4826, myPktNum 4833
+state: 1 action 3 sprime 9 aprime 0 reward -83
+prevPktNum 4833, myPktNum 4840
+state: 9 action 0 sprime 9 aprime 0 reward -32
+prevPktNum 4840, myPktNum 4846
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4846, myPktNum 4853
+state: 9 action 0 sprime 9 aprime 0 reward 58
+prevPktNum 4853, myPktNum 4860
+state: 9 action 0 sprime 1 aprime 3 reward 84
+prevPktNum 4860, myPktNum 4866
+state: 1 action 3 sprime 1 aprime 3 reward 54
+prevPktNum 4866, myPktNum 4873
+state: 1 action 3 sprime 1 aprime 3 reward -63
+prevPktNum 4873, myPktNum 4880
+state: 1 action 3 sprime 9 aprime 0 reward -80
+prevPktNum 4880, myPktNum 4886
+state: 9 action 0 sprime 9 aprime 0 reward -36
+prevPktNum 4886, myPktNum 4893
+state: 9 action 0 sprime 9 aprime 0 reward 48
+prevPktNum 4893, myPktNum 4900
+state: 9 action 0 sprime 1 aprime 3 reward 75
+prevPktNum 4900, myPktNum 4906
+state: 1 action 3 sprime 1 aprime 3 reward 60
+prevPktNum 4906, myPktNum 4913
+state: 1 action 3 sprime 16 aprime 3 reward -28
+prevPktNum 4913, myPktNum 4920
+state: 16 action 3 sprime 0 aprime 3 reward -144
+prevPktNum 4920, myPktNum 4926
+state: 0 action 3 sprime 0 aprime 3 reward -120
+prevPktNum 4926, myPktNum 4933
+state: 0 action 3 sprime 8 aprime 2 reward -125
+prevPktNum 4933, myPktNum 4940
+state: 8 action 2 sprime 9 aprime 0 reward -73
+prevPktNum 4940, myPktNum 4946
+state: 9 action 0 sprime 15 aprime 1 reward -3
+prevPktNum 4946, myPktNum 4953
+state: 15 action 1 sprime 9 aprime 0 reward 13
+prevPktNum 4953, myPktNum 4960
+state: 9 action 0 sprime 9 aprime 0 reward 18
+prevPktNum 4960, myPktNum 4966
+state: 9 action 0 sprime 9 aprime 0 reward 44
+prevPktNum 4966, myPktNum 4973
+state: 9 action 0 sprime 9 aprime 0 reward 64
+prevPktNum 4973, myPktNum 4980
+state: 9 action 0 sprime 9 aprime 0 reward 64
+prevPktNum 4980, myPktNum 4986
+state: 9 action 0 sprime 9 aprime 0 reward 56
+prevPktNum 4986, myPktNum 4993
+state: 9 action 0 sprime 1 aprime 2 reward 67
+prevPktNum 4993, myPktNum 5000
+state: 1 action 2 sprime 1 aprime 2 reward 72
+prevPktNum 5000, myPktNum 5006
+state: 1 action 2 sprime 1 aprime 2 reward 9
+prevPktNum 5006, myPktNum 5013
+state: 1 action 2 sprime 1 aprime 2 reward -3
+prevPktNum 5013, myPktNum 5019
+state: 1 action 2 sprime 1 aprime 2 reward 0
+prevPktNum 5019, myPktNum 5026
+state: 1 action 2 sprime 1 aprime 2 reward -3
+prevPktNum 5026, myPktNum 5033
+state: 1 action 2 sprime 3 aprime 0 reward 0
+prevPktNum 5033, myPktNum 5040
+state: 3 action 0 sprime 3 aprime 0 reward 12
+prevPktNum 5040, myPktNum 5046
+state: 3 action 0 sprime 7 aprime 1 reward 25
+prevPktNum 5046, myPktNum 5053
+state: 7 action 1 sprime 55 aprime 3 reward -8
+prevPktNum 5053, myPktNum 5059
+state: 55 action 3 sprime 23 aprime 0 reward -52
+prevPktNum 5059, myPktNum 5066
+state: 23 action 0 sprime 3 aprime 1 reward -26
+prevPktNum 5066, myPktNum 5073
+state: 3 action 1 sprime 19 aprime 3 reward 18
+prevPktNum 5073, myPktNum 5079
+state: 19 action 3 sprime 19 aprime 3 reward -54
+prevPktNum 5079, myPktNum 5086
+state: 19 action 3 sprime 3 aprime 0 reward -56
+prevPktNum 5086, myPktNum 5093
+state: 3 action 0 sprime 3 aprime 0 reward -36
+prevPktNum 5093, myPktNum 5099
+state: 3 action 0 sprime 3 aprime 3 reward 32
+prevPktNum 5099, myPktNum 5106
+state: 3 action 3 sprime 3 aprime 0 reward 36
+prevPktNum 5106, myPktNum 5113
+state: 3 action 0 sprime 3 aprime 3 reward -22
+prevPktNum 5113, myPktNum 5119
+state: 3 action 3 sprime 3 aprime 3 reward 32
+prevPktNum 5119, myPktNum 5126
+state: 3 action 3 sprime 3 aprime 3 reward -46
+prevPktNum 5126, myPktNum 5133
+state: 3 action 3 sprime 3 aprime 3 reward -62
+prevPktNum 5133, myPktNum 5139
+state: 3 action 3 sprime 1 aprime 2 reward -90
+prevPktNum 5139, myPktNum 5146
+state: 1 action 2 sprime 1 aprime 1 reward -75
+prevPktNum 5146, myPktNum 5153
+state: 1 action 1 sprime 3 aprime 0 reward -15
+prevPktNum 5153, myPktNum 5159
+state: 3 action 0 sprime 1 aprime 0 reward 7
+prevPktNum 5159, myPktNum 5166
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 5166, myPktNum 5173
+state: 1 action 0 sprime 1 aprime 0 reward 102
+prevPktNum 5173, myPktNum 5179
+state: 1 action 0 sprime 3 aprime 0 reward 59
+prevPktNum 5179, myPktNum 5186
+state: 3 action 0 sprime 3 aprime 0 reward 62
+prevPktNum 5186, myPktNum 5193
+state: 3 action 0 sprime 19 aprime 1 reward 28
+prevPktNum 5193, myPktNum 5199
+state: 19 action 1 sprime 19 aprime 0 reward -6
+prevPktNum 5199, myPktNum 5206
+state: 19 action 0 sprime 19 aprime 0 reward -36
+prevPktNum 5206, myPktNum 5213
+state: 19 action 0 sprime 19 aprime 2 reward -8
+prevPktNum 5213, myPktNum 5219
+state: 19 action 2 sprime 19 aprime 2 reward -2
+prevPktNum 5219, myPktNum 5226
+state: 19 action 2 sprime 19 aprime 2 reward -44
+prevPktNum 5226, myPktNum 5233
+state: 19 action 2 sprime 23 aprime 1 reward -56
+prevPktNum 5233, myPktNum 5239
+state: 23 action 1 sprime 23 aprime 1 reward -48
+prevPktNum 5239, myPktNum 5246
+state: 23 action 1 sprime 23 aprime 2 reward -56
+prevPktNum 5246, myPktNum 5253
+state: 23 action 2 sprime 3 aprime 0 reward -6
+prevPktNum 5253, myPktNum 5259
+state: 3 action 0 sprime 7 aprime 3 reward 3
+prevPktNum 5259, myPktNum 5266
+state: 7 action 3 sprime 23 aprime 3 reward -37
+prevPktNum 5266, myPktNum 5273
+state: 23 action 3 sprime 7 aprime 2 reward -43
+prevPktNum 5273, myPktNum 5279
+state: 7 action 2 sprime 3 aprime 0 reward -46
+prevPktNum 5279, myPktNum 5286
+state: 3 action 0 sprime 3 aprime 0 reward 6
+prevPktNum 5286, myPktNum 5292
+state: 3 action 0 sprime 7 aprime 2 reward 26
+prevPktNum 5292, myPktNum 5299
+state: 7 action 2 sprime 55 aprime 2 reward 0
+prevPktNum 5299, myPktNum 5306
+state: 55 action 2 sprime 55 aprime 2 reward -56
+prevPktNum 5306, myPktNum 5312
+state: 55 action 2 sprime 55 aprime 0 reward -48
+prevPktNum 5312, myPktNum 5319
+state: 55 action 0 sprime 55 aprime 0 reward -50
+prevPktNum 5319, myPktNum 5326
+state: 55 action 0 sprime 55 aprime 0 reward -27
+prevPktNum 5326, myPktNum 5332
+state: 55 action 0 sprime 55 aprime 0 reward -23
+prevPktNum 5332, myPktNum 5339
+state: 55 action 0 sprime 55 aprime 2 reward -27
+prevPktNum 5339, myPktNum 5346
+state: 55 action 2 sprime 55 aprime 2 reward -30
+prevPktNum 5346, myPktNum 5352
+state: 55 action 2 sprime 47 aprime 3 reward -48
+prevPktNum 5352, myPktNum 5359
+state: 47 action 3 sprime 47 aprime 3 reward -56
+prevPktNum 5359, myPktNum 5366
+state: 47 action 3 sprime 15 aprime 1 reward -4
+prevPktNum 5366, myPktNum 5372
+state: 15 action 1 sprime 7 aprime 0 reward -6
+prevPktNum 5372, myPktNum 5379
+state: 7 action 0 sprime 7 aprime 0 reward -2
+prevPktNum 5379, myPktNum 5386
+state: 7 action 0 sprime 15 aprime 1 reward 22
+prevPktNum 5386, myPktNum 5392
+state: 15 action 1 sprime 15 aprime 1 reward 0
+prevPktNum 5392, myPktNum 5399
+state: 15 action 1 sprime 47 aprime 0 reward -37
+prevPktNum 5399, myPktNum 5406
+state: 47 action 0 sprime 39 aprime 2 reward -18
+prevPktNum 5406, myPktNum 5412
+state: 39 action 2 sprime 55 aprime 3 reward -29
+prevPktNum 5412, myPktNum 5419
+state: 55 action 3 sprime 47 aprime 0 reward -56
+prevPktNum 5419, myPktNum 5426
+state: 47 action 0 sprime 7 aprime 1 reward -14
+prevPktNum 5426, myPktNum 5432
+state: 7 action 1 sprime 7 aprime 1 reward 17
+prevPktNum 5432, myPktNum 5439
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 5439, myPktNum 5445
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 5445, myPktNum 5452
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 5452, myPktNum 5459
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 5459, myPktNum 5466
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 5466, myPktNum 5472
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 5472, myPktNum 5479
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 5479, myPktNum 5485
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 5485, myPktNum 5492
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 5492, myPktNum 5499
+state: 1 action 0 sprime 1 aprime 0 reward 99
+prevPktNum 5499, myPktNum 5505
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 5505, myPktNum 5512
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5512, myPktNum 5519
+state: 1 action 0 sprime 21 aprime 3 reward 40
+prevPktNum 5519, myPktNum 5525
+state: 21 action 3 sprime 21 aprime 3 reward -14
+prevPktNum 5525, myPktNum 5532
+state: 21 action 3 sprime 21 aprime 1 reward -102
+prevPktNum 5532, myPktNum 5539
+state: 21 action 1 sprime 1 aprime 0 reward -72
+prevPktNum 5539, myPktNum 5545
+state: 1 action 0 sprime 1 aprime 0 reward -3
+prevPktNum 5545, myPktNum 5552
+state: 1 action 0 sprime 1 aprime 0 reward 87
+prevPktNum 5552, myPktNum 5559
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5559, myPktNum 5565
+state: 1 action 0 sprime 7 aprime 1 reward 35
+prevPktNum 5565, myPktNum 5572
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 5572, myPktNum 5579
+state: 7 action 1 sprime 7 aprime 1 reward -28
+prevPktNum 5579, myPktNum 5585
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 5585, myPktNum 5592
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 5592, myPktNum 5599
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 5599, myPktNum 5605
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 5605, myPktNum 5612
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 5612, myPktNum 5619
+state: 1 action 0 sprime 1 aprime 0 reward 21
+prevPktNum 5619, myPktNum 5625
+state: 1 action 0 sprime 1 aprime 0 reward 69
+prevPktNum 5625, myPktNum 5632
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 5632, myPktNum 5639
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5639, myPktNum 5645
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 5645, myPktNum 5652
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5652, myPktNum 5659
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5659, myPktNum 5665
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 5665, myPktNum 5672
+state: 1 action 0 sprime 7 aprime 1 reward 43
+prevPktNum 5672, myPktNum 5678
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 5678, myPktNum 5685
+state: 7 action 1 sprime 7 aprime 1 reward 6
+prevPktNum 5685, myPktNum 5692
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 5692, myPktNum 5699
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 5699, myPktNum 5705
+state: 7 action 1 sprime 3 aprime 2 reward 0
+prevPktNum 5705, myPktNum 5712
+state: 3 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 5712, myPktNum 5718
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 5718, myPktNum 5725
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 5725, myPktNum 5732
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 5732, myPktNum 5738
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 5738, myPktNum 5745
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 5745, myPktNum 5752
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5752, myPktNum 5758
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 5758, myPktNum 5765
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 5765, myPktNum 5772
+state: 1 action 0 sprime 5 aprime 1 reward 71
+prevPktNum 5772, myPktNum 5778
+state: 5 action 1 sprime 7 aprime 1 reward 39
+prevPktNum 5778, myPktNum 5785
+state: 7 action 1 sprime 23 aprime 2 reward -25
+prevPktNum 5785, myPktNum 5792
+state: 23 action 2 sprime 7 aprime 1 reward -11
+prevPktNum 5792, myPktNum 5798
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 5798, myPktNum 5805
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 5805, myPktNum 5812
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 5812, myPktNum 5818
+state: 7 action 1 sprime 2 aprime 2 reward 1
+prevPktNum 5818, myPktNum 5825
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 5825, myPktNum 5832
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 5832, myPktNum 5838
+state: 3 action 1 sprime 3 aprime 1 reward 10
+prevPktNum 5838, myPktNum 5845
+state: 3 action 1 sprime 3 aprime 1 reward -6
+prevPktNum 5845, myPktNum 5852
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 5852, myPktNum 5858
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 5858, myPktNum 5865
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 5865, myPktNum 5872
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 5872, myPktNum 5878
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 5878, myPktNum 5885
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5885, myPktNum 5892
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 5892, myPktNum 5898
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 5898, myPktNum 5905
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 5905, myPktNum 5912
+state: 1 action 0 sprime 7 aprime 1 reward 70
+prevPktNum 5912, myPktNum 5918
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 5918, myPktNum 5925
+state: 7 action 1 sprime 7 aprime 1 reward 5
+prevPktNum 5925, myPktNum 5932
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 5932, myPktNum 5938
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 5938, myPktNum 5945
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 5945, myPktNum 5952
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 5952, myPktNum 5958
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 5958, myPktNum 5965
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 5965, myPktNum 5971
+state: 1 action 0 sprime 1 aprime 0 reward 69
+prevPktNum 5971, myPktNum 5978
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5978, myPktNum 5985
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 5985, myPktNum 5991
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 5991, myPktNum 5998
+state: 1 action 0 sprime 5 aprime 1 reward 71
+prevPktNum 5998, myPktNum 6005
+state: 5 action 1 sprime 23 aprime 2 reward 20
+prevPktNum 6005, myPktNum 6011
+state: 23 action 2 sprime 23 aprime 2 reward -45
+prevPktNum 6011, myPktNum 6018
+state: 23 action 2 sprime 7 aprime 1 reward 1
+prevPktNum 6018, myPktNum 6025
+state: 7 action 1 sprime 23 aprime 2 reward -49
+prevPktNum 6025, myPktNum 6031
+state: 23 action 2 sprime 23 aprime 2 reward -49
+prevPktNum 6031, myPktNum 6038
+state: 23 action 2 sprime 7 aprime 1 reward -1
+prevPktNum 6038, myPktNum 6045
+state: 7 action 1 sprime 31 aprime 3 reward -32
+prevPktNum 6045, myPktNum 6051
+state: 31 action 3 sprime 7 aprime 1 reward -43
+prevPktNum 6051, myPktNum 6058
+state: 7 action 1 sprime 5 aprime 1 reward -38
+prevPktNum 6058, myPktNum 6065
+state: 5 action 1 sprime 7 aprime 1 reward -6
+prevPktNum 6065, myPktNum 6071
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 6071, myPktNum 6078
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 6078, myPktNum 6085
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 6085, myPktNum 6091
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 6091, myPktNum 6098
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 6098, myPktNum 6105
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 6105, myPktNum 6111
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6111, myPktNum 6118
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 6118, myPktNum 6124
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 6124, myPktNum 6131
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 6131, myPktNum 6138
+state: 2 action 2 sprime 7 aprime 3 reward -3
+prevPktNum 6138, myPktNum 6144
+state: 7 action 3 sprime 7 aprime 1 reward -4
+prevPktNum 6144, myPktNum 6151
+state: 7 action 1 sprime 1 aprime 0 reward -41
+prevPktNum 6151, myPktNum 6158
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 6158, myPktNum 6164
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 6164, myPktNum 6171
+state: 1 action 0 sprime 7 aprime 1 reward 44
+prevPktNum 6171, myPktNum 6178
+state: 7 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 6178, myPktNum 6184
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 6184, myPktNum 6191
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 6191, myPktNum 6198
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 6198, myPktNum 6204
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6204, myPktNum 6211
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 6211, myPktNum 6218
+state: 1 action 0 sprime 1 aprime 0 reward 21
+prevPktNum 6218, myPktNum 6224
+state: 1 action 0 sprime 1 aprime 0 reward 63
+prevPktNum 6224, myPktNum 6231
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 6231, myPktNum 6238
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6238, myPktNum 6244
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 6244, myPktNum 6251
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6251, myPktNum 6258
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6258, myPktNum 6264
+state: 1 action 0 sprime 5 aprime 1 reward 74
+prevPktNum 6264, myPktNum 6271
+state: 5 action 1 sprime 7 aprime 1 reward 33
+prevPktNum 6271, myPktNum 6278
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 6278, myPktNum 6284
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 6284, myPktNum 6291
+state: 7 action 1 sprime 2 aprime 2 reward -4
+prevPktNum 6291, myPktNum 6298
+state: 2 action 2 sprime 2 aprime 2 reward 2
+prevPktNum 6298, myPktNum 6304
+state: 2 action 2 sprime 2 aprime 2 reward -6
+prevPktNum 6304, myPktNum 6311
+state: 2 action 2 sprime 7 aprime 1 reward 1
+prevPktNum 6311, myPktNum 6318
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 6318, myPktNum 6324
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6324, myPktNum 6331
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6331, myPktNum 6338
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6338, myPktNum 6344
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 6344, myPktNum 6351
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 6351, myPktNum 6358
+state: 1 action 0 sprime 1 aprime 2 reward 81
+prevPktNum 6358, myPktNum 6364
+state: 1 action 2 sprime 3 aprime 1 reward 64
+prevPktNum 6364, myPktNum 6371
+state: 3 action 1 sprime 3 aprime 1 reward 10
+prevPktNum 6371, myPktNum 6378
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 6378, myPktNum 6384
+state: 3 action 1 sprime 1 aprime 0 reward -1
+prevPktNum 6384, myPktNum 6391
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 6391, myPktNum 6397
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 6397, myPktNum 6404
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 6404, myPktNum 6411
+state: 1 action 0 sprime 5 aprime 1 reward 89
+prevPktNum 6411, myPktNum 6417
+state: 5 action 1 sprime 7 aprime 1 reward 31
+prevPktNum 6417, myPktNum 6424
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 6424, myPktNum 6431
+state: 7 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 6431, myPktNum 6437
+state: 7 action 1 sprime 2 aprime 2 reward -4
+prevPktNum 6437, myPktNum 6444
+state: 2 action 2 sprime 2 aprime 2 reward -9
+prevPktNum 6444, myPktNum 6451
+state: 2 action 2 sprime 7 aprime 1 reward 3
+prevPktNum 6451, myPktNum 6457
+state: 7 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 6457, myPktNum 6464
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 6464, myPktNum 6471
+state: 7 action 1 sprime 2 aprime 2 reward 1
+prevPktNum 6471, myPktNum 6477
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 6477, myPktNum 6484
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 6484, myPktNum 6491
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 6491, myPktNum 6497
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 6497, myPktNum 6504
+state: 7 action 1 sprime 7 aprime 3 reward -2
+prevPktNum 6504, myPktNum 6511
+state: 7 action 3 sprime 3 aprime 1 reward -16
+prevPktNum 6511, myPktNum 6517
+state: 3 action 1 sprime 3 aprime 1 reward -38
+prevPktNum 6517, myPktNum 6524
+state: 3 action 1 sprime 1 aprime 0 reward -9
+prevPktNum 6524, myPktNum 6531
+state: 1 action 0 sprime 0 aprime 0 reward 20
+prevPktNum 6531, myPktNum 6537
+state: 0 action 0 sprime 0 aprime 0 reward 92
+prevPktNum 6537, myPktNum 6544
+state: 0 action 0 sprime 0 aprime 0 reward 120
+prevPktNum 6544, myPktNum 6551
+state: 0 action 0 sprime 3 aprime 1 reward 77
+prevPktNum 6551, myPktNum 6557
+state: 3 action 1 sprime 3 aprime 1 reward 46
+prevPktNum 6557, myPktNum 6564
+state: 3 action 1 sprime 3 aprime 1 reward 10
+prevPktNum 6564, myPktNum 6571
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 6571, myPktNum 6577
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 6577, myPktNum 6584
+state: 1 action 0 sprime 1 aprime 0 reward 21
+prevPktNum 6584, myPktNum 6591
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 6591, myPktNum 6597
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 6597, myPktNum 6604
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6604, myPktNum 6611
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6611, myPktNum 6617
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 6617, myPktNum 6624
+state: 1 action 0 sprime 7 aprime 1 reward 79
+prevPktNum 6624, myPktNum 6631
+state: 7 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 6631, myPktNum 6637
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 6637, myPktNum 6644
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 6644, myPktNum 6651
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 6651, myPktNum 6657
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 6657, myPktNum 6664
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 6664, myPktNum 6670
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 6670, myPktNum 6677
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 6677, myPktNum 6684
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 6684, myPktNum 6690
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 6690, myPktNum 6697
+state: 1 action 0 sprime 19 aprime 1 reward 64
+prevPktNum 6697, myPktNum 6704
+state: 19 action 1 sprime 23 aprime 2 reward -18
+prevPktNum 6704, myPktNum 6710
+state: 23 action 2 sprime 21 aprime 1 reward -45
+prevPktNum 6710, myPktNum 6717
+state: 21 action 1 sprime 7 aprime 1 reward -10
+prevPktNum 6717, myPktNum 6724
+state: 7 action 1 sprime 21 aprime 1 reward -62
+prevPktNum 6724, myPktNum 6730
+state: 21 action 1 sprime 5 aprime 1 reward -18
+prevPktNum 6730, myPktNum 6737
+state: 5 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 6737, myPktNum 6744
+state: 1 action 0 sprime 3 aprime 1 reward 5
+prevPktNum 6744, myPktNum 6750
+state: 3 action 1 sprime 3 aprime 1 reward 38
+prevPktNum 6750, myPktNum 6757
+state: 3 action 1 sprime 2 aprime 2 reward 6
+prevPktNum 6757, myPktNum 6764
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 6764, myPktNum 6770
+state: 2 action 2 sprime 2 aprime 2 reward 6
+prevPktNum 6770, myPktNum 6777
+state: 2 action 2 sprime 7 aprime 1 reward -1
+prevPktNum 6777, myPktNum 6784
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 6784, myPktNum 6790
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 6790, myPktNum 6797
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 6797, myPktNum 6804
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 6804, myPktNum 6810
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 6810, myPktNum 6817
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 6817, myPktNum 6824
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 6824, myPktNum 6830
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 6830, myPktNum 6837
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 6837, myPktNum 6843
+state: 3 action 1 sprime 2 aprime 1 reward 3
+prevPktNum 6843, myPktNum 6850
+state: 2 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 6850, myPktNum 6857
+state: 3 action 1 sprime 1 aprime 0 reward -5
+prevPktNum 6857, myPktNum 6863
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 6863, myPktNum 6870
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 6870, myPktNum 6877
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 6877, myPktNum 6883
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 6883, myPktNum 6890
+state: 1 action 0 sprime 3 aprime 1 reward 76
+prevPktNum 6890, myPktNum 6897
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 6897, myPktNum 6903
+state: 3 action 1 sprime 3 aprime 1 reward 6
+prevPktNum 6903, myPktNum 6910
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 6910, myPktNum 6917
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 6917, myPktNum 6923
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 6923, myPktNum 6930
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 6930, myPktNum 6937
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 6937, myPktNum 6943
+state: 1 action 0 sprime 7 aprime 1 reward 53
+prevPktNum 6943, myPktNum 6950
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 6950, myPktNum 6957
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 6957, myPktNum 6963
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 6963, myPktNum 6970
+state: 3 action 1 sprime 3 aprime 2 reward 0
+prevPktNum 6970, myPktNum 6977
+state: 3 action 2 sprime 1 aprime 0 reward 0
+prevPktNum 6977, myPktNum 6983
+state: 1 action 0 sprime 3 aprime 1 reward 12
+prevPktNum 6983, myPktNum 6990
+state: 3 action 1 sprime 3 aprime 1 reward 38
+prevPktNum 6990, myPktNum 6997
+state: 3 action 1 sprime 3 aprime 1 reward 4
+prevPktNum 6997, myPktNum 7003
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 7003, myPktNum 7010
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 7010, myPktNum 7017
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 7017, myPktNum 7023
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 7023, myPktNum 7030
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7030, myPktNum 7037
+state: 1 action 0 sprime 7 aprime 1 reward 52
+prevPktNum 7037, myPktNum 7043
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 7043, myPktNum 7050
+state: 7 action 1 sprime 7 aprime 1 reward 7
+prevPktNum 7050, myPktNum 7057
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 7057, myPktNum 7063
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 7063, myPktNum 7070
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7070, myPktNum 7077
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7077, myPktNum 7083
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7083, myPktNum 7090
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 7090, myPktNum 7096
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 7096, myPktNum 7103
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 7103, myPktNum 7110
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7110, myPktNum 7117
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 7117, myPktNum 7123
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7123, myPktNum 7130
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 7130, myPktNum 7136
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7136, myPktNum 7143
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 7143, myPktNum 7150
+state: 1 action 0 sprime 7 aprime 2 reward 31
+prevPktNum 7150, myPktNum 7156
+state: 7 action 2 sprime 7 aprime 1 reward 22
+prevPktNum 7156, myPktNum 7163
+state: 7 action 1 sprime 7 aprime 1 reward 8
+prevPktNum 7163, myPktNum 7170
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 7170, myPktNum 7176
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 7176, myPktNum 7183
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 7183, myPktNum 7190
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 7190, myPktNum 7196
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7196, myPktNum 7203
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7203, myPktNum 7210
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 7210, myPktNum 7216
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 7216, myPktNum 7223
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 7223, myPktNum 7230
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7230, myPktNum 7236
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7236, myPktNum 7243
+state: 1 action 0 sprime 7 aprime 1 reward 86
+prevPktNum 7243, myPktNum 7250
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 7250, myPktNum 7256
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 7256, myPktNum 7263
+state: 7 action 1 sprime 6 aprime 3 reward 0
+prevPktNum 7263, myPktNum 7270
+state: 6 action 3 sprime 2 aprime 2 reward -25
+prevPktNum 7270, myPktNum 7276
+state: 2 action 2 sprime 2 aprime 2 reward -57
+prevPktNum 7276, myPktNum 7283
+state: 2 action 2 sprime 3 aprime 1 reward -12
+prevPktNum 7283, myPktNum 7290
+state: 3 action 1 sprime 3 aprime 1 reward -6
+prevPktNum 7290, myPktNum 7296
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7296, myPktNum 7303
+state: 3 action 1 sprime 0 aprime 0 reward -3
+prevPktNum 7303, myPktNum 7310
+state: 0 action 0 sprime 0 aprime 0 reward 20
+prevPktNum 7310, myPktNum 7316
+state: 0 action 0 sprime 3 aprime 1 reward 76
+prevPktNum 7316, myPktNum 7323
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 7323, myPktNum 7330
+state: 3 action 1 sprime 3 aprime 1 reward 12
+prevPktNum 7330, myPktNum 7336
+state: 3 action 1 sprime 1 aprime 0 reward -5
+prevPktNum 7336, myPktNum 7343
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 7343, myPktNum 7349
+state: 1 action 0 sprime 1 aprime 0 reward 60
+prevPktNum 7349, myPktNum 7356
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7356, myPktNum 7363
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7363, myPktNum 7369
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7369, myPktNum 7376
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7376, myPktNum 7383
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7383, myPktNum 7389
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7389, myPktNum 7396
+state: 1 action 0 sprime 7 aprime 1 reward 64
+prevPktNum 7396, myPktNum 7403
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 7403, myPktNum 7409
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 7409, myPktNum 7416
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 7416, myPktNum 7423
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7423, myPktNum 7429
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 7429, myPktNum 7436
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7436, myPktNum 7443
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 7443, myPktNum 7449
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 7449, myPktNum 7456
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 7456, myPktNum 7463
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7463, myPktNum 7469
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7469, myPktNum 7476
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7476, myPktNum 7483
+state: 1 action 0 sprime 7 aprime 1 reward 47
+prevPktNum 7483, myPktNum 7489
+state: 7 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 7489, myPktNum 7496
+state: 7 action 1 sprime 7 aprime 1 reward 6
+prevPktNum 7496, myPktNum 7502
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 7502, myPktNum 7509
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 7509, myPktNum 7516
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 7516, myPktNum 7522
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7522, myPktNum 7529
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7529, myPktNum 7536
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 7536, myPktNum 7542
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 7542, myPktNum 7549
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 7549, myPktNum 7556
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7556, myPktNum 7562
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 7562, myPktNum 7569
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 7569, myPktNum 7576
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 7576, myPktNum 7582
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 7582, myPktNum 7589
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7589, myPktNum 7596
+state: 1 action 0 sprime 7 aprime 1 reward 31
+prevPktNum 7596, myPktNum 7602
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 7602, myPktNum 7609
+state: 7 action 1 sprime 23 aprime 2 reward -9
+prevPktNum 7609, myPktNum 7616
+state: 23 action 2 sprime 7 aprime 1 reward -10
+prevPktNum 7616, myPktNum 7622
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 7622, myPktNum 7629
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 7629, myPktNum 7636
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 7636, myPktNum 7642
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7642, myPktNum 7649
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7649, myPktNum 7656
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 7656, myPktNum 7662
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 7662, myPktNum 7669
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 7669, myPktNum 7676
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7676, myPktNum 7682
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7682, myPktNum 7689
+state: 1 action 0 sprime 5 aprime 1 reward 88
+prevPktNum 7689, myPktNum 7696
+state: 5 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 7696, myPktNum 7702
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 7702, myPktNum 7709
+state: 7 action 1 sprime 6 aprime 3 reward 0
+prevPktNum 7709, myPktNum 7716
+state: 6 action 3 sprime 2 aprime 2 reward -24
+prevPktNum 7716, myPktNum 7722
+state: 2 action 2 sprime 2 aprime 2 reward -57
+prevPktNum 7722, myPktNum 7729
+state: 2 action 2 sprime 3 aprime 1 reward -12
+prevPktNum 7729, myPktNum 7736
+state: 3 action 1 sprime 3 aprime 1 reward -6
+prevPktNum 7736, myPktNum 7742
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7742, myPktNum 7749
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 7749, myPktNum 7756
+state: 2 action 2 sprime 0 aprime 0 reward 0
+prevPktNum 7756, myPktNum 7762
+state: 0 action 0 sprime 2 aprime 2 reward 20
+prevPktNum 7762, myPktNum 7769
+state: 2 action 2 sprime 2 aprime 2 reward 60
+prevPktNum 7769, myPktNum 7775
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 7775, myPktNum 7782
+state: 3 action 1 sprime 3 aprime 1 reward 4
+prevPktNum 7782, myPktNum 7789
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 7789, myPktNum 7795
+state: 3 action 1 sprime 2 aprime 2 reward -5
+prevPktNum 7795, myPktNum 7802
+state: 2 action 2 sprime 0 aprime 0 reward -12
+prevPktNum 7802, myPktNum 7809
+state: 0 action 0 sprime 2 aprime 2 reward 25
+prevPktNum 7809, myPktNum 7815
+state: 2 action 2 sprime 2 aprime 2 reward 60
+prevPktNum 7815, myPktNum 7822
+state: 2 action 2 sprime 3 aprime 1 reward 9
+prevPktNum 7822, myPktNum 7829
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7829, myPktNum 7835
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 7835, myPktNum 7842
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 7842, myPktNum 7849
+state: 2 action 2 sprime 1 aprime 0 reward -2
+prevPktNum 7849, myPktNum 7855
+state: 1 action 0 sprime 2 aprime 2 reward 12
+prevPktNum 7855, myPktNum 7862
+state: 2 action 2 sprime 2 aprime 2 reward 57
+prevPktNum 7862, myPktNum 7869
+state: 2 action 2 sprime 3 aprime 1 reward 6
+prevPktNum 7869, myPktNum 7875
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 7875, myPktNum 7882
+state: 3 action 1 sprime 3 aprime 1 reward 4
+prevPktNum 7882, myPktNum 7889
+state: 3 action 1 sprime 2 aprime 2 reward -6
+prevPktNum 7889, myPktNum 7895
+state: 2 action 2 sprime 1 aprime 0 reward 0
+prevPktNum 7895, myPktNum 7902
+state: 1 action 0 sprime 0 aprime 0 reward 31
+prevPktNum 7902, myPktNum 7909
+state: 0 action 0 sprime 3 aprime 1 reward 63
+prevPktNum 7909, myPktNum 7915
+state: 3 action 1 sprime 3 aprime 1 reward 40
+prevPktNum 7915, myPktNum 7922
+state: 3 action 1 sprime 3 aprime 1 reward 10
+prevPktNum 7922, myPktNum 7929
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 7929, myPktNum 7935
+state: 1 action 0 sprime 1 aprime 1 reward 12
+prevPktNum 7935, myPktNum 7942
+state: 1 action 1 sprime 1 aprime 0 reward 42
+prevPktNum 7942, myPktNum 7949
+state: 1 action 0 sprime 1 aprime 0 reward 27
+prevPktNum 7949, myPktNum 7955
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 7955, myPktNum 7962
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 7962, myPktNum 7969
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7969, myPktNum 7975
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 7975, myPktNum 7982
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7982, myPktNum 7989
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 7989, myPktNum 7995
+state: 1 action 0 sprime 7 aprime 1 reward 41
+prevPktNum 7995, myPktNum 8002
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 8002, myPktNum 8008
+state: 7 action 1 sprime 6 aprime 3 reward 4
+prevPktNum 8008, myPktNum 8015
+state: 6 action 3 sprime 6 aprime 3 reward -15
+prevPktNum 8015, myPktNum 8022
+state: 6 action 3 sprime 2 aprime 2 reward -73
+prevPktNum 8022, myPktNum 8028
+state: 2 action 2 sprime 1 aprime 0 reward -49
+prevPktNum 8028, myPktNum 8035
+state: 1 action 0 sprime 1 aprime 0 reward -12
+prevPktNum 8035, myPktNum 8042
+state: 1 action 0 sprime 3 aprime 1 reward 86
+prevPktNum 8042, myPktNum 8048
+state: 3 action 1 sprime 7 aprime 1 reward 43
+prevPktNum 8048, myPktNum 8055
+state: 7 action 1 sprime 2 aprime 2 reward 13
+prevPktNum 8055, myPktNum 8062
+state: 2 action 2 sprime 3 aprime 1 reward -4
+prevPktNum 8062, myPktNum 8068
+state: 3 action 1 sprime 2 aprime 2 reward -4
+prevPktNum 8068, myPktNum 8075
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 8075, myPktNum 8082
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 8082, myPktNum 8088
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 8088, myPktNum 8095
+state: 3 action 1 sprime 2 aprime 2 reward 5
+prevPktNum 8095, myPktNum 8102
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 8102, myPktNum 8108
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 8108, myPktNum 8115
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 8115, myPktNum 8122
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 8122, myPktNum 8128
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 8128, myPktNum 8135
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8135, myPktNum 8142
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 8142, myPktNum 8148
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 8148, myPktNum 8155
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 8155, myPktNum 8162
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 8162, myPktNum 8168
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 8168, myPktNum 8175
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 8175, myPktNum 8182
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 8182, myPktNum 8188
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 8188, myPktNum 8195
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 8195, myPktNum 8201
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 8201, myPktNum 8208
+state: 2 action 2 sprime 3 aprime 1 reward -13
+prevPktNum 8208, myPktNum 8215
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 8215, myPktNum 8221
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 8221, myPktNum 8228
+state: 3 action 1 sprime 0 aprime 0 reward -4
+prevPktNum 8228, myPktNum 8235
+state: 0 action 0 sprime 1 aprime 0 reward 19
+prevPktNum 8235, myPktNum 8241
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 8241, myPktNum 8248
+state: 1 action 0 sprime 3 aprime 1 reward 82
+prevPktNum 8248, myPktNum 8255
+state: 3 action 1 sprime 3 aprime 1 reward 50
+prevPktNum 8255, myPktNum 8261
+state: 3 action 1 sprime 3 aprime 1 reward 8
+prevPktNum 8261, myPktNum 8268
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 8268, myPktNum 8275
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 8275, myPktNum 8281
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 8281, myPktNum 8288
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8288, myPktNum 8295
+state: 1 action 0 sprime 7 aprime 1 reward 70
+prevPktNum 8295, myPktNum 8301
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 8301, myPktNum 8308
+state: 7 action 1 sprime 7 aprime 1 reward 7
+prevPktNum 8308, myPktNum 8315
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 8315, myPktNum 8321
+state: 7 action 1 sprime 6 aprime 3 reward -2
+prevPktNum 8321, myPktNum 8328
+state: 6 action 3 sprime 3 aprime 1 reward -13
+prevPktNum 8328, myPktNum 8335
+state: 3 action 1 sprime 3 aprime 1 reward -50
+prevPktNum 8335, myPktNum 8341
+state: 3 action 1 sprime 1 aprime 0 reward -10
+prevPktNum 8341, myPktNum 8348
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 8348, myPktNum 8355
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 8355, myPktNum 8361
+state: 1 action 0 sprime 1 aprime 1 reward 81
+prevPktNum 8361, myPktNum 8368
+state: 1 action 1 sprime 3 aprime 1 reward 62
+prevPktNum 8368, myPktNum 8375
+state: 3 action 1 sprime 1 aprime 0 reward 6
+prevPktNum 8375, myPktNum 8381
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 8381, myPktNum 8388
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 8388, myPktNum 8395
+state: 1 action 0 sprime 1 aprime 0 reward 87
+prevPktNum 8395, myPktNum 8401
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8401, myPktNum 8408
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 8408, myPktNum 8415
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8415, myPktNum 8421
+state: 1 action 0 sprime 7 aprime 1 reward 41
+prevPktNum 8421, myPktNum 8428
+state: 7 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 8428, myPktNum 8435
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 8435, myPktNum 8441
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 8441, myPktNum 8448
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 8448, myPktNum 8455
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8455, myPktNum 8461
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 8461, myPktNum 8468
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 8468, myPktNum 8475
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 8475, myPktNum 8481
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 8481, myPktNum 8488
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8488, myPktNum 8494
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 8494, myPktNum 8501
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8501, myPktNum 8508
+state: 1 action 0 sprime 7 aprime 1 reward 36
+prevPktNum 8508, myPktNum 8514
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 8514, myPktNum 8521
+state: 7 action 1 sprime 7 aprime 1 reward 7
+prevPktNum 8521, myPktNum 8528
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 8528, myPktNum 8534
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 8534, myPktNum 8541
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 8541, myPktNum 8548
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8548, myPktNum 8554
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 8554, myPktNum 8561
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 8561, myPktNum 8568
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 8568, myPktNum 8574
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 8574, myPktNum 8581
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8581, myPktNum 8588
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8588, myPktNum 8594
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8594, myPktNum 8601
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8601, myPktNum 8608
+state: 1 action 0 sprime 5 aprime 1 reward 82
+prevPktNum 8608, myPktNum 8614
+state: 5 action 1 sprime 7 aprime 1 reward 28
+prevPktNum 8614, myPktNum 8621
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 8621, myPktNum 8628
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 8628, myPktNum 8634
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 8634, myPktNum 8641
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8641, myPktNum 8648
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 8648, myPktNum 8654
+state: 1 action 0 sprime 1 aprime 0 reward 9
+prevPktNum 8654, myPktNum 8661
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8661, myPktNum 8668
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 8668, myPktNum 8674
+state: 1 action 0 sprime 3 aprime 1 reward 61
+prevPktNum 8674, myPktNum 8681
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 8681, myPktNum 8688
+state: 3 action 1 sprime 1 aprime 0 reward 4
+prevPktNum 8688, myPktNum 8694
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 8694, myPktNum 8701
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8701, myPktNum 8708
+state: 1 action 0 sprime 7 aprime 1 reward 70
+prevPktNum 8708, myPktNum 8714
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 8714, myPktNum 8721
+state: 7 action 1 sprime 7 aprime 1 reward 6
+prevPktNum 8721, myPktNum 8728
+state: 7 action 1 sprime 6 aprime 3 reward -1
+prevPktNum 8728, myPktNum 8734
+state: 6 action 3 sprime 2 aprime 2 reward -15
+prevPktNum 8734, myPktNum 8741
+state: 2 action 2 sprime 2 aprime 2 reward -66
+prevPktNum 8741, myPktNum 8747
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 8747, myPktNum 8754
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 8754, myPktNum 8761
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8761, myPktNum 8767
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 8767, myPktNum 8774
+state: 2 action 2 sprime 0 aprime 0 reward 1
+prevPktNum 8774, myPktNum 8781
+state: 0 action 0 sprime 3 aprime 1 reward 7
+prevPktNum 8781, myPktNum 8787
+state: 3 action 1 sprime 2 aprime 2 reward 59
+prevPktNum 8787, myPktNum 8794
+state: 2 action 2 sprime 2 aprime 2 reward 13
+prevPktNum 8794, myPktNum 8801
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 8801, myPktNum 8807
+state: 2 action 2 sprime 7 aprime 1 reward -2
+prevPktNum 8807, myPktNum 8814
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 8814, myPktNum 8821
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 8821, myPktNum 8827
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 8827, myPktNum 8834
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 8834, myPktNum 8841
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 8841, myPktNum 8847
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 8847, myPktNum 8854
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 8854, myPktNum 8861
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 8861, myPktNum 8867
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 8867, myPktNum 8874
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 8874, myPktNum 8881
+state: 2 action 2 sprime 7 aprime 1 reward -2
+prevPktNum 8881, myPktNum 8887
+state: 7 action 1 sprime 7 aprime 2 reward -1
+prevPktNum 8887, myPktNum 8894
+state: 7 action 2 sprime 7 aprime 1 reward -4
+prevPktNum 8894, myPktNum 8901
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 8901, myPktNum 8907
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 8907, myPktNum 8914
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 8914, myPktNum 8921
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 8921, myPktNum 8927
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 8927, myPktNum 8934
+state: 3 action 1 sprime 3 aprime 1 reward 16
+prevPktNum 8934, myPktNum 8941
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 8941, myPktNum 8947
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 8947, myPktNum 8954
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 8954, myPktNum 8961
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8961, myPktNum 8967
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 8967, myPktNum 8974
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 8974, myPktNum 8981
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 8981, myPktNum 8987
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 8987, myPktNum 8994
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 8994, myPktNum 9000
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9000, myPktNum 9007
+state: 1 action 0 sprime 5 aprime 1 reward 84
+prevPktNum 9007, myPktNum 9014
+state: 5 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 9014, myPktNum 9020
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 9020, myPktNum 9027
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 9027, myPktNum 9034
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 9034, myPktNum 9040
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 9040, myPktNum 9047
+state: 3 action 1 sprime 2 aprime 2 reward -6
+prevPktNum 9047, myPktNum 9054
+state: 2 action 2 sprime 3 aprime 1 reward 6
+prevPktNum 9054, myPktNum 9060
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 9060, myPktNum 9067
+state: 2 action 2 sprime 3 aprime 1 reward 8
+prevPktNum 9067, myPktNum 9074
+state: 3 action 1 sprime 6 aprime 3 reward -5
+prevPktNum 9074, myPktNum 9080
+state: 6 action 3 sprime 2 aprime 2 reward -7
+prevPktNum 9080, myPktNum 9087
+state: 2 action 2 sprime 2 aprime 1 reward -66
+prevPktNum 9087, myPktNum 9094
+state: 2 action 1 sprime 1 aprime 0 reward -21
+prevPktNum 9094, myPktNum 9100
+state: 1 action 0 sprime 0 aprime 0 reward 13
+prevPktNum 9100, myPktNum 9107
+state: 0 action 0 sprime 2 aprime 2 reward 100
+prevPktNum 9107, myPktNum 9114
+state: 2 action 2 sprime 3 aprime 1 reward 63
+prevPktNum 9114, myPktNum 9120
+state: 3 action 1 sprime 2 aprime 2 reward 6
+prevPktNum 9120, myPktNum 9127
+state: 2 action 2 sprime 3 aprime 1 reward 4
+prevPktNum 9127, myPktNum 9134
+state: 3 action 1 sprime 2 aprime 1 reward -3
+prevPktNum 9134, myPktNum 9140
+state: 2 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 9140, myPktNum 9147
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 9147, myPktNum 9154
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 9154, myPktNum 9160
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 9160, myPktNum 9167
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 9167, myPktNum 9174
+state: 1 action 0 sprime 1 aprime 0 reward 99
+prevPktNum 9174, myPktNum 9180
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 9180, myPktNum 9187
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9187, myPktNum 9194
+state: 1 action 0 sprime 21 aprime 1 reward 36
+prevPktNum 9194, myPktNum 9200
+state: 21 action 1 sprime 21 aprime 1 reward -4
+prevPktNum 9200, myPktNum 9207
+state: 21 action 1 sprime 23 aprime 2 reward -53
+prevPktNum 9207, myPktNum 9214
+state: 23 action 2 sprime 7 aprime 1 reward -14
+prevPktNum 9214, myPktNum 9220
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 9220, myPktNum 9227
+state: 7 action 1 sprime 7 aprime 1 reward -47
+prevPktNum 9227, myPktNum 9234
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 9234, myPktNum 9240
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 9240, myPktNum 9247
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 9247, myPktNum 9254
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 9254, myPktNum 9260
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 9260, myPktNum 9267
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 9267, myPktNum 9273
+state: 1 action 0 sprime 1 aprime 0 reward 9
+prevPktNum 9273, myPktNum 9280
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9280, myPktNum 9287
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9287, myPktNum 9293
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9293, myPktNum 9300
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9300, myPktNum 9307
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9307, myPktNum 9313
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 9313, myPktNum 9320
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 9320, myPktNum 9327
+state: 1 action 0 sprime 7 aprime 1 reward 40
+prevPktNum 9327, myPktNum 9333
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 9333, myPktNum 9340
+state: 7 action 1 sprime 7 aprime 1 reward 7
+prevPktNum 9340, myPktNum 9347
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 9347, myPktNum 9353
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 9353, myPktNum 9360
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 9360, myPktNum 9367
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 9367, myPktNum 9373
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 9373, myPktNum 9380
+state: 1 action 0 sprime 1 aprime 0 reward 21
+prevPktNum 9380, myPktNum 9387
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 9387, myPktNum 9393
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9393, myPktNum 9400
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 9400, myPktNum 9406
+state: 1 action 0 sprime 5 aprime 1 reward 74
+prevPktNum 9406, myPktNum 9413
+state: 5 action 1 sprime 7 aprime 1 reward 32
+prevPktNum 9413, myPktNum 9420
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 9420, myPktNum 9427
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 9427, myPktNum 9433
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 9433, myPktNum 9440
+state: 2 action 2 sprime 2 aprime 2 reward 9
+prevPktNum 9440, myPktNum 9446
+state: 2 action 2 sprime 6 aprime 3 reward -5
+prevPktNum 9446, myPktNum 9453
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 9453, myPktNum 9460
+state: 7 action 1 sprime 3 aprime 1 reward -34
+prevPktNum 9460, myPktNum 9466
+state: 3 action 1 sprime 1 aprime 0 reward -13
+prevPktNum 9466, myPktNum 9473
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 9473, myPktNum 9480
+state: 1 action 0 sprime 3 aprime 1 reward 70
+prevPktNum 9480, myPktNum 9486
+state: 3 action 1 sprime 2 aprime 2 reward 55
+prevPktNum 9486, myPktNum 9493
+state: 2 action 2 sprime 2 aprime 2 reward 18
+prevPktNum 9493, myPktNum 9500
+state: 2 action 2 sprime 6 aprime 3 reward 1
+prevPktNum 9500, myPktNum 9506
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 9506, myPktNum 9513
+state: 7 action 1 sprime 7 aprime 1 reward -23
+prevPktNum 9513, myPktNum 9520
+state: 7 action 1 sprime 3 aprime 1 reward -10
+prevPktNum 9520, myPktNum 9526
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 9526, myPktNum 9533
+state: 3 action 1 sprime 0 aprime 0 reward -4
+prevPktNum 9533, myPktNum 9540
+state: 0 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 9540, myPktNum 9546
+state: 1 action 0 sprime 3 aprime 1 reward 62
+prevPktNum 9546, myPktNum 9553
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 9553, myPktNum 9560
+state: 3 action 1 sprime 3 aprime 1 reward 12
+prevPktNum 9560, myPktNum 9566
+state: 3 action 1 sprime 1 aprime 0 reward -5
+prevPktNum 9566, myPktNum 9573
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 9573, myPktNum 9580
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9580, myPktNum 9586
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9586, myPktNum 9593
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9593, myPktNum 9600
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 9600, myPktNum 9606
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 9606, myPktNum 9613
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9613, myPktNum 9620
+state: 1 action 0 sprime 5 aprime 1 reward 89
+prevPktNum 9620, myPktNum 9626
+state: 5 action 1 sprime 7 aprime 1 reward 26
+prevPktNum 9626, myPktNum 9633
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 9633, myPktNum 9640
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 9640, myPktNum 9646
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 9646, myPktNum 9653
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 9653, myPktNum 9660
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 9660, myPktNum 9666
+state: 2 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 9666, myPktNum 9673
+state: 3 action 1 sprime 2 aprime 2 reward -4
+prevPktNum 9673, myPktNum 9679
+state: 2 action 2 sprime 3 aprime 3 reward 0
+prevPktNum 9679, myPktNum 9686
+state: 3 action 3 sprime 2 aprime 2 reward -16
+prevPktNum 9686, myPktNum 9693
+state: 2 action 2 sprime 1 aprime 0 reward -72
+prevPktNum 9693, myPktNum 9699
+state: 1 action 0 sprime 1 aprime 0 reward 0
+prevPktNum 9699, myPktNum 9706
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 9706, myPktNum 9713
+state: 1 action 0 sprime 2 aprime 2 reward 86
+prevPktNum 9713, myPktNum 9720
+state: 2 action 2 sprime 3 aprime 1 reward 63
+prevPktNum 9720, myPktNum 9726
+state: 3 action 1 sprime 7 aprime 1 reward 9
+prevPktNum 9726, myPktNum 9733
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 9733, myPktNum 9739
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 9739, myPktNum 9746
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 9746, myPktNum 9753
+state: 3 action 1 sprime 1 aprime 0 reward -5
+prevPktNum 9753, myPktNum 9759
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 9759, myPktNum 9766
+state: 1 action 0 sprime 1 aprime 0 reward 63
+prevPktNum 9766, myPktNum 9773
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 9773, myPktNum 9779
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 9779, myPktNum 9786
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 9786, myPktNum 9793
+state: 1 action 0 sprime 21 aprime 1 reward 43
+prevPktNum 9793, myPktNum 9799
+state: 21 action 1 sprime 23 aprime 2 reward -17
+prevPktNum 9799, myPktNum 9806
+state: 23 action 2 sprime 23 aprime 2 reward -52
+prevPktNum 9806, myPktNum 9813
+state: 23 action 2 sprime 7 aprime 1 reward -5
+prevPktNum 9813, myPktNum 9819
+state: 7 action 1 sprime 31 aprime 3 reward -48
+prevPktNum 9819, myPktNum 9826
+state: 31 action 3 sprime 7 aprime 1 reward -56
+prevPktNum 9826, myPktNum 9833
+state: 7 action 1 sprime 5 aprime 1 reward -44
+prevPktNum 9833, myPktNum 9839
+state: 5 action 1 sprime 7 aprime 1 reward -6
+prevPktNum 9839, myPktNum 9846
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 9846, myPktNum 9853
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 9853, myPktNum 9859
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 9859, myPktNum 9866
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 9866, myPktNum 9873
+state: 2 action 2 sprime 2 aprime 2 reward -6
+prevPktNum 9873, myPktNum 9879
+state: 2 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 9879, myPktNum 9886
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 9886, myPktNum 9893
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 9893, myPktNum 9899
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 9899, myPktNum 9906
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 9906, myPktNum 9913
+state: 2 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 9913, myPktNum 9919
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 9919, myPktNum 9926
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 9926, myPktNum 9933
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 9933, myPktNum 9939
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 9939, myPktNum 9946
+state: 0 action 0 sprime 3 aprime 1 reward 26
+prevPktNum 9946, myPktNum 9952
+state: 3 action 1 sprime 2 aprime 2 reward 60
+prevPktNum 9952, myPktNum 9959
+state: 2 action 2 sprime 2 aprime 2 reward 15
+prevPktNum 9959, myPktNum 9966
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 9966, myPktNum 9972
+state: 2 action 2 sprime 7 aprime 1 reward -3
+prevPktNum 9972, myPktNum 9979
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 9979, myPktNum 9986
+state: 7 action 1 sprime 7 aprime 1 reward -4
+prevPktNum 9986, myPktNum 9993
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 9993, myPktNum 9999
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 9999, myPktNum 10006
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10006, myPktNum 10012
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10012, myPktNum 10019
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 10019, myPktNum 10026
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10026, myPktNum 10032
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10032, myPktNum 10039
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 10039, myPktNum 10046
+state: 2 action 2 sprime 7 aprime 1 reward -1
+prevPktNum 10046, myPktNum 10052
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10052, myPktNum 10059
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10059, myPktNum 10066
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 10066, myPktNum 10072
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 10072, myPktNum 10079
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10079, myPktNum 10086
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10086, myPktNum 10092
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 10092, myPktNum 10099
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10099, myPktNum 10106
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 10106, myPktNum 10112
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 10112, myPktNum 10119
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 10119, myPktNum 10125
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10125, myPktNum 10132
+state: 3 action 1 sprime 0 aprime 0 reward -3
+prevPktNum 10132, myPktNum 10139
+state: 0 action 0 sprime 0 aprime 0 reward 16
+prevPktNum 10139, myPktNum 10145
+state: 0 action 0 sprime 0 aprime 0 reward 100
+prevPktNum 10145, myPktNum 10152
+state: 0 action 0 sprime 2 aprime 2 reward 103
+prevPktNum 10152, myPktNum 10159
+state: 2 action 2 sprime 3 aprime 1 reward 48
+prevPktNum 10159, myPktNum 10165
+state: 3 action 1 sprime 7 aprime 1 reward 10
+prevPktNum 10165, myPktNum 10172
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 10172, myPktNum 10179
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10179, myPktNum 10185
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 10185, myPktNum 10192
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 10192, myPktNum 10199
+state: 1 action 0 sprime 1 aprime 0 reward 87
+prevPktNum 10199, myPktNum 10205
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 10205, myPktNum 10212
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 10212, myPktNum 10219
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 10219, myPktNum 10225
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 10225, myPktNum 10232
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 10232, myPktNum 10239
+state: 1 action 0 sprime 5 aprime 1 reward 86
+prevPktNum 10239, myPktNum 10245
+state: 5 action 1 sprime 7 aprime 1 reward 35
+prevPktNum 10245, myPktNum 10252
+state: 7 action 1 sprime 7 aprime 1 reward 5
+prevPktNum 10252, myPktNum 10259
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10259, myPktNum 10265
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 10265, myPktNum 10272
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 10272, myPktNum 10279
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10279, myPktNum 10285
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 10285, myPktNum 10292
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 10292, myPktNum 10299
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 10299, myPktNum 10305
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 10305, myPktNum 10312
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 10312, myPktNum 10319
+state: 1 action 0 sprime 3 aprime 1 reward 77
+prevPktNum 10319, myPktNum 10325
+state: 3 action 1 sprime 3 aprime 1 reward 46
+prevPktNum 10325, myPktNum 10332
+state: 3 action 1 sprime 21 aprime 1 reward -18
+prevPktNum 10332, myPktNum 10339
+state: 21 action 1 sprime 1 aprime 0 reward -35
+prevPktNum 10339, myPktNum 10345
+state: 1 action 0 sprime 1 aprime 0 reward 9
+prevPktNum 10345, myPktNum 10352
+state: 1 action 0 sprime 7 aprime 1 reward 48
+prevPktNum 10352, myPktNum 10359
+state: 7 action 1 sprime 7 aprime 1 reward 23
+prevPktNum 10359, myPktNum 10365
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 10365, myPktNum 10372
+state: 7 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 10372, myPktNum 10379
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10379, myPktNum 10385
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 10385, myPktNum 10392
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10392, myPktNum 10398
+state: 2 action 2 sprime 6 aprime 3 reward 0
+prevPktNum 10398, myPktNum 10405
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 10405, myPktNum 10412
+state: 7 action 1 sprime 3 aprime 1 reward -29
+prevPktNum 10412, myPktNum 10418
+state: 3 action 1 sprime 3 aprime 1 reward -8
+prevPktNum 10418, myPktNum 10425
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 10425, myPktNum 10432
+state: 1 action 0 sprime 0 aprime 0 reward 20
+prevPktNum 10432, myPktNum 10438
+state: 0 action 0 sprime 2 aprime 2 reward 90
+prevPktNum 10438, myPktNum 10445
+state: 2 action 2 sprime 3 aprime 1 reward 54
+prevPktNum 10445, myPktNum 10452
+state: 3 action 1 sprime 2 aprime 2 reward 9
+prevPktNum 10452, myPktNum 10458
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 10458, myPktNum 10465
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10465, myPktNum 10472
+state: 2 action 2 sprime 3 aprime 1 reward -5
+prevPktNum 10472, myPktNum 10478
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10478, myPktNum 10485
+state: 2 action 2 sprime 2 aprime 2 reward -6
+prevPktNum 10485, myPktNum 10492
+state: 2 action 2 sprime 7 aprime 1 reward -2
+prevPktNum 10492, myPktNum 10498
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10498, myPktNum 10505
+state: 7 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 10505, myPktNum 10512
+state: 7 action 1 sprime 2 aprime 2 reward -6
+prevPktNum 10512, myPktNum 10518
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10518, myPktNum 10525
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10525, myPktNum 10532
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10532, myPktNum 10538
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 10538, myPktNum 10545
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 10545, myPktNum 10552
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 10552, myPktNum 10558
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10558, myPktNum 10565
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10565, myPktNum 10572
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 10572, myPktNum 10578
+state: 2 action 2 sprime 1 aprime 0 reward -2
+prevPktNum 10578, myPktNum 10585
+state: 1 action 0 sprime 2 aprime 2 reward 24
+prevPktNum 10585, myPktNum 10592
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 10592, myPktNum 10598
+state: 2 action 2 sprime 7 aprime 1 reward 3
+prevPktNum 10598, myPktNum 10605
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10605, myPktNum 10612
+state: 7 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 10612, myPktNum 10618
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10618, myPktNum 10625
+state: 2 action 2 sprime 2 aprime 2 reward -9
+prevPktNum 10625, myPktNum 10632
+state: 2 action 2 sprime 3 aprime 1 reward 6
+prevPktNum 10632, myPktNum 10638
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10638, myPktNum 10645
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10645, myPktNum 10651
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10651, myPktNum 10658
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10658, myPktNum 10665
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10665, myPktNum 10671
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 10671, myPktNum 10678
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10678, myPktNum 10685
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10685, myPktNum 10691
+state: 3 action 1 sprime 2 aprime 2 reward -6
+prevPktNum 10691, myPktNum 10698
+state: 2 action 2 sprime 2 aprime 2 reward 6
+prevPktNum 10698, myPktNum 10705
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10705, myPktNum 10711
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10711, myPktNum 10718
+state: 7 action 1 sprime 3 aprime 1 reward -5
+prevPktNum 10718, myPktNum 10725
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 10725, myPktNum 10731
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10731, myPktNum 10738
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10738, myPktNum 10745
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10745, myPktNum 10751
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10751, myPktNum 10758
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10758, myPktNum 10765
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10765, myPktNum 10771
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10771, myPktNum 10778
+state: 3 action 1 sprime 3 aprime 1 reward -6
+prevPktNum 10778, myPktNum 10785
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10785, myPktNum 10791
+state: 2 action 2 sprime 1 aprime 0 reward 0
+prevPktNum 10791, myPktNum 10798
+state: 1 action 0 sprime 2 aprime 2 reward 28
+prevPktNum 10798, myPktNum 10804
+state: 2 action 2 sprime 2 aprime 2 reward 60
+prevPktNum 10804, myPktNum 10811
+state: 2 action 2 sprime 7 aprime 1 reward 9
+prevPktNum 10811, myPktNum 10818
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10818, myPktNum 10824
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10824, myPktNum 10831
+state: 7 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 10831, myPktNum 10838
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10838, myPktNum 10844
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10844, myPktNum 10851
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 10851, myPktNum 10858
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 10858, myPktNum 10864
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10864, myPktNum 10871
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10871, myPktNum 10878
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 10878, myPktNum 10884
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10884, myPktNum 10891
+state: 3 action 1 sprime 2 aprime 2 reward -5
+prevPktNum 10891, myPktNum 10898
+state: 2 action 2 sprime 1 aprime 0 reward 1
+prevPktNum 10898, myPktNum 10904
+state: 1 action 0 sprime 2 aprime 2 reward 9
+prevPktNum 10904, myPktNum 10911
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 10911, myPktNum 10918
+state: 2 action 2 sprime 7 aprime 1 reward 7
+prevPktNum 10918, myPktNum 10924
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 10924, myPktNum 10931
+state: 7 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 10931, myPktNum 10938
+state: 7 action 1 sprime 2 aprime 2 reward 1
+prevPktNum 10938, myPktNum 10944
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10944, myPktNum 10951
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 10951, myPktNum 10958
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 10958, myPktNum 10964
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 10964, myPktNum 10971
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 10971, myPktNum 10978
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 10978, myPktNum 10984
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 10984, myPktNum 10991
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 10991, myPktNum 10998
+state: 3 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 10998, myPktNum 11004
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 11004, myPktNum 11011
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11011, myPktNum 11018
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11018, myPktNum 11024
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 11024, myPktNum 11031
+state: 0 action 0 sprime 0 aprime 0 reward 28
+prevPktNum 11031, myPktNum 11038
+state: 0 action 0 sprime 2 aprime 2 reward 87
+prevPktNum 11038, myPktNum 11044
+state: 2 action 2 sprime 2 aprime 2 reward 63
+prevPktNum 11044, myPktNum 11051
+state: 2 action 2 sprime 6 aprime 3 reward 8
+prevPktNum 11051, myPktNum 11058
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 11058, myPktNum 11064
+state: 7 action 1 sprime 7 aprime 1 reward -19
+prevPktNum 11064, myPktNum 11071
+state: 7 action 1 sprime 3 aprime 1 reward -6
+prevPktNum 11071, myPktNum 11078
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11078, myPktNum 11084
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11084, myPktNum 11091
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 11091, myPktNum 11097
+state: 0 action 0 sprime 2 aprime 2 reward 15
+prevPktNum 11097, myPktNum 11104
+state: 2 action 2 sprime 2 aprime 2 reward 60
+prevPktNum 11104, myPktNum 11111
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 11111, myPktNum 11117
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11117, myPktNum 11124
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 11124, myPktNum 11131
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11131, myPktNum 11137
+state: 2 action 2 sprime 1 aprime 0 reward -3
+prevPktNum 11137, myPktNum 11144
+state: 1 action 0 sprime 2 aprime 2 reward 24
+prevPktNum 11144, myPktNum 11151
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 11151, myPktNum 11157
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11157, myPktNum 11164
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 11164, myPktNum 11171
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11171, myPktNum 11177
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11177, myPktNum 11184
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 11184, myPktNum 11191
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11191, myPktNum 11197
+state: 2 action 2 sprime 1 aprime 0 reward 1
+prevPktNum 11197, myPktNum 11204
+state: 1 action 0 sprime 3 aprime 1 reward 16
+prevPktNum 11204, myPktNum 11211
+state: 3 action 1 sprime 3 aprime 1 reward 42
+prevPktNum 11211, myPktNum 11217
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11217, myPktNum 11224
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 11224, myPktNum 11231
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 11231, myPktNum 11237
+state: 1 action 0 sprime 1 aprime 0 reward 63
+prevPktNum 11237, myPktNum 11244
+state: 1 action 0 sprime 1 aprime 0 reward 99
+prevPktNum 11244, myPktNum 11251
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 11251, myPktNum 11257
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 11257, myPktNum 11264
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 11264, myPktNum 11271
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 11271, myPktNum 11277
+state: 1 action 0 sprime 5 aprime 1 reward 72
+prevPktNum 11277, myPktNum 11284
+state: 5 action 1 sprime 7 aprime 1 reward 41
+prevPktNum 11284, myPktNum 11291
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 11291, myPktNum 11297
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11297, myPktNum 11304
+state: 7 action 1 sprime 3 aprime 1 reward -3
+prevPktNum 11304, myPktNum 11311
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 11311, myPktNum 11317
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 11317, myPktNum 11324
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 11324, myPktNum 11330
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 11330, myPktNum 11337
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 11337, myPktNum 11344
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 11344, myPktNum 11350
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 11350, myPktNum 11357
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 11357, myPktNum 11364
+state: 1 action 0 sprime 21 aprime 1 reward 64
+prevPktNum 11364, myPktNum 11370
+state: 21 action 1 sprime 21 aprime 1 reward -4
+prevPktNum 11370, myPktNum 11377
+state: 21 action 1 sprime 21 aprime 1 reward -54
+prevPktNum 11377, myPktNum 11384
+state: 21 action 1 sprime 7 aprime 1 reward -24
+prevPktNum 11384, myPktNum 11390
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11390, myPktNum 11397
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11397, myPktNum 11404
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 11404, myPktNum 11410
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11410, myPktNum 11417
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11417, myPktNum 11424
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 11424, myPktNum 11430
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11430, myPktNum 11437
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11437, myPktNum 11444
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 11444, myPktNum 11450
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11450, myPktNum 11457
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 11457, myPktNum 11464
+state: 0 action 0 sprime 2 aprime 2 reward 17
+prevPktNum 11464, myPktNum 11470
+state: 2 action 2 sprime 2 aprime 2 reward 69
+prevPktNum 11470, myPktNum 11477
+state: 2 action 2 sprime 7 aprime 1 reward 3
+prevPktNum 11477, myPktNum 11483
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11483, myPktNum 11490
+state: 7 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 11490, myPktNum 11497
+state: 7 action 1 sprime 2 aprime 2 reward -4
+prevPktNum 11497, myPktNum 11503
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 11503, myPktNum 11510
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11510, myPktNum 11517
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 11517, myPktNum 11523
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 11523, myPktNum 11530
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11530, myPktNum 11537
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 11537, myPktNum 11543
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11543, myPktNum 11550
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 11550, myPktNum 11557
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11557, myPktNum 11563
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 11563, myPktNum 11570
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11570, myPktNum 11577
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 11577, myPktNum 11583
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11583, myPktNum 11590
+state: 2 action 2 sprime 2 aprime 2 reward 1
+prevPktNum 11590, myPktNum 11597
+state: 2 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 11597, myPktNum 11603
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11603, myPktNum 11610
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 11610, myPktNum 11617
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 11617, myPktNum 11623
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11623, myPktNum 11630
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 11630, myPktNum 11637
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 11637, myPktNum 11643
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 11643, myPktNum 11650
+state: 3 action 1 sprime 2 aprime 2 reward -6
+prevPktNum 11650, myPktNum 11657
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11657, myPktNum 11663
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 11663, myPktNum 11670
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 11670, myPktNum 11677
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 11677, myPktNum 11683
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11683, myPktNum 11690
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 11690, myPktNum 11697
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11697, myPktNum 11703
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 11703, myPktNum 11710
+state: 0 action 0 sprime 2 aprime 2 reward 25
+prevPktNum 11710, myPktNum 11717
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 11717, myPktNum 11723
+state: 2 action 2 sprime 7 aprime 1 reward 3
+prevPktNum 11723, myPktNum 11730
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11730, myPktNum 11737
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 11737, myPktNum 11743
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11743, myPktNum 11750
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 11750, myPktNum 11756
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 11756, myPktNum 11763
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 11763, myPktNum 11770
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 11770, myPktNum 11776
+state: 3 action 1 sprime 2 aprime 1 reward 1
+prevPktNum 11776, myPktNum 11783
+state: 2 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 11783, myPktNum 11790
+state: 2 action 2 sprime 0 aprime 0 reward 1
+prevPktNum 11790, myPktNum 11796
+state: 0 action 0 sprime 2 aprime 2 reward 11
+prevPktNum 11796, myPktNum 11803
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 11803, myPktNum 11810
+state: 2 action 2 sprime 6 aprime 3 reward 24
+prevPktNum 11810, myPktNum 11816
+state: 6 action 3 sprime 7 aprime 1 reward -6
+prevPktNum 11816, myPktNum 11823
+state: 7 action 1 sprime 3 aprime 1 reward -28
+prevPktNum 11823, myPktNum 11830
+state: 3 action 1 sprime 1 aprime 0 reward -11
+prevPktNum 11830, myPktNum 11836
+state: 1 action 0 sprime 1 aprime 0 reward 9
+prevPktNum 11836, myPktNum 11843
+state: 1 action 0 sprime 3 aprime 1 reward 65
+prevPktNum 11843, myPktNum 11850
+state: 3 action 1 sprime 2 aprime 2 reward 50
+prevPktNum 11850, myPktNum 11856
+state: 2 action 2 sprime 2 aprime 2 reward 12
+prevPktNum 11856, myPktNum 11863
+state: 2 action 2 sprime 6 aprime 3 reward 0
+prevPktNum 11863, myPktNum 11870
+state: 6 action 3 sprime 7 aprime 1 reward -8
+prevPktNum 11870, myPktNum 11876
+state: 7 action 1 sprime 3 aprime 1 reward -25
+prevPktNum 11876, myPktNum 11883
+state: 3 action 1 sprime 3 aprime 1 reward -12
+prevPktNum 11883, myPktNum 11890
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 11890, myPktNum 11896
+state: 1 action 0 sprime 0 aprime 0 reward 20
+prevPktNum 11896, myPktNum 11903
+state: 0 action 0 sprime 0 aprime 0 reward 104
+prevPktNum 11903, myPktNum 11910
+state: 0 action 0 sprime 3 aprime 1 reward 85
+prevPktNum 11910, myPktNum 11916
+state: 3 action 1 sprime 3 aprime 1 reward 44
+prevPktNum 11916, myPktNum 11923
+state: 3 action 1 sprime 3 aprime 1 reward 12
+prevPktNum 11923, myPktNum 11930
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 11930, myPktNum 11936
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 11936, myPktNum 11943
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 11943, myPktNum 11950
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 11950, myPktNum 11956
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 11956, myPktNum 11963
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 11963, myPktNum 11970
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 11970, myPktNum 11976
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 11976, myPktNum 11983
+state: 1 action 0 sprime 1 aprime 1 reward 90
+prevPktNum 11983, myPktNum 11990
+state: 1 action 1 sprime 1 aprime 0 reward 72
+prevPktNum 11990, myPktNum 11996
+state: 1 action 0 sprime 1 aprime 1 reward 24
+prevPktNum 11996, myPktNum 12003
+state: 1 action 1 sprime 1 aprime 0 reward 57
+prevPktNum 12003, myPktNum 12009
+state: 1 action 0 sprime 3 aprime 1 reward 11
+prevPktNum 12009, myPktNum 12016
+state: 3 action 1 sprime 3 aprime 1 reward 42
+prevPktNum 12016, myPktNum 12023
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 12023, myPktNum 12029
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 12029, myPktNum 12036
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 12036, myPktNum 12043
+state: 0 action 0 sprime 2 aprime 2 reward 24
+prevPktNum 12043, myPktNum 12049
+state: 2 action 2 sprime 2 aprime 2 reward 57
+prevPktNum 12049, myPktNum 12056
+state: 2 action 2 sprime 6 aprime 3 reward 5
+prevPktNum 12056, myPktNum 12063
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 12063, myPktNum 12069
+state: 7 action 1 sprime 7 aprime 1 reward -18
+prevPktNum 12069, myPktNum 12076
+state: 7 action 1 sprime 3 aprime 1 reward -10
+prevPktNum 12076, myPktNum 12083
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 12083, myPktNum 12089
+state: 3 action 1 sprime 0 aprime 0 reward -3
+prevPktNum 12089, myPktNum 12096
+state: 0 action 0 sprime 0 aprime 0 reward 16
+prevPktNum 12096, myPktNum 12103
+state: 0 action 0 sprime 2 aprime 2 reward 116
+prevPktNum 12103, myPktNum 12109
+state: 2 action 2 sprime 3 aprime 1 reward 44
+prevPktNum 12109, myPktNum 12116
+state: 3 action 1 sprime 3 aprime 1 reward 16
+prevPktNum 12116, myPktNum 12123
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 12123, myPktNum 12129
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 12129, myPktNum 12136
+state: 3 action 1 sprime 1 aprime 0 reward -6
+prevPktNum 12136, myPktNum 12143
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 12143, myPktNum 12149
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 12149, myPktNum 12156
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 12156, myPktNum 12163
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 12163, myPktNum 12169
+state: 1 action 0 sprime 5 aprime 1 reward 76
+prevPktNum 12169, myPktNum 12176
+state: 5 action 1 sprime 7 aprime 1 reward 37
+prevPktNum 12176, myPktNum 12182
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 12182, myPktNum 12189
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 12189, myPktNum 12196
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 12196, myPktNum 12202
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 12202, myPktNum 12209
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 12209, myPktNum 12216
+state: 3 action 1 sprime 2 aprime 2 reward -5
+prevPktNum 12216, myPktNum 12222
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 12222, myPktNum 12229
+state: 3 action 1 sprime 2 aprime 2 reward 8
+prevPktNum 12229, myPktNum 12236
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 12236, myPktNum 12242
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 12242, myPktNum 12249
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 12249, myPktNum 12256
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 12256, myPktNum 12262
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 12262, myPktNum 12269
+state: 3 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 12269, myPktNum 12276
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 12276, myPktNum 12282
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 12282, myPktNum 12289
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 12289, myPktNum 12296
+state: 2 action 2 sprime 1 aprime 0 reward -3
+prevPktNum 12296, myPktNum 12302
+state: 1 action 0 sprime 0 aprime 0 reward 5
+prevPktNum 12302, myPktNum 12309
+state: 0 action 0 sprime 2 aprime 2 reward 87
+prevPktNum 12309, myPktNum 12316
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 12316, myPktNum 12322
+state: 2 action 2 sprime 6 aprime 3 reward 4
+prevPktNum 12322, myPktNum 12329
+state: 6 action 3 sprime 7 aprime 1 reward -7
+prevPktNum 12329, myPktNum 12336
+state: 7 action 1 sprime 7 aprime 1 reward -21
+prevPktNum 12336, myPktNum 12342
+state: 7 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 12342, myPktNum 12349
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12349, myPktNum 12356
+state: 3 action 1 sprime 0 aprime 0 reward 0
+prevPktNum 12356, myPktNum 12362
+state: 0 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 12362, myPktNum 12369
+state: 1 action 0 sprime 1 aprime 0 reward 72
+prevPktNum 12369, myPktNum 12376
+state: 1 action 0 sprime 3 aprime 1 reward 73
+prevPktNum 12376, myPktNum 12382
+state: 3 action 1 sprime 3 aprime 1 reward 46
+prevPktNum 12382, myPktNum 12389
+state: 3 action 1 sprime 3 aprime 1 reward 8
+prevPktNum 12389, myPktNum 12396
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 12396, myPktNum 12402
+state: 1 action 0 sprime 1 aprime 0 reward 9
+prevPktNum 12402, myPktNum 12409
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 12409, myPktNum 12416
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 12416, myPktNum 12422
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 12422, myPktNum 12429
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 12429, myPktNum 12436
+state: 1 action 0 sprime 5 aprime 1 reward 88
+prevPktNum 12436, myPktNum 12442
+state: 5 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 12442, myPktNum 12449
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 12449, myPktNum 12455
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 12455, myPktNum 12462
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 12462, myPktNum 12469
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 12469, myPktNum 12475
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 12475, myPktNum 12482
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 12482, myPktNum 12489
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 12489, myPktNum 12495
+state: 2 action 2 sprime 3 aprime 1 reward 4
+prevPktNum 12495, myPktNum 12502
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 12502, myPktNum 12509
+state: 2 action 2 sprime 3 aprime 1 reward 4
+prevPktNum 12509, myPktNum 12515
+state: 3 action 1 sprime 6 aprime 3 reward 0
+prevPktNum 12515, myPktNum 12522
+state: 6 action 3 sprime 3 aprime 1 reward -14
+prevPktNum 12522, myPktNum 12529
+state: 3 action 1 sprime 3 aprime 1 reward -67
+prevPktNum 12529, myPktNum 12535
+state: 3 action 1 sprime 1 aprime 0 reward -18
+prevPktNum 12535, myPktNum 12542
+state: 1 action 0 sprime 0 aprime 0 reward 24
+prevPktNum 12542, myPktNum 12549
+state: 0 action 0 sprime 1 aprime 0 reward 91
+prevPktNum 12549, myPktNum 12555
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 12555, myPktNum 12562
+state: 1 action 0 sprime 3 aprime 1 reward 62
+prevPktNum 12562, myPktNum 12569
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 12569, myPktNum 12575
+state: 3 action 1 sprime 19 aprime 1 reward -44
+prevPktNum 12575, myPktNum 12582
+state: 19 action 1 sprime 1 aprime 0 reward -16
+prevPktNum 12582, myPktNum 12589
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 12589, myPktNum 12595
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 12595, myPktNum 12602
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 12602, myPktNum 12609
+state: 1 action 0 sprime 7 aprime 1 reward 67
+prevPktNum 12609, myPktNum 12615
+state: 7 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 12615, myPktNum 12622
+state: 7 action 1 sprime 7 aprime 1 reward 7
+prevPktNum 12622, myPktNum 12629
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 12629, myPktNum 12635
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 12635, myPktNum 12642
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12642, myPktNum 12649
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12649, myPktNum 12655
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 12655, myPktNum 12662
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 12662, myPktNum 12669
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 12669, myPktNum 12675
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 12675, myPktNum 12682
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 12682, myPktNum 12689
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 12689, myPktNum 12695
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 12695, myPktNum 12702
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 12702, myPktNum 12708
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 12708, myPktNum 12715
+state: 1 action 0 sprime 5 aprime 1 reward 66
+prevPktNum 12715, myPktNum 12722
+state: 5 action 1 sprime 7 aprime 1 reward 28
+prevPktNum 12722, myPktNum 12729
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 12729, myPktNum 12735
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 12735, myPktNum 12742
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 12742, myPktNum 12748
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12748, myPktNum 12755
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12755, myPktNum 12762
+state: 3 action 1 sprime 1 aprime 0 reward -3
+prevPktNum 12762, myPktNum 12768
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 12768, myPktNum 12775
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 12775, myPktNum 12782
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 12782, myPktNum 12788
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 12788, myPktNum 12795
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 12795, myPktNum 12802
+state: 1 action 0 sprime 5 aprime 1 reward 89
+prevPktNum 12802, myPktNum 12808
+state: 5 action 1 sprime 5 aprime 1 reward 46
+prevPktNum 12808, myPktNum 12815
+state: 5 action 1 sprime 23 aprime 2 reward -32
+prevPktNum 12815, myPktNum 12822
+state: 23 action 2 sprime 7 aprime 1 reward -25
+prevPktNum 12822, myPktNum 12828
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 12828, myPktNum 12835
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 12835, myPktNum 12842
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 12842, myPktNum 12848
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 12848, myPktNum 12855
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 12855, myPktNum 12862
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 12862, myPktNum 12868
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 12868, myPktNum 12875
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 12875, myPktNum 12882
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 12882, myPktNum 12888
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 12888, myPktNum 12895
+state: 1 action 0 sprime 0 aprime 0 reward 20
+prevPktNum 12895, myPktNum 12902
+state: 0 action 0 sprime 0 aprime 0 reward 116
+prevPktNum 12902, myPktNum 12908
+state: 0 action 0 sprime 2 aprime 2 reward 96
+prevPktNum 12908, myPktNum 12915
+state: 2 action 2 sprime 3 aprime 1 reward 59
+prevPktNum 12915, myPktNum 12922
+state: 3 action 1 sprime 2 aprime 2 reward 9
+prevPktNum 12922, myPktNum 12928
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 12928, myPktNum 12935
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 12935, myPktNum 12941
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 12941, myPktNum 12948
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 12948, myPktNum 12955
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 12955, myPktNum 12962
+state: 7 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 12962, myPktNum 12968
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 12968, myPktNum 12975
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 12975, myPktNum 12982
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 12982, myPktNum 12988
+state: 3 action 1 sprime 2 aprime 2 reward 6
+prevPktNum 12988, myPktNum 12995
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 12995, myPktNum 13001
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 13001, myPktNum 13008
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 13008, myPktNum 13015
+state: 3 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 13015, myPktNum 13021
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 13021, myPktNum 13028
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13028, myPktNum 13035
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 13035, myPktNum 13041
+state: 3 action 1 sprime 1 aprime 0 reward -2
+prevPktNum 13041, myPktNum 13048
+state: 1 action 0 sprime 1 aprime 0 reward 15
+prevPktNum 13048, myPktNum 13055
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 13055, myPktNum 13061
+state: 1 action 0 sprime 1 aprime 0 reward 84
+prevPktNum 13061, myPktNum 13068
+state: 1 action 0 sprime 3 aprime 1 reward 70
+prevPktNum 13068, myPktNum 13075
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 13075, myPktNum 13081
+state: 3 action 1 sprime 3 aprime 1 reward 4
+prevPktNum 13081, myPktNum 13088
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 13088, myPktNum 13095
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 13095, myPktNum 13101
+state: 1 action 0 sprime 1 aprime 0 reward 75
+prevPktNum 13101, myPktNum 13108
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13108, myPktNum 13115
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 13115, myPktNum 13121
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 13121, myPktNum 13128
+state: 1 action 0 sprime 7 aprime 1 reward 52
+prevPktNum 13128, myPktNum 13135
+state: 7 action 1 sprime 7 aprime 1 reward 24
+prevPktNum 13135, myPktNum 13141
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 13141, myPktNum 13148
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 13148, myPktNum 13155
+state: 7 action 1 sprime 3 aprime 1 reward -3
+prevPktNum 13155, myPktNum 13161
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13161, myPktNum 13168
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 13168, myPktNum 13175
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 13175, myPktNum 13181
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 13181, myPktNum 13188
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13188, myPktNum 13195
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13195, myPktNum 13201
+state: 1 action 0 sprime 5 aprime 1 reward 77
+prevPktNum 13201, myPktNum 13208
+state: 5 action 1 sprime 7 aprime 1 reward 28
+prevPktNum 13208, myPktNum 13215
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 13215, myPktNum 13221
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 13221, myPktNum 13228
+state: 7 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 13228, myPktNum 13235
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 13235, myPktNum 13241
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 13241, myPktNum 13248
+state: 2 action 2 sprime 7 aprime 1 reward 1
+prevPktNum 13248, myPktNum 13254
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 13254, myPktNum 13261
+state: 7 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 13261, myPktNum 13268
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 13268, myPktNum 13274
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13274, myPktNum 13281
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 13281, myPktNum 13288
+state: 2 action 2 sprime 3 aprime 1 reward 6
+prevPktNum 13288, myPktNum 13294
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 13294, myPktNum 13301
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13301, myPktNum 13308
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13308, myPktNum 13314
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 13314, myPktNum 13321
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 13321, myPktNum 13328
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 13328, myPktNum 13334
+state: 3 action 1 sprime 7 aprime 1 reward 2
+prevPktNum 13334, myPktNum 13341
+state: 7 action 1 sprime 3 aprime 1 reward -3
+prevPktNum 13341, myPktNum 13348
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 13348, myPktNum 13354
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13354, myPktNum 13361
+state: 2 action 2 sprime 0 aprime 0 reward 1
+prevPktNum 13361, myPktNum 13368
+state: 0 action 0 sprime 2 aprime 2 reward 29
+prevPktNum 13368, myPktNum 13374
+state: 2 action 2 sprime 2 aprime 2 reward 63
+prevPktNum 13374, myPktNum 13381
+state: 2 action 2 sprime 7 aprime 1 reward 9
+prevPktNum 13381, myPktNum 13388
+state: 7 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 13388, myPktNum 13394
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 13394, myPktNum 13401
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13401, myPktNum 13407
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 13407, myPktNum 13414
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 13414, myPktNum 13421
+state: 3 action 1 sprime 7 aprime 1 reward 2
+prevPktNum 13421, myPktNum 13427
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13427, myPktNum 13434
+state: 3 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 13434, myPktNum 13441
+state: 2 action 2 sprime 0 aprime 0 reward 0
+prevPktNum 13441, myPktNum 13447
+state: 0 action 0 sprime 3 aprime 1 reward 8
+prevPktNum 13447, myPktNum 13454
+state: 3 action 1 sprime 2 aprime 2 reward 53
+prevPktNum 13454, myPktNum 13461
+state: 2 action 2 sprime 2 aprime 2 reward 12
+prevPktNum 13461, myPktNum 13467
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 13467, myPktNum 13474
+state: 2 action 2 sprime 7 aprime 1 reward -3
+prevPktNum 13474, myPktNum 13481
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 13481, myPktNum 13487
+state: 7 action 1 sprime 7 aprime 0 reward -1
+prevPktNum 13487, myPktNum 13494
+state: 7 action 0 sprime 2 aprime 2 reward 19
+prevPktNum 13494, myPktNum 13501
+state: 2 action 2 sprime 7 aprime 1 reward 48
+prevPktNum 13501, myPktNum 13507
+state: 7 action 1 sprime 6 aprime 3 reward 3
+prevPktNum 13507, myPktNum 13514
+state: 6 action 3 sprime 7 aprime 1 reward -3
+prevPktNum 13514, myPktNum 13521
+state: 7 action 1 sprime 3 aprime 1 reward -50
+prevPktNum 13521, myPktNum 13527
+state: 3 action 1 sprime 3 aprime 1 reward -10
+prevPktNum 13527, myPktNum 13534
+state: 3 action 1 sprime 0 aprime 1 reward -5
+prevPktNum 13534, myPktNum 13541
+state: 0 action 1 sprime 1 aprime 0 reward -7
+prevPktNum 13541, myPktNum 13547
+state: 1 action 0 sprime 1 aprime 0 reward 12
+prevPktNum 13547, myPktNum 13554
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 13554, myPktNum 13561
+state: 1 action 0 sprime 1 aprime 0 reward 96
+prevPktNum 13561, myPktNum 13567
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 13567, myPktNum 13574
+state: 1 action 0 sprime 3 aprime 1 reward 80
+prevPktNum 13574, myPktNum 13581
+state: 3 action 1 sprime 3 aprime 1 reward 48
+prevPktNum 13581, myPktNum 13587
+state: 3 action 1 sprime 3 aprime 1 reward 4
+prevPktNum 13587, myPktNum 13594
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 13594, myPktNum 13601
+state: 1 action 0 sprime 1 aprime 1 reward 12
+prevPktNum 13601, myPktNum 13607
+state: 1 action 1 sprime 1 aprime 0 reward 66
+prevPktNum 13607, myPktNum 13614
+state: 1 action 0 sprime 1 aprime 0 reward 27
+prevPktNum 13614, myPktNum 13621
+state: 1 action 0 sprime 1 aprime 0 reward 87
+prevPktNum 13621, myPktNum 13627
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 13627, myPktNum 13634
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13634, myPktNum 13641
+state: 1 action 0 sprime 6 aprime 3 reward 62
+prevPktNum 13641, myPktNum 13647
+state: 6 action 3 sprime 6 aprime 3 reward 34
+prevPktNum 13647, myPktNum 13654
+state: 6 action 3 sprime 6 aprime 3 reward -40
+prevPktNum 13654, myPktNum 13660
+state: 6 action 3 sprime 2 aprime 2 reward -59
+prevPktNum 13660, myPktNum 13667
+state: 2 action 2 sprime 0 aprime 0 reward -98
+prevPktNum 13667, myPktNum 13674
+state: 0 action 0 sprime 1 aprime 0 reward -3
+prevPktNum 13674, myPktNum 13681
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 13681, myPktNum 13687
+state: 1 action 0 sprime 1 aprime 0 reward 81
+prevPktNum 13687, myPktNum 13694
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13694, myPktNum 13700
+state: 1 action 0 sprime 1 aprime 0 reward 78
+prevPktNum 13700, myPktNum 13707
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13707, myPktNum 13714
+state: 1 action 0 sprime 3 aprime 1 reward 84
+prevPktNum 13714, myPktNum 13720
+state: 3 action 1 sprime 7 aprime 1 reward 22
+prevPktNum 13720, myPktNum 13727
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 13727, myPktNum 13734
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 13734, myPktNum 13740
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13740, myPktNum 13747
+state: 2 action 2 sprime 1 aprime 0 reward -3
+prevPktNum 13747, myPktNum 13754
+state: 1 action 0 sprime 2 aprime 2 reward 17
+prevPktNum 13754, myPktNum 13760
+state: 2 action 2 sprime 3 aprime 1 reward 49
+prevPktNum 13760, myPktNum 13767
+state: 3 action 1 sprime 6 aprime 3 reward 8
+prevPktNum 13767, myPktNum 13774
+state: 6 action 3 sprime 3 aprime 1 reward -15
+prevPktNum 13774, myPktNum 13780
+state: 3 action 1 sprime 2 aprime 2 reward -49
+prevPktNum 13780, myPktNum 13787
+state: 2 action 2 sprime 0 aprime 0 reward -17
+prevPktNum 13787, myPktNum 13794
+state: 0 action 0 sprime 2 aprime 2 reward 15
+prevPktNum 13794, myPktNum 13800
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 13800, myPktNum 13807
+state: 2 action 2 sprime 3 aprime 1 reward 9
+prevPktNum 13807, myPktNum 13814
+state: 3 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 13814, myPktNum 13820
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13820, myPktNum 13827
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 13827, myPktNum 13834
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 13834, myPktNum 13840
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 13840, myPktNum 13847
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 13847, myPktNum 13854
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 13854, myPktNum 13860
+state: 3 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 13860, myPktNum 13867
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 13867, myPktNum 13874
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 13874, myPktNum 13880
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 13880, myPktNum 13887
+state: 0 action 0 sprime 0 aprime 0 reward 28
+prevPktNum 13887, myPktNum 13894
+state: 0 action 0 sprime 3 aprime 1 reward 83
+prevPktNum 13894, myPktNum 13900
+state: 3 action 1 sprime 3 aprime 1 reward 40
+prevPktNum 13900, myPktNum 13907
+state: 3 action 1 sprime 3 aprime 1 reward 10
+prevPktNum 13907, myPktNum 13914
+state: 3 action 1 sprime 3 aprime 1 reward -4
+prevPktNum 13914, myPktNum 13920
+state: 3 action 1 sprime 1 aprime 0 reward 0
+prevPktNum 13920, myPktNum 13927
+state: 1 action 0 sprime 1 aprime 0 reward 21
+prevPktNum 13927, myPktNum 13933
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 13933, myPktNum 13940
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 13940, myPktNum 13947
+state: 1 action 0 sprime 1 aprime 0 reward 93
+prevPktNum 13947, myPktNum 13953
+state: 1 action 0 sprime 5 aprime 1 reward 77
+prevPktNum 13953, myPktNum 13960
+state: 5 action 1 sprime 7 aprime 1 reward 28
+prevPktNum 13960, myPktNum 13967
+state: 7 action 1 sprime 7 aprime 1 reward 3
+prevPktNum 13967, myPktNum 13973
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 13973, myPktNum 13980
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 13980, myPktNum 13987
+state: 2 action 2 sprime 2 aprime 2 reward -9
+prevPktNum 13987, myPktNum 13993
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 13993, myPktNum 14000
+state: 3 action 1 sprime 7 aprime 1 reward 1
+prevPktNum 14000, myPktNum 14007
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 14007, myPktNum 14013
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14013, myPktNum 14020
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 14020, myPktNum 14027
+state: 3 action 1 sprime 2 aprime 2 reward -5
+prevPktNum 14027, myPktNum 14033
+state: 2 action 2 sprime 3 aprime 1 reward -3
+prevPktNum 14033, myPktNum 14040
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 14040, myPktNum 14047
+state: 2 action 2 sprime 1 aprime 0 reward 1
+prevPktNum 14047, myPktNum 14053
+state: 1 action 0 sprime 3 aprime 1 reward 8
+prevPktNum 14053, myPktNum 14060
+state: 3 action 1 sprime 2 aprime 2 reward 65
+prevPktNum 14060, myPktNum 14067
+state: 2 action 2 sprime 3 aprime 1 reward 8
+prevPktNum 14067, myPktNum 14073
+state: 3 action 1 sprime 2 aprime 2 reward -5
+prevPktNum 14073, myPktNum 14080
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14080, myPktNum 14087
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14087, myPktNum 14093
+state: 2 action 2 sprime 7 aprime 1 reward -1
+prevPktNum 14093, myPktNum 14100
+state: 7 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 14100, myPktNum 14106
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14106, myPktNum 14113
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14113, myPktNum 14120
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14120, myPktNum 14126
+state: 2 action 2 sprime 3 aprime 1 reward 2
+prevPktNum 14126, myPktNum 14133
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14133, myPktNum 14140
+state: 7 action 1 sprime 3 aprime 1 reward -3
+prevPktNum 14140, myPktNum 14146
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14146, myPktNum 14153
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14153, myPktNum 14160
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14160, myPktNum 14166
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 14166, myPktNum 14173
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14173, myPktNum 14180
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14180, myPktNum 14186
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14186, myPktNum 14193
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14193, myPktNum 14200
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14200, myPktNum 14206
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14206, myPktNum 14213
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 14213, myPktNum 14220
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14220, myPktNum 14226
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14226, myPktNum 14233
+state: 2 action 2 sprime 2 aprime 2 reward 3
+prevPktNum 14233, myPktNum 14240
+state: 2 action 2 sprime 7 aprime 1 reward -1
+prevPktNum 14240, myPktNum 14246
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14246, myPktNum 14253
+state: 7 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 14253, myPktNum 14260
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14260, myPktNum 14266
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14266, myPktNum 14273
+state: 2 action 2 sprime 3 aprime 1 reward -7
+prevPktNum 14273, myPktNum 14280
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14280, myPktNum 14286
+state: 7 action 1 sprime 3 aprime 1 reward 1
+prevPktNum 14286, myPktNum 14293
+state: 3 action 1 sprime 2 aprime 2 reward 1
+prevPktNum 14293, myPktNum 14300
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14300, myPktNum 14306
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14306, myPktNum 14313
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14313, myPktNum 14320
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 14320, myPktNum 14326
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 14326, myPktNum 14333
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14333, myPktNum 14340
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14340, myPktNum 14346
+state: 2 action 2 sprime 3 aprime 1 reward 3
+prevPktNum 14346, myPktNum 14353
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14353, myPktNum 14359
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 14359, myPktNum 14366
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14366, myPktNum 14373
+state: 2 action 2 sprime 1 aprime 0 reward 0
+prevPktNum 14373, myPktNum 14379
+state: 1 action 0 sprime 2 aprime 2 reward 4
+prevPktNum 14379, myPktNum 14386
+state: 2 action 2 sprime 18 aprime 3 reward 4
+prevPktNum 14386, myPktNum 14393
+state: 18 action 3 sprime 3 aprime 1 reward -29
+prevPktNum 14393, myPktNum 14399
+state: 3 action 1 sprime 0 aprime 0 reward -63
+prevPktNum 14399, myPktNum 14406
+state: 0 action 0 sprime 0 aprime 0 reward 10
+prevPktNum 14406, myPktNum 14413
+state: 0 action 0 sprime 0 aprime 0 reward 112
+prevPktNum 14413, myPktNum 14419
+state: 0 action 0 sprime 2 aprime 2 reward 82
+prevPktNum 14419, myPktNum 14426
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 14426, myPktNum 14433
+state: 2 action 2 sprime 7 aprime 1 reward 5
+prevPktNum 14433, myPktNum 14439
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14439, myPktNum 14446
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14446, myPktNum 14453
+state: 7 action 1 sprime 2 aprime 2 reward 1
+prevPktNum 14453, myPktNum 14459
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14459, myPktNum 14466
+state: 3 action 1 sprime 2 aprime 2 reward 4
+prevPktNum 14466, myPktNum 14473
+state: 2 action 2 sprime 3 aprime 1 reward -2
+prevPktNum 14473, myPktNum 14479
+state: 3 action 1 sprime 2 aprime 2 reward 2
+prevPktNum 14479, myPktNum 14486
+state: 2 action 2 sprime 18 aprime 3 reward -43
+prevPktNum 14486, myPktNum 14493
+state: 18 action 3 sprime 2 aprime 2 reward -32
+prevPktNum 14493, myPktNum 14499
+state: 2 action 2 sprime 3 aprime 1 reward -42
+prevPktNum 14499, myPktNum 14506
+state: 3 action 1 sprime 1 aprime 0 reward -6
+prevPktNum 14506, myPktNum 14513
+state: 1 action 0 sprime 1 aprime 0 reward 18
+prevPktNum 14513, myPktNum 14519
+state: 1 action 0 sprime 3 aprime 1 reward 55
+prevPktNum 14519, myPktNum 14526
+state: 3 action 1 sprime 6 aprime 3 reward 49
+prevPktNum 14526, myPktNum 14533
+state: 6 action 3 sprime 3 aprime 1 reward -10
+prevPktNum 14533, myPktNum 14539
+state: 3 action 1 sprime 2 aprime 2 reward -41
+prevPktNum 14539, myPktNum 14546
+state: 2 action 2 sprime 0 aprime 0 reward -10
+prevPktNum 14546, myPktNum 14553
+state: 0 action 0 sprime 2 aprime 2 reward 19
+prevPktNum 14553, myPktNum 14559
+state: 2 action 2 sprime 2 aprime 2 reward 57
+prevPktNum 14559, myPktNum 14566
+state: 2 action 2 sprime 3 aprime 1 reward 9
+prevPktNum 14566, myPktNum 14573
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 14573, myPktNum 14579
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 14579, myPktNum 14586
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 14586, myPktNum 14593
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14593, myPktNum 14599
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14599, myPktNum 14606
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14606, myPktNum 14613
+state: 3 action 1 sprime 7 aprime 1 reward -2
+prevPktNum 14613, myPktNum 14619
+state: 7 action 1 sprime 3 aprime 1 reward -1
+prevPktNum 14619, myPktNum 14626
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 14626, myPktNum 14632
+state: 3 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14632, myPktNum 14639
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 14639, myPktNum 14646
+state: 0 action 0 sprime 2 aprime 2 reward 22
+prevPktNum 14646, myPktNum 14652
+state: 2 action 2 sprime 2 aprime 2 reward 63
+prevPktNum 14652, myPktNum 14659
+state: 2 action 2 sprime 7 aprime 1 reward 6
+prevPktNum 14659, myPktNum 14666
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14666, myPktNum 14672
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14672, myPktNum 14679
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 14679, myPktNum 14686
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14686, myPktNum 14692
+state: 2 action 2 sprime 3 aprime 1 reward -1
+prevPktNum 14692, myPktNum 14699
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14699, myPktNum 14706
+state: 7 action 1 sprime 3 aprime 1 reward 0
+prevPktNum 14706, myPktNum 14712
+state: 3 action 1 sprime 2 aprime 2 reward -2
+prevPktNum 14712, myPktNum 14719
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14719, myPktNum 14726
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14726, myPktNum 14732
+state: 2 action 2 sprime 16 aprime 2 reward -42
+prevPktNum 14732, myPktNum 14739
+state: 16 action 2 sprime 2 aprime 2 reward -48
+prevPktNum 14739, myPktNum 14746
+state: 2 action 2 sprime 6 aprime 3 reward 5
+prevPktNum 14746, myPktNum 14752
+state: 6 action 3 sprime 6 aprime 3 reward -8
+prevPktNum 14752, myPktNum 14759
+state: 6 action 3 sprime 0 aprime 0 reward -70
+prevPktNum 14759, myPktNum 14766
+state: 0 action 0 sprime 1 aprime 0 reward -62
+prevPktNum 14766, myPktNum 14772
+state: 1 action 0 sprime 1 aprime 0 reward 66
+prevPktNum 14772, myPktNum 14779
+state: 1 action 0 sprime 1 aprime 0 reward 90
+prevPktNum 14779, myPktNum 14785
+state: 1 action 0 sprime 5 aprime 1 reward 74
+prevPktNum 14785, myPktNum 14792
+state: 5 action 1 sprime 7 aprime 1 reward 29
+prevPktNum 14792, myPktNum 14799
+state: 7 action 1 sprime 7 aprime 1 reward 4
+prevPktNum 14799, myPktNum 14805
+state: 7 action 1 sprime 7 aprime 1 reward -1
+prevPktNum 14805, myPktNum 14812
+state: 7 action 1 sprime 2 aprime 2 reward -1
+prevPktNum 14812, myPktNum 14819
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14819, myPktNum 14825
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14825, myPktNum 14832
+state: 2 action 2 sprime 7 aprime 1 reward 0
+prevPktNum 14832, myPktNum 14839
+state: 7 action 1 sprime 7 aprime 1 reward -3
+prevPktNum 14839, myPktNum 14845
+state: 7 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14845, myPktNum 14852
+state: 7 action 1 sprime 2 aprime 2 reward 0
+prevPktNum 14852, myPktNum 14859
+state: 2 action 2 sprime 2 aprime 2 reward 0
+prevPktNum 14859, myPktNum 14865
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14865, myPktNum 14872
+state: 3 action 1 sprime 7 aprime 1 reward 0
+prevPktNum 14872, myPktNum 14879
+state: 7 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 14879, myPktNum 14885
+state: 3 action 1 sprime 2 aprime 2 reward 3
+prevPktNum 14885, myPktNum 14892
+state: 2 action 2 sprime 2 aprime 2 reward -3
+prevPktNum 14892, myPktNum 14899
+state: 2 action 2 sprime 3 aprime 1 reward 0
+prevPktNum 14899, myPktNum 14905
+state: 3 action 1 sprime 3 aprime 1 reward 2
+prevPktNum 14905, myPktNum 14912
+state: 3 action 1 sprime 3 aprime 1 reward -2
+prevPktNum 14912, myPktNum 14919
+state: 3 action 1 sprime 2 aprime 2 reward -3
+prevPktNum 14919, myPktNum 14925
+state: 2 action 2 sprime 0 aprime 0 reward -3
+prevPktNum 14925, myPktNum 14932
+state: 0 action 0 sprime 2 aprime 2 reward 25
+prevPktNum 14932, myPktNum 14939
+state: 2 action 2 sprime 2 aprime 2 reward 66
+prevPktNum 14939, myPktNum 14945
+state: 2 action 2 sprime 7 aprime 3 reward 6
+prevPktNum 14945, myPktNum 14952
+state: 7 action 3 sprime 7 aprime 1 reward -8
+prevPktNum 14952, myPktNum 14959
+state: 7 action 1 sprime 1 aprime 0 reward -37
+prevPktNum 14959, myPktNum 14965
+state: 1 action 0 sprime 1 aprime 0 reward 0
+prevPktNum 14965, myPktNum 14972
+state: 1 action 0 sprime 3 aprime 1 reward 78
+prevPktNum 14972, myPktNum 14979
+state: 3 action 1 sprime 7 aprime 1 reward 31
+prevPktNum 14979, myPktNum 14985
+state: 7 action 1 sprime 23 aprime 2 reward -20
+prevPktNum 14985, myPktNum 14992
+state: 23 action 2 sprime 18 aprime 3 reward -57
+prevPktNum 14992, myPktNum 14999
+state: 18 action 3 sprime 3 aprime 1 reward -25
+prevPktNum 14999, myPktNum 15005
+state: 3 action 1 sprime 1 aprime 0 reward -43
