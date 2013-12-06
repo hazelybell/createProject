@@ -1,0 +1,323 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.5in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\headheight 0in
+\headsep 0in
+\footskip 0in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CMPUT 609 Robot Project
+\begin_inset Newline newline
+\end_inset
+
+Fall 2013 -- Sutton
+\end_layout
+
+\begin_layout Author
+Joshua Charles 
+\begin_inset Quotes eld
+\end_inset
+
+1367084
+\begin_inset Quotes erd
+\end_inset
+
+ Campbell
+\begin_inset Newline newline
+\end_inset
+
+Ping Jin
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Experiment 1:
+\end_layout
+
+\begin_layout Standard
+We performed an experiment to determine the feasibility of using whiteboard
+ markers.
+ We used the provided cliff calibration software to see if the sensors could
+ adequately (such that we could set a constant threshold for each sensor)
+ distinguish between the whiteboard and the whiteboard with black marker
+ on it.
+ It could not: furthermore, it was impossible to position the sensors over
+ the marker marks.
+\end_layout
+
+\begin_layout Paragraph
+Experiment 2:
+\end_layout
+
+\begin_layout Standard
+We performed an experiment to determine if the robot could learn to follow
+ the walls of the micro-world.
+ This experiment involved 16 states, of which only 8 were useful, and 9
+ actions.
+ The states were determined by the state of the two bump sensors (front
+ left and front right) of the iRobot Create, one cliff sensor (thresholded
+ to 420/4095) and the wall sensor (thresholded to 2/4095).
+ The algorithm used was discounting-reward epsilon-greedy SARSA with eligibility
+ tracing.
+ The parameters were set as follows: 
+\begin_inset Formula $\alpha=0.1,$
+\end_inset
+
+
+\begin_inset Formula $\gamma=0.98$
+\end_inset
+
+, 
+\begin_inset Formula $\varepsilon=0.01$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda=0.9$
+\end_inset
+
+.
+ The SARSA timestep was at least one tenth of second.
+ We saw after multiple runs that the robot was reliably able to learn to
+ use the wall sensor to perform the following motion, shown in this video:
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://youtu.be/rxXYQPYi-rU"
+target "http://youtu.be/rxXYQPYi-rU"
+
+\end_inset
+
+.
+ This wasn't quite the wall-following action we had hoped that it would
+ learn, however, it does go forward and turn when it gets near a wall.
+ Code for this demo is also available: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://github.com/orezpraw/createProject/blob/WorkingVersion1/sarsa.c"
+target "https://github.com/orezpraw/createProject/blob/WorkingVersion1/sarsa.c"
+
+\end_inset
+
+.
+ The robot in this scenario is rewarded going forward, minus the amount
+ it went backwards.
+ It is also punished severely for touching the walls (triggering the bump
+ sensor).
+\end_layout
+
+\begin_layout Paragraph
+Experiment 2b:
+\end_layout
+
+\begin_layout Standard
+We performed further experimentation following our success to see if adding
+ the previous requested action (after applying any reflexes) to the state
+ space, decreasing the SARSA timestep to 15ms, and replacing the useless
+ cliff sensor data with a 
+\begin_inset Quotes eld
+\end_inset
+
+memory bit
+\begin_inset Quotes erd
+\end_inset
+
+ would improve performance.
+ The state space increased to 
+\begin_inset Formula $16\times9=72$
+\end_inset
+
+ in order to record the previous action and the action space increased to
+ 10 actions (the 10th not being recordable).
+ The tenth action merely flipped a bit of the state space.
+ The action stored as the 
+\begin_inset Quotes eld
+\end_inset
+
+previous action
+\begin_inset Quotes erd
+\end_inset
+
+ in the state was decoded from the last request sent to the physical robot:
+ this means that it was the action the robot was actually taking (driving
+ forward, etc.) after applying any reflexes or restrictions.
+ This version of the code is available at: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://github.com/orezpraw/createProject/blob/CheatingDemo/sarsa.c"
+target "https://github.com/orezpraw/createProject/blob/CheatingDemo/sarsa.c"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The robots behavior following these changes was very interesting.
+ Most times we tried it the robot would learn how to 
+\begin_inset Quotes eld
+\end_inset
+
+cheat
+\begin_inset Quotes erd
+\end_inset
+
+ by sending alternating actions to one wheel.
+ This cause that wheel to not trigger the encoders as often as sending a
+ continuous forward signal.
+ 
+\end_layout
+
+\begin_layout Standard
+In this video 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.youtube.com/watch?v=DKycFaNPWrU"
+target "https://www.youtube.com/watch?v=DKycFaNPWrU"
+
+\end_inset
+
+ it is circling by continuously driving one wheel forward while alternating
+ the other wheel between stopped and backwards, which yields a lot of forward
+ reward.
+ Eventually it combines the wall sensor with this behavior to really maximize
+ its reward.
+ A moving average of the reward per timestep (15ms) during the above video
+ is shown:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename records/cheatings.svg
+	width 7.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+During one experiment it learned to 
+\begin_inset Quotes eld
+\end_inset
+
+hop
+\begin_inset Quotes erd
+\end_inset
+
+ backwards: the robot could pulse both wheels backwards and then stop to
+ slide backwards without being punished as much as continually driving backwards.
+ Then it would drive forward continuously to get the most reward.
+ Unfortunately, we were unable to replicate this behavior later.
+\end_layout
+
+\begin_layout Paragraph
+Experiment 3:
+\end_layout
+
+\begin_layout Standard
+We performed an experiment to make the cliff sensors more usable by taping
+ a black mouse-pad on the whiteboard surface on one side.
+ We modified the rewards to be multiplied by the number (0-4) of cliff sensors
+ that detected 
+\begin_inset Quotes eld
+\end_inset
+
+on the mouse-pad
+\begin_inset Quotes erd
+\end_inset
+
+ as determined by the cliff sensor threshold calibration software provided.
+ In most cases the robot determined how to move forward around the edge
+ of the pad as demonstrated by this YouTube video: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.youtube.com/watch?v=7-ktqKlfL2M"
+target "https://www.youtube.com/watch?v=7-ktqKlfL2M"
+
+\end_inset
+
+.
+ The following graph shows the reward over time (smoothed by a moving average
+ filter) for 8 different runs of this program starting from random values.
+ In this experiment, the timestep was also about 100ms, so this represents
+ data from the first 2 minutes and 30 seconds of each trial.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename records/sarsa.svg
+	width 7.5in
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
